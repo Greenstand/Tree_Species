@@ -1,0 +1,70 @@
+{
+    "$id": "https://github.com/Greenstand/Tree_Species/blob/master/tree_species_schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "External tree species data for Greenstand",
+    "type": "array",
+    
+    "items": {
+        "sci_name" : {
+            "type": "string"
+        },
+
+        "code" : {
+            "type": "string" ,
+            "description": "the identifier string in X field in database"
+        },
+
+        "family" : {
+            "type": "string"
+        },
+
+        "other_names" : {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+
+        "native_range" : {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+
+        "uses" : {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        
+        "inat_taxon" : {
+            "type": "integer"
+        },
+
+        "links" : {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        
+        "notes" : {
+            "type": "string"
+        },
+        
+        "required" : [
+            "code" ,
+            "sci_name"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+# External information about tree species used in the Greenstand project.
+#   See tree_species_schema.json for field descriptions,
+#   and README for validation.
+---
+-
+  sci_name: Grevillea robusta A.Cunn. ex R.Br.
+  family: Proteaceae
+  code: XXXX
+  inat_taxon: 77302
+  other_names:
+    - silky oak
+  native_range:
+    - Australia
+  uses:
+    - timber
+    - firewood
+    - mulch
+    - shade
+  links:
+    - https://en.wikipedia.org/wiki/Grevillea_robusta
+-
+  sci_name: Pinus pendula
+  code: XXXX
+  notes: Pinus pendula is neither a common, nor accepted name.
+         Pinus pendula Griff. is a synonym for  Picea smithiana (Wall.) Boiss.
+-
+  sci_name: Croton megalocarpus Hutch.
+  code: XXXX
+  family: Euphorbiaceae
+  native_range:
+    - Sub-Saharan Africa
+  uses:
+    - firewood
+    - charcoal
+  inat_taxon: 133588
+  links:
+    - https://en.wikipedia.org/wiki/Croton_megalocarpus

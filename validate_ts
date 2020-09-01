@@ -1,0 +1,6 @@
+#!/bin/sh
+
+yaml2json < tree_species.yaml > tree_species.json
+
+ajv -s tree_species_schema.json -d tree_species.json
+
