@@ -58,10 +58,16 @@
             "uniqueItems": true
         },
         
-        "notes" : {
-            "type": "string"
+        "taxon_notes" : {
+            "type": "string",
+            "description": "Taxonomy notes"
         },
-        
+
+        "restoration" : {
+            "type": "string",
+            "description": "Restoration notes"
+        },
+
         "required" : [
             "gs_id" ,
             "sci_name"
