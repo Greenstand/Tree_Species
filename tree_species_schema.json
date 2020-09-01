@@ -9,9 +9,9 @@
             "type": "string"
         },
 
-        "code" : {
+        "gs_id" : {
             "type": "string" ,
-            "description": "the identifier string in X field in database"
+            "description": "the identifier string in Greenstand database"
         },
 
         "family" : {
@@ -63,7 +63,7 @@
         },
         
         "required" : [
-            "code" ,
+            "gs_id" ,
             "sci_name"
         ]
     }

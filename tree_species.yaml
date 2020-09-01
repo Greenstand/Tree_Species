@@ -5,7 +5,7 @@
 -
   sci_name: Grevillea robusta A.Cunn. ex R.Br.
   family: Proteaceae
-  code: XXXX
+  gs_id: XXXX
   inat_taxon: 77302
   other_names:
     - silky oak
@@ -20,12 +20,12 @@
     - https://en.wikipedia.org/wiki/Grevillea_robusta
 -
   sci_name: Pinus pendula
-  code: XXXX
+  gs_id: XXXX
   notes: Pinus pendula is neither a common, nor accepted name.
          Pinus pendula Griff. is a synonym for  Picea smithiana (Wall.) Boiss.
 -
   sci_name: Croton megalocarpus Hutch.
-  code: XXXX
+  gs_id: XXXX
   family: Euphorbiaceae
   native_range:
     - Sub-Saharan Africa
