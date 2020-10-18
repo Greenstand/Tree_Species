@@ -21,11 +21,11 @@
 -
   sci_name: Pinus pendula
   gs_id: XXXX
-  taxon_notes: Pinus pendula is neither a common, nor accepted name.
+  taxon_notes: Pinus pendula is neither a common nor accepted name.
     Pinus pendula Griff. is a synonym for  Picea smithiana (Wall.) Boiss.
 -
   sci_name: Croton megalocarpus Hutch.
-  gs_id: XXXX
+  gs_id: CROTMEGA
   family: Euphorbiaceae
   native_range:
     - Sub-Saharan Africa
@@ -35,13 +35,15 @@
   inat_taxon: 133588
   links:
     - https://en.wikipedia.org/wiki/Croton_megalocarpus
+    - http://www.africanplants.senckenberg.de/root/index.php?page_id=78&id=3569#
 -
   sci_name: Casuarina equisetifolia L.
   inat_taxon: 62888
   gs_id: XXXX
   family: Casuarinaceae
   taxon_notes: It appears from iNaturalist and other resources (e.g.,
-    https://phytokeys.pensoft.net/article/49602/) that Casuarina equisetifolia
+    https://phytokeys.pensoft.net/article/49602/ and
+    doi:10.1007/s11676-018-0621-x) that Casuarina equisetifolia
     is the most common Casuarina in East Africa.
   restoration: NOTE this can become an invasive under certain circumstances, and
     should probably not be encouraged.
