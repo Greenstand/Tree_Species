@@ -47,3 +47,15 @@
     is the most common Casuarina in East Africa.
   restoration: NOTE this can become an invasive under certain circumstances, and
     should probably not be encouraged.
+-
+  sci_name: Tectona grandis L.f.
+  gs_id: TECTGRAN
+  family: Lamiaceae
+  native_range:
+    - South and Southeast Asia
+  uses:
+    - boat building
+    - furniture
+  inat_taxon: 62887
+  links:
+    - https://en.wikipedia.org/wiki/Teak
