@@ -38,4 +38,5 @@ The `validate_ts` shell script can be used for this.
 
  * YAML: <https://yaml.org/>, <https://www.json2yaml.com/>
  * JSON Schema: <http://json-schema.org>, <https://ajv.js.org/>
+   (install with `npm install -g ajv`)
 
