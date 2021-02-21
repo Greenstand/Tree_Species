@@ -1,2 +1,3 @@
-herbarium*
+herbarium/*
+!herbarium/herbarium.json
 raw*
