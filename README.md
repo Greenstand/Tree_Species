@@ -16,26 +16,28 @@ More about the process can be read [here](doc/process.md).
 
 ## Data
 
+**NOTE** (2021-02-22): I switched to XML as the base format, with JSON
+  (and YAML) derived. Using `nxml-mode` in Emacs, XML editing
+  validates on the fly (from the RNC file), which is just a whole lot
+  easier.
+
 Core files:
 
- * `tree_species.yaml`: base document
+ * `tree_species.xml`: base document
+ * `tree_species.rnc`: schema
  * `tree_species.json`: _derived_ file (do not edit directly) from
    which web pages, etc. can be generated
- * `tree_species_schema.json`: JSON schema file. See this file for 
-   descriptions of the data fields.
 
 Before committing any changes, a new JSON file should be generated and
 validated:
 
 ```
-$ yaml2json < tree_species.yaml > tree_species.json
-$ ajv -s tree_species_schema.json -d tree_species.json
+$ xml2json < tree_species.xml > tree_species.json
 ```
-
-The `validate_ts` shell script can be used for this.
 
 ## Resources
 
+ * `nodejs-xml2json`: <https://github.com/buglabs/node-xml2json>
  * YAML: <https://yaml.org/>, <https://www.json2yaml.com/>
  * JSON Schema: <http://json-schema.org>, <https://ajv.js.org/>
    (install with `npm install -g ajv`)

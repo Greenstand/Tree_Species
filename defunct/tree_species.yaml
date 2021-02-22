@@ -97,3 +97,23 @@
   inat_taxon: 62887
   links:
     - https://en.wikipedia.org/wiki/Teak
+-
+  sci_name: Catalpa longissima (Jacq.) Dum. Cours.
+  gs_id: CATALONG
+  family: Bignoniaceae
+  local_name: chèn (ht)
+  eng: Haitian catalpa, Jamaican oak, Spanish oak, yokewood
+  native_in:
+    - ht
+  inat_taxon: 430790
+  links:
+    - https://www.gbif.org/occurrence/gallery?taxon_key=3172614
+-
+  sci_name: Cedrela odorata L.
+  gs_id: CEDRODOR
+  local_name: sed (ht), sède (ht) 
+  eng: Spanish cedar
+  notes: commercially important
+  native_in:
+    - ht
+-

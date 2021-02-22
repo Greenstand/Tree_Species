@@ -1,0 +1,27 @@
+default namespace = ""
+
+start =
+   element gs_taxa {
+      element taxon {
+         element sci_name { text } &
+         element exotic_in {
+            list { xsd:NCName+ }
+         }? &
+         element family { xsd:NCName }? &
+         element gs_id { xsd:NCName } &
+         element inat_taxon { xsd:integer }? &
+         element name { text }? &
+         element native_in {
+            list { xsd:NCName+ }
+         }? &
+         element native_range { text }? &
+         element notes { text }? &
+         element uses {
+            list { xsd:NCName+ }
+         }? &
+         element links {
+            element link { xsd:anyURI }+
+         }?
+      }+
+   }
+   

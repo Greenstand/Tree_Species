@@ -1,0 +1,135 @@
+<gs_taxa>
+  <!-- External information about tree species used in the Greenstand project.
+       See tree_species.rnc for field descriptions.
+  -->
+  <taxon>
+    <sci_name>Casuarina equisetifolia L.</sci_name>
+    <gs_id>XXXX</gs_id>
+    <inat_taxon>62888</inat_taxon>
+    <family>Casuarinaceae</family>
+    <notes>
+      It appears from iNaturalist and other resources (e.g.,
+      https://phytokeys.pensoft.net/article/49602/ and
+      doi:10.1007/s11676-018-0621-x) that Casuarina equisetifolia is
+      the most common Casuarina in East Africa.  restoration: NOTE
+      this can become an invasive under certain circumstances, and
+      should probably not be encouraged.
+    </notes>
+  </taxon>
+
+  <taxon>
+    <sci_name>Croton megalocarpus Hutch.</sci_name>
+    <gs_id>CROTMEGA</gs_id>
+    <family>Euphorbiaceae</family>
+    <native_range>Sub-Saharan Africa</native_range>
+    <uses>firewood charcoal</uses>
+    <inat_taxon>133588</inat_taxon>
+    <links>
+      <link>https://en.wikipedia.org/wiki/Croton_megalocarpus</link>
+      <link>http://www.africanplants.senckenberg.de/root/index.php?page_id=78&amp;id=3569#</link>
+    </links>
+  </taxon>
+
+  <taxon>
+    <sci_name>Cupressus lusitanica Mill.</sci_name>
+    <gs_id>CUPRLUSI</gs_id>
+    <family>Cupressaceae</family>
+    <native_range>Central America</native_range>
+    <exotic_in>tz</exotic_in>
+    <notes>
+      Most of these are placed here by inferrence “Cupressus in TZ”
+    </notes>
+    <links>
+      <link>https://en.wikipedia.org/wiki/Cupressus_lusitanica</link>
+      <link>https://link.springer.com/article/10.1007/s11842-019-09414-8</link>
+      <link>https://landmatrix.org/media/uploads/sifisewp-contentuploads201202forest-plantations-and-woodlots-in-tanzaniapdf.pdf</link>
+    </links>
+  </taxon>
+  
+  <taxon>
+    <sci_name>Grevillea robusta A.Cunn. ex R.Br.</sci_name>
+    <family>Proteaceae</family>
+    <gs_id>GREVROBU</gs_id>
+    <inat_taxon>77302</inat_taxon>
+    <name>silky oak (en)</name>
+    <native_range>Australia</native_range>
+    <exotic_in>tz</exotic_in>
+    <uses>timber firewood mulch shade</uses>
+    <links>
+      <link>https://en.wikipedia.org/wiki/Grevillea_robusta</link>
+    </links>
+  </taxon>
+  
+  <taxon>
+    <sci_name>Indet. 0001</sci_name>
+    <gs_id>INDE0001</gs_id>
+    <notes>
+      Similar to CROTMEGA
+    </notes>
+  </taxon>
+
+  <taxon>
+    <sci_name>Pinus patula Schltdl. &amp; Cham.</sci_name>
+    <gs_id>PINUPATU</gs_id>
+    <notes>
+      In Tanzania, the main restoration Pinus species appears to be
+      Pinus patula Schltdl. &amp; Cham., a native of Mexico.
+      Most of the images are placed here by inferrence “Pinus in TZ”
+    </notes>
+    <native_range>Mexico</native_range>
+    <exotic_in>tz</exotic_in>
+    <links>
+      <link>https://en.wikipedia.org/wiki/Pinus_patula</link>
+      <link>https://www.gbif.org/occurrence/gallery?taxon_key=5285090</link>
+      <link>https://forestnation.com/blog/tanzania/</link>
+      <link>https://s3.amazonaws.com/CCBA/Projects/Reforestation_in_Grassland_of_Uchindile_Kilomber_Tanzania/ufp_mfp_combined_validation_VCS_PDD-1.pdf</link>
+      <link>https://landmatrix.org/media/uploads/sifisewp-contentuploads201202forest-plantations-and-woodlots-in-tanzaniapdf.pdf</link>
+      <link>https://link.springer.com/article/10.1007/s11842-019-09414-8</link>
+      <link>https://www.inaturalist.org/taxa/273784-Pinus-patula</link>
+    </links>
+  </taxon>
+
+  <taxon>
+    <sci_name>Pinus pendula</sci_name>
+    <gs_id>XXXX</gs_id>
+    <notes>
+      Pinus pendula is neither a common nor accepted name.
+      Pinus pendula Griff. is a synonym for  Picea smithiana (Wall.) Boiss.
+    </notes>
+  </taxon>
+
+  <taxon>
+    <sci_name>Tectona grandis L.f.</sci_name>
+    <gs_id>TECTGRAN</gs_id>
+    <family>Lamiaceae</family>
+    <native_range>South and Southeast Asia</native_range>
+    <uses>boat_building furniture</uses>
+    <inat_taxon>62887</inat_taxon>
+    <links>
+      <link>https://en.wikipedia.org/wiki/Teak</link>
+    </links>
+  </taxon>
+
+  <taxon>
+    <sci_name>Catalpa longissima (Jacq.) Dum. Cours.</sci_name>
+    <gs_id>CATALONG</gs_id>
+    <family>Bignoniaceae</family>
+    <name>
+      chèn (ht), Haitian catalpa (en), Jamaican oak (en), Spanish oak (en),
+      yokewood
+    </name>
+    <native_in>ht</native_in>
+    <inat_taxon>430790</inat_taxon>
+    <links>
+      <link>https://www.gbif.org/occurrence/gallery?taxon_key=3172614</link>
+    </links>
+  </taxon>
+
+  <taxon>
+    <sci_name>Cedrela odorata L.</sci_name>
+    <gs_id>CEDRODOR</gs_id>
+    <name>sed (ht), sède (ht), Spanish cedar (en)</name>
+    <notes>commercially important</notes>
+    <native_in>ht</native_in>
+  </taxon>
+</gs_taxa>

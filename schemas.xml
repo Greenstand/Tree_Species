@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <uri resource="tree_species.xml" uri="tree_species.rnc"/>
+  <uri resource="tree_species.xml" uri="tree_species.rnc"/>
+  <uri resource="tree_species.xml" uri="tree_species.rnc"/>
+  <uri resource="tree_species.xml" uri="tree_species.rnc"/>
+  <uri resource="tree_species.xml" uri="tree_species.rnc"/>
+  <uri resource="tree_species.xml" uri="tree_species.rnc"/>
+</locatingRules>
