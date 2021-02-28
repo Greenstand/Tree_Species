@@ -1,0 +1,19 @@
+#!/bin/sh
+
+X=xml2json
+Y=$(which $X)
+if [ ! -x "$Y" ] ; then
+    echo "No $X found"
+    exit 1
+fi
+# Alt: if [ `which xml2json 2>&1 | grep -c -E "^which: no"` -eq 1 ]
+
+cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+cat ../tree_species.xml | xml2json > ../tree_species.json
+
+
+
+
+
+

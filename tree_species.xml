@@ -4,7 +4,7 @@
   -->
   <taxon>
     <sci_name>Casuarina equisetifolia L.</sci_name>
-    <gs_id>XXXX</gs_id>
+    <gs_id>CASUEQUI</gs_id>
     <inat_taxon>62888</inat_taxon>
     <family>Casuarinaceae</family>
     <notes>
@@ -15,6 +15,36 @@
       this can become an invasive under certain circumstances, and
       should probably not be encouraged.
     </notes>
+  </taxon>
+
+  <taxon>
+    <sci_name>Catalpa longissima (Jacq.) Dum. Cours.</sci_name>
+    <gs_id>CATALONG</gs_id>
+    <family>Bignoniaceae</family>
+    <name>
+      chèn (ht), Haitian catalpa (en), Jamaican oak (en), Spanish oak (en),
+      yokewood
+    </name>
+    <native_in>ht</native_in>
+    <inat_taxon>430790</inat_taxon>
+    <links>
+      <link>https://www.gbif.org/occurrence/gallery?taxon_key=3172614</link>
+    </links>
+  </taxon>
+
+  <taxon>
+    <sci_name>Cedrela odorata L.</sci_name>
+    <gs_id>CEDRODOR</gs_id>
+    <name>sed (ht), sède (ht), Spanish cedar (en)</name>
+    <notes>commercially important</notes>
+    <native_in>ht</native_in>
+  </taxon>
+
+  <taxon>
+    <sci_name>Cocos nucifera L.</sci_name>
+    <gs_id>COCONUCI</gs_id>
+    <name>kokoye (ht), coconut (en)</name>
+    <uses>food cash_crop</uses>
   </taxon>
 
   <taxon>
@@ -69,6 +99,27 @@
   </taxon>
 
   <taxon>
+    <sci_name>Mangifera indica L.</sci_name>
+    <gs_id>MANGINDI</gs_id>
+    <name>mango (en, ht)</name>
+    <exotic_in>ht</exotic_in>
+    <uses>firewood</uses>
+    <notes>can be pruned multiple times for firewood</notes>
+  </taxon>
+
+  <taxon>
+    <sci_name>Persea americana Mill.</sci_name>
+    <gs_id>PERSAMER</gs_id>
+    <family>Lauraceae</family>
+    <name>zaboka (ht), avocado (en)</name>
+    <native_range>Mexico</native_range>
+    <native_in>mx</native_in>
+    <exotic_in>ht</exotic_in>
+    <uses>food</uses>
+    <notes>Karen: "Seedlings requires a lot of water the first 3 years"</notes>
+  </taxon>
+
+  <taxon>
     <sci_name>Pinus patula Schltdl. &amp; Cham.</sci_name>
     <gs_id>PINUPATU</gs_id>
     <notes>
@@ -89,6 +140,7 @@
     </links>
   </taxon>
 
+  <!--
   <taxon>
     <sci_name>Pinus pendula</sci_name>
     <gs_id>XXXX</gs_id>
@@ -97,7 +149,8 @@
       Pinus pendula Griff. is a synonym for  Picea smithiana (Wall.) Boiss.
     </notes>
   </taxon>
-
+  -->
+  
   <taxon>
     <sci_name>Tectona grandis L.f.</sci_name>
     <gs_id>TECTGRAN</gs_id>
@@ -110,32 +163,22 @@
     </links>
   </taxon>
 
+</gs_taxa>
+
+<!-- template
   <taxon>
-    <sci_name>Catalpa longissima (Jacq.) Dum. Cours.</sci_name>
-    <gs_id>CATALONG</gs_id>
-    <family>Bignoniaceae</family>
-    <name>
-      chèn (ht), Haitian catalpa (en), Jamaican oak (en), Spanish oak (en),
-      yokewood
-    </name>
-    <native_in>ht</native_in>
-    <inat_taxon>430790</inat_taxon>
+    <sci_name></sci_name>
+    <gs_id></gs_id>
+    <inat_taxon></inat_taxon>
+    <family></family>
+    <name></name>
+    <native_range></native_range>
+    <native_in></native_in>
+    <exotic_in></exotic_in>
+    <uses></uses>
+    <notes></notes>
     <links>
-      <link>https://www.gbif.org/occurrence/gallery?taxon_key=3172614</link>
+      <link></link>
     </links>
   </taxon>
-
-  <taxon>
-    <sci_name>Cedrela odorata L.</sci_name>
-    <gs_id>CEDRODOR</gs_id>
-    <name>sed (ht), sède (ht), Spanish cedar (en)</name>
-    <notes>commercially important</notes>
-    <native_in>ht</native_in>
-  </taxon>
-
-  <taxon>
-    <sci_name>Cocos nucifera L.</sci_name>
-    <gs_id>COCONUCI</gs_id>
-    <name>kokoye (ht), coconut (en)</name>
-  </taxon>
-</gs_taxa>
+-->

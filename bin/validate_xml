@@ -1,0 +1,26 @@
+#!/bin/sh
+
+for X in xqilla jing tidy
+do
+    Y=$(which $X)
+    if [ ! -x "$Y" ] ; then
+        echo "No $X found"
+        exit 1
+    fi
+done
+
+cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+echo "(emacs nXML)"
+echo "jing:"
+if [ -z `jing -c ../tree_species.rnc ../tree_species.xml` ]
+then
+    echo "  OK"
+fi
+
+echo "xqilla:"
+xqilla -i ../tree_species.xml xq/validate.xq | tidy -xml -i -q
+
+#echo "zorba:"
+#zorba --context-item ../data/xmalesia.xml --indent -f -q ../xq/validate.xq 
+
