@@ -132,4 +132,10 @@
     <notes>commercially important</notes>
     <native_in>ht</native_in>
   </taxon>
+
+  <taxon>
+    <sci_name>Cocos nucifera L.</sci_name>
+    <gs_id>COCONUCI</gs_id>
+    <name>kokoye (ht), coconut (en)</name>
+  </taxon>
 </gs_taxa>
