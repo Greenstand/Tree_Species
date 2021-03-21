@@ -1,0 +1,18 @@
+#!/bin/sh
+
+for X in xqilla gawk
+do
+    Y=$(which $X)
+    if [ ! -x "$Y" ] ; then
+        echo "No $X found"
+        exit 1
+    fi
+done
+
+cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+gawk -f awk/make_guide.awk
+
+
+
+
