@@ -2,10 +2,61 @@
   <!-- External information about tree species used in the Greenstand project.
        See tree_species.rnc for field descriptions.
   -->
+
+  <taxon>
+    <sci_name>Anacardium occidentale L.</sci_name>
+    <gs_id>ANACOCCI</gs_id>
+    <family>Anacardiaceae</family>
+    <name>cashew (en), nwa o pom (ht)</name>
+    <native_range>Central America, the Caribbean, and northern South
+    America</native_range>
+    <planted_in>ht</planted_in>
+    <uses>food charcoal firewood</uses>
+    <id_notes></id_notes>
+    <notes>Native range may include Haiti, but not researched.</notes>
+    <links>
+      <link></link>
+    </links>
+  </taxon>
+
+  <taxon>
+    <sci_name>Annona muricata L.</sci_name>
+    <gs_id>ANNOMURI</gs_id>
+    <family>Annonaceae</family>
+    <name>soursop (en), korosol (ht)</name>
+    <native_range>Caribbean and Central America</native_range>
+    <planted_in>ht</planted_in>
+    <uses>food</uses>
+    <id_notes>glossy upper surface of leaf</id_notes>
+    <links>
+      <link>https://en.wikipedia.org/wiki/Soursop</link>
+    </links>
+  </taxon>
+
+  
+  <taxon>
+    <sci_name>Artocarpus altilis (Parkinson) Fosberg</sci_name>
+    <gs_id>ARTOALTA</gs_id>
+    <family>Moraceae</family>
+    <name>breadfruit (en), labapen (ht)</name>
+    <native_range>Southeast Asia</native_range>
+    <exotic_in>ht</exotic_in>
+    <planted_in>ht</planted_in>
+    <uses>food</uses>
+    <id_notes>Tough, dark-green leaves. Youngest seedlings with serrated
+    leaves, soon becoming incised in larger plants.</id_notes>
+    <notes>Not Artocarpus camansi Blanco, which is the wild relative
+    of breadfruit</notes>
+    <links>
+      <link>https://en.wikipedia.org/wiki/Breadfruit</link>
+    </links>
+  </taxon>
+
   <taxon>
     <sci_name>Casuarina equisetifolia L.</sci_name>
     <gs_id>CASUEQUI</gs_id>
     <inat_taxon>62888</inat_taxon>
+    <planted_in>tz</planted_in>
     <family>Casuarinaceae</family>
     <notes>
       It appears from iNaturalist and other resources (e.g.,
@@ -26,23 +77,74 @@
       yokewood
     </name>
     <native_in>ht</native_in>
+    <planted_in>ht</planted_in>
     <inat_taxon>430790</inat_taxon>
     <links>
       <link>https://www.gbif.org/occurrence/gallery?taxon_key=3172614</link>
     </links>
   </taxon>
-
+  
   <taxon>
     <sci_name>Cedrela odorata L.</sci_name>
+    <family>Meliaceae</family>
     <gs_id>CEDRODOR</gs_id>
     <name>sed (ht), sède (ht), Spanish cedar (en)</name>
+    <planted_in>ht</planted_in>
     <notes>commercially important</notes>
     <native_in>ht</native_in>
   </taxon>
 
   <taxon>
+    <sci_name>Citrus</sci_name>
+    <gs_id>CITR0000</gs_id>
+    <family>Rutaceae</family>
+    <name>citrus (en)</name>
+    <exotic_in>ht</exotic_in>
+    <planted_in>ht</planted_in>
+    <uses>food</uses>
+    <id_notes>Citrus (hybrid) species are very difficult to tell
+    apart. Use this genus-level class for most citrus IDs.</id_notes>
+  </taxon>
+
+  <taxon>
+    <sci_name>Citrus × aurantium L.</sci_name>
+    <gs_id>CITRAURA</gs_id>
+    <family>Rutaceae</family>
+    <name>sour orange (en), zoranj si (ht)</name>
+    <exotic_in>ht</exotic_in>
+    <planted_in>ht</planted_in>
+    <uses>food</uses>
+    <id_notes>May be impossible to differentiate from other
+    citrus.</id_notes>
+    <notes>
+      From the ORE website: "Wild sour oranges abound in most of the
+      project areas." This variety may have long become
+      widely naturalized.
+    </notes>
+    <links>
+      <link>https://www.oreworld.org/citrus.htm</link>
+    </links>
+  </taxon>
+
+  <taxon>
+    <sci_name>Citrus × aurantiifolia (Christm.) Swingle</sci_name>
+    <gs_id>CITRAURF</gs_id>
+    <family>Rutaceae</family>
+    <name>key lime (en), citron (ht)</name>
+    <exotic_in>ht</exotic_in>
+    <planted_in>ht</planted_in>
+    <uses>food</uses>
+    <id_notes></id_notes>
+    <notes>A hybrid: Citrus micrantha × Citrus medica</notes>
+    <links>
+      <link>https://en.wikipedia.org/wiki/Key_lime</link>
+    </links>
+  </taxon>
+
+  <taxon>
     <sci_name>Cocos nucifera L.</sci_name>
     <gs_id>COCONUCI</gs_id>
+    <planted_in>ht</planted_in>
     <name>kokoye (ht), coconut (en)</name>
     <uses>food cash_crop</uses>
   </taxon>
@@ -52,6 +154,7 @@
     <gs_id>CROTMEGA</gs_id>
     <family>Euphorbiaceae</family>
     <native_range>Sub-Saharan Africa</native_range>
+    <planted_in>tz</planted_in>
     <uses>firewood charcoal</uses>
     <inat_taxon>133588</inat_taxon>
     <links>
@@ -66,6 +169,7 @@
     <family>Cupressaceae</family>
     <native_range>Central America</native_range>
     <exotic_in>tz</exotic_in>
+    <planted_in>tz</planted_in>
     <notes>
       Most of these are placed here by inferrence “Cupressus in TZ”
     </notes>
@@ -84,6 +188,7 @@
     <name>silky oak (en)</name>
     <native_range>Australia</native_range>
     <exotic_in>tz</exotic_in>
+    <planted_in>tz</planted_in>
     <uses>timber firewood mulch shade</uses>
     <links>
       <link>https://en.wikipedia.org/wiki/Grevillea_robusta</link>
@@ -96,15 +201,33 @@
     <notes>
       Similar to CROTMEGA
     </notes>
+    <planted_in>tz</planted_in>
   </taxon>
 
   <taxon>
     <sci_name>Mangifera indica L.</sci_name>
     <gs_id>MANGINDI</gs_id>
     <name>mango (en, ht)</name>
+    <planted_in>ht</planted_in>
     <exotic_in>ht</exotic_in>
     <uses>firewood</uses>
     <notes>can be pruned multiple times for firewood</notes>
+  </taxon>
+
+  <taxon>
+    <sci_name>Manilkara zapota (L.) P.Royen</sci_name>
+    <gs_id>MANIZAPO</gs_id>
+    <family>Sapotaceae</family>
+    <name>sapodilla (en), sapoti (ht)</name>
+    <native_range>southern Mexico, Central America and the Caribbean</native_range>
+    <planted_in>ht</planted_in>
+    <uses>food</uses>
+    <id_notes></id_notes>
+    <notes></notes>
+    <links>
+      <link>https://en.wikipedia.org/wiki/Manilkara_zapota</link>
+      <link>http://wiwords.com/word/sapoti</link>
+    </links>
   </taxon>
 
   <taxon>
@@ -112,6 +235,7 @@
     <gs_id>PERSAMER</gs_id>
     <family>Lauraceae</family>
     <name>zaboka (ht), avocado (en)</name>
+    <planted_in>ht</planted_in>
     <native_range>Mexico</native_range>
     <native_in>mx</native_in>
     <exotic_in>ht</exotic_in>
@@ -128,6 +252,7 @@
       Most of the images are placed here by inferrence “Pinus in TZ”
     </notes>
     <native_range>Mexico</native_range>
+    <planted_in>tz</planted_in>
     <exotic_in>tz</exotic_in>
     <links>
       <link>https://en.wikipedia.org/wiki/Pinus_patula</link>
@@ -150,6 +275,20 @@
     </notes>
   </taxon>
   -->
+
+  <taxon>
+    <sci_name>Tamarindus indica L.</sci_name>
+    <gs_id>TAMAINDI</gs_id>
+    <family>Fabaceae</family>
+    <name>tamarind (en), tamren (ht)</name>
+    <native_range>tropical Africa</native_range>
+    <exotic_in>ht</exotic_in>
+    <planted_in>ht</planted_in>
+    <uses>food woodworking</uses>
+    <links>
+      <link>https://en.wikipedia.org/wiki/Tamarind</link>
+    </links>
+  </taxon>
   
   <taxon>
     <sci_name>Tectona grandis L.f.</sci_name>
@@ -157,9 +296,46 @@
     <family>Lamiaceae</family>
     <native_range>South and Southeast Asia</native_range>
     <uses>boat_building furniture</uses>
+    <planted_in>tz</planted_in>
     <inat_taxon>62887</inat_taxon>
     <links>
       <link>https://en.wikipedia.org/wiki/Teak</link>
+    </links>
+  </taxon>
+
+  <taxon>
+    <sci_name>Terminalia catappa L.</sci_name>
+    <gs_id>TERMCATA</gs_id>
+    <family>Combretaceae</family>
+    <name>sea almond (en), zanmann (ht), ketapang (id)</name>
+    <native_range>India to Micronesia</native_range>
+    <exotic_in>ht</exotic_in>
+    <planted_in>ht</planted_in>
+    <uses>shade food</uses>
+    <links>
+      <link>http://wiwords.com/word/almond</link>
+      <link>http://tchakayiti.com/home/en/zanmann-tropical-almond/</link>
+    </links>
+  </taxon>
+  
+  <taxon>
+    <sci_name>Theobroma cacao L.</sci_name>
+    <gs_id>THEOCACA</gs_id>
+    <family>Malvaceae</family>
+    <name>cacao (en)</name>
+    <native_range>Mesoamerica</native_range>
+    <exotic_in>ht</exotic_in>
+    <planted_in>ht</planted_in>
+    <uses>food</uses>
+    <id_notes>
+      Thin petiole, with strong angle to plane of leave, and swollen
+      'knee' at petiole apex. Large, dark-green leaves, with strongly
+      curving secondary veins. Older plants show a 'V' pair of basal
+      secondary veins, but these are less obvious in the smaller
+      plants.
+    </id_notes>
+    <links>
+      <link>https://en.wikipedia.org/wiki/Theobroma_cacao</link>
     </links>
   </taxon>
 
@@ -175,7 +351,9 @@
     <native_range></native_range>
     <native_in></native_in>
     <exotic_in></exotic_in>
+    <planted_in></planted_in>
     <uses></uses>
+    <id_notes></id_notes>
     <notes></notes>
     <links>
       <link></link>

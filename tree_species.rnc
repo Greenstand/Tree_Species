@@ -14,8 +14,12 @@ start =
          element native_in {
             list { xsd:NCName+ }
          }? &
+         element planted_in {
+            list { xsd:NCName+ }
+         }? &
          element native_range { text }? &
          element notes { text }? &
+         element id_notes { text }? &
          element uses {
             list { xsd:NCName+ }
          }? &

@@ -5,5 +5,11 @@ return concat(
   '|',
   data($i//sci_name),
   '|',
-  data($i//family)
+  data($i//family),
+  '|',
+  data($i//planted_in),
+  '|',
+  normalize-space(data($i//name)),
+  '|',
+  normalize-space(data($i//id_notes))
 )

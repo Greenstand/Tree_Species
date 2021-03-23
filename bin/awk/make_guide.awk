@@ -1,15 +1,23 @@
 BEGIN{
 
+  guides = "ht|tz"
+  countries = "Haiti|Tanzania"
+  split(guides,guide,"|")
+  split(countries, country,"|")
+  
   # Get data from XML file
   cmd = "xqilla -i ../tree_species.xml xq/guide.xq"
   FS="|"
   while ((cmd | getline) > 0) {
     name[$1] = $2
     fam[$1] = $3
+    planted_in[$1] = $4
+    common[$1] = $5
+    idnotes[$1] = $6
   }
   
   # Get photos
-  cmd = "find ../herbarium/taxa/ -type f | sort | sed "\
+  cmd = "find ../herbarium/taxa/ -type f -name '*.[jJpP][pPnN][gG]' | sort | sed "\
     "'s|../herbarium/taxa/||g'"
   FS="/"
   while ((cmd | getline) > 0) {
@@ -19,22 +27,56 @@ BEGIN{
     hasphotos[$1] = 1
   }
 
-  # make the index file
+  # 1. make the index file
   OUT = "../herbarium/guide/index.html"
   print header("Greenstand tree species") > OUT
   print "<h1>Greenstand tree species</h1>" >> OUT
-  print "<table>" >> OUT
+  print "<ul>" >> OUT
   PROCINFO["sorted_in"] = "@val_str_asc"
-  for (i in name) 
-    if (hasphotos[i]) {
-      f = (fam[i]) ? (" (" fam[i] ")") : ""
-      print "<tr><td>" name[i] f "</td><td>" i "</td><td>"   \
-        "<img src=\"../taxa/" i "/" firstphoto[i]                       \
-        "\" height=\"80\"></td></tr>" >> OUT
-    }
-  print "</table>" >> OUT
+  for (i in guide)
+    print "<li>Guide for <a href=\"guide_" guide[i] ".html\">" country[i] \
+      "</a></li>" >> OUT
+  print "</ul>" >> OUT
   print footer() >> OUT
   
+  # 2. make the guides for each country
+  for (i in guide) {
+    print "Making guide for " country[i] > "/dev/stderr"
+    OUT = "../herbarium/guide/guide_" guide[i] ".html"
+    print header("Greenstand tree species") > OUT
+    print "<h1>Greenstand tree species for " country[i] "</h1>" >> OUT
+    print "<table>" >> OUT
+    PROCINFO["sorted_in"] = "@val_str_asc"
+    for (j in name) 
+      if ((hasphotos[j]) && (planted_in[j] ~ guide[i])) {
+        f = (fam[j]) ? ("<br/>(" fam[j] ")") : ""
+        print "<tr><td>" name[j] f "</td><td><a href=\"" j ".html\">" j \
+          "</a></td><td><img src=\"../taxa/" j "/" firstphoto[j]        \
+          "\" height=\"150\"></td></tr>" >> OUT
+      }
+    print "</table>" >> OUT
+    print footer() >> OUT
+  }
+
+  # 3. make the guides for each taxon
+  for (i in hasphotos) {
+    print "Making guide for taxon " i > "/dev/stderr"
+    OUT = "../herbarium/guide/" i ".html"
+    print header("Greenstand taxon " i) > OUT
+    print "<h1>Greenstand taxon: " i "</h1>" >> OUT
+    print "<h2>" name[i] " / " common[i] "</h2>" >> OUT
+    if (idnotes[i])
+      print "<p><b>ID notes:</b> " idnotes[i] "</p>" >> OUT
+    print "<table>" >> OUT
+    for (j in code) 
+      if (code[j] == i) {
+        print "<tr><td><img src=\"../taxa/" i "/" j \
+          "\" height=\"800\"></td></tr>" >> OUT
+      }
+    print "</table>" >> OUT
+    print footer() >> OUT
+  }
+
 }
 
 function header(title) {
@@ -52,7 +94,7 @@ function header(title) {
     "<style>"                                                           \
     "body { font-size: 14px; font-family: 'Montserrat', "               \
     "Verdana, Arial, Helvetica, sans-serif; }"                          \
-    ".main {width: 1000px; padding-top: 30px; margin-left: auto;"       \
+    ".main {width: 1000px; padding-top: 10px; margin-left: auto;"       \
     "  margin-right: auto; }"                                           \
     "h1 { padding-top:20px; }"                                          \
     "select , option { font-size: 14px }"                               \
