@@ -12,7 +12,10 @@
     America</native_range>
     <planted_in>ht</planted_in>
     <uses>food charcoal firewood</uses>
-    <id_notes></id_notes>
+    <id_notes>
+      In oldered seedlings, secondary veins almost perpendicular to
+      midrib, densely spaced. Leaf sometimes reddish.
+    </id_notes>
     <notes>Native range may include Haiti, but not researched.</notes>
     <links>
       <link></link>
@@ -27,7 +30,7 @@
     <native_range>Caribbean and Central America</native_range>
     <planted_in>ht</planted_in>
     <uses>food</uses>
-    <id_notes>glossy upper surface of leaf</id_notes>
+    <id_notes>Glossy upper surface of leaf</id_notes>
     <links>
       <link>https://en.wikipedia.org/wiki/Soursop</link>
     </links>
@@ -78,6 +81,7 @@
     </name>
     <native_in>ht</native_in>
     <planted_in>ht</planted_in>
+    <id_notes>Leaves coursely serrate. Usually with pale variegation marks on leaf.</id_notes> 
     <inat_taxon>430790</inat_taxon>
     <links>
       <link>https://www.gbif.org/occurrence/gallery?taxon_key=3172614</link>
@@ -90,6 +94,7 @@
     <gs_id>CEDRODOR</gs_id>
     <name>sed (ht), sède (ht), Spanish cedar (en)</name>
     <planted_in>ht</planted_in>
+    <id_notes>Pinnate</id_notes>
     <notes>commercially important</notes>
     <native_in>ht</native_in>
   </taxon>
@@ -102,7 +107,7 @@
     <exotic_in>ht</exotic_in>
     <planted_in>ht</planted_in>
     <uses>food</uses>
-    <id_notes>Citrus (hybrid) species are very difficult to tell
+    <id_notes>Citrus (hybrid) species are difficult to tell
     apart. Use this genus-level class for most citrus IDs.</id_notes>
   </taxon>
 
@@ -143,6 +148,7 @@
 
   <taxon>
     <sci_name>Cocos nucifera L.</sci_name>
+    <family>Arecaceae</family>
     <gs_id>COCONUCI</gs_id>
     <planted_in>ht</planted_in>
     <name>kokoye (ht), coconut (en)</name>
@@ -204,6 +210,31 @@
     <planted_in>tz</planted_in>
   </taxon>
 
+  <taxon>
+    <sci_name>Indet. 0002</sci_name>
+    <gs_id>INDE0002</gs_id>
+    <notes>
+      Misidentified as a Prunus.
+    </notes>
+    <id_notes>Small, opposite, coriaceous leaves with pale midrib.</id_notes>
+    <planted_in>ht</planted_in>
+  </taxon>
+
+  <taxon>
+    <sci_name>Inga feuilleei DC.</sci_name>
+    <gs_id>INGAFEUI</gs_id>
+    <family>Fabaceae</family>
+    <name>pacay (ht), ice-cream bean (en)</name>
+    <native_range>NW South America</native_range>
+    <exotic_in>ht</exotic_in>
+    <planted_in>ht</planted_in>
+    <uses>food</uses>
+    <id_notes>When young, leaf consists of winged rachis and only two
+    opposite leaflets.</id_notes>
+    <notes>So far (2021-03-23) just making assumption that the Inga in
+    Haiti planting photos is this one.</notes>
+  </taxon>
+  
   <taxon>
     <sci_name>Mangifera indica L.</sci_name>
     <gs_id>MANGINDI</gs_id>
@@ -276,6 +307,19 @@
   </taxon>
   -->
 
+    <taxon>
+    <sci_name>Psidium guajava L.</sci_name>
+    <gs_id>PSIDGUAJ</gs_id>
+    <family>Myrtaceae</family>
+    <name>guava (en)</name>
+    <native_range>Caribbean, Central America and South America</native_range>
+    <planted_in>ht</planted_in>
+    <uses>food</uses>
+    <links>
+      <link>https://en.wikipedia.org/wiki/Psidium_guajava</link>
+    </links>
+  </taxon>
+  
   <taxon>
     <sci_name>Tamarindus indica L.</sci_name>
     <gs_id>TAMAINDI</gs_id>
@@ -311,6 +355,8 @@
     <native_range>India to Micronesia</native_range>
     <exotic_in>ht</exotic_in>
     <planted_in>ht</planted_in>
+    <id_notes>Young seedlings still show the first pair of
+    kidney-shaped leaves.</id_notes>
     <uses>shade food</uses>
     <links>
       <link>http://wiwords.com/word/almond</link>
