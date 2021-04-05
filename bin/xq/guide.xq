@@ -11,5 +11,15 @@ return concat(
   '|',
   normalize-space(data($i//name)),
   '|',
-  normalize-space(data($i//id_notes))
+  normalize-space(data($i//id_notes)),
+  '|',
+  data($i//exotic_in),
+  '|',
+  normalize-space(data($i//native_range)),
+  '|',
+  data($i//native_in),
+  '|',
+  data($i//id_diff),
+  '|',
+  data($i//wp)
 )

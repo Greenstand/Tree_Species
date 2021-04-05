@@ -20,11 +20,13 @@ start =
          element native_range { text }? &
          element notes { text }? &
          element id_notes { text }? &
+         element id_diff { xsd:NCName }? &
          element uses {
             list { xsd:NCName+ }
          }? &
          element links {
-            element link { xsd:anyURI }+
+            element link { xsd:anyURI }* &
+            element wp { xsd:anyURI }?
          }?
       }+
    }

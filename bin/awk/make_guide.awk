@@ -14,17 +14,26 @@ BEGIN{
     planted_in[$1] = $4
     common[$1] = $5
     idnotes[$1] = $6
+    exotic[$1] = $7
+    range[$1] = $8
+    native[$1] = $9
+    iddiff[$1] = $10
+    wp[$1] = $11
   }
   
   # Get photos
-  cmd = "find ../herbarium/taxa/ -type f -name '*.[jJpP][pPnN][gG]' | sort | sed "\
-    "'s|../herbarium/taxa/||g'"
+  cmd = "find ../herbarium/taxa/ -type f -name '*.[jJpP][pPnN][gG]' | sort "\
+    "| sed 's|../herbarium/taxa/||g'"
   FS="/"
   while ((cmd | getline) > 0) {
     code[$2] = $1
     if (!hasphotos[$1])
       firstphoto[$1] = $2
     hasphotos[$1] = 1
+    if ($2 == "_lf.jpg")
+      haslfphoto[$1] = 1
+    if ($2 == "_sdl.jpg")
+      hassdlphoto[$1] = 1
   }
 
   # 1. make the index file
@@ -43,16 +52,30 @@ BEGIN{
   for (i in guide) {
     print "Making guide for " country[i] > "/dev/stderr"
     OUT = "../herbarium/guide/guide_" guide[i] ".html"
-    print header("Greenstand tree species") > OUT
-    print "<h1>Greenstand tree species for " country[i] "</h1>" >> OUT
+    print header("Restoration tree species for " country[i]) > OUT
+    print "<h1>Restoration tree species for " country[i] "</h1>" >> OUT
+    print "<p>(Glossaries of botanical terms: <a href=\"https://en.wikipedia.org/wiki/Glossary_of_botanical_terms\">Wikipedia</a>, <a href=\"http://www.calflora.net/botanicalnames/botanicalterms.html\">Calflora</a>, <a href=\"https://conservationresearchinstitute.org/forms/CRI-FLORA-Glossary.pdf\">Chicago flora</a>, <a href=\"https://archive.org/details/plantform00adri\">Bell</a>)</p>" >> OUT
     print "<table>" >> OUT
     PROCINFO["sorted_in"] = "@val_str_asc"
-    for (j in name) 
+    n=0
+    for (j in name)
       if ((hasphotos[j]) && (planted_in[j] ~ guide[i])) {
         f = (fam[j]) ? ("<br/>(" fam[j] ")") : ""
-        print "<tr><td>" name[j] f "</td><td><a href=\"" j ".html\">" j \
-          "</a></td><td><img src=\"../taxa/" j "/" firstphoto[j]        \
-          "\" height=\"150\"></td></tr>" >> OUT
+        x = (exotic[j] ~ guide[i]) ? ("<br/>Not native to " country[i] ) : ""
+        xn = (native[j] ~ guide[i]) ? ("<br/>Native to " country[i] ) : ""
+        r = (range[j]) ? ("<br/>Native range: " range[j] ) : ""
+        idn = (idnotes[j]) ? ("<br/><br/><i>ID notes</i>: " idnotes[j] ) : ""
+        idd = (iddiff[j]) ? ("<br/><i>ID difficulty</i>: " iddiff[j] ) : ""
+        pic1 = (hassdlphoto[j]) ? "_sdl.jpg" : firstphoto[j]
+        pic2 = (haslfphoto[j]) ? \
+          "<img src=\"../taxa/" j "/_lf.jpg\" width=\"180\" alt=\"seedling\"/>" : "&#160;"
+
+        print "<tr><td>" ++n "</td>"                                    \
+          "<td><b>" name[j] "</b><br/>" common[j] x xn idn idd          \
+          "</td><td><a href=\"" j ".html\">" j "</a></td>"              \
+          "<td><img src=\"../taxa/" j "/" pic1 "\" height=\"180\" alt=\"seedling\"/></td>" \
+          "<td>" pic2 "</td>"                                           \
+          "</tr>" >> OUT
       }
     print "</table>" >> OUT
     print footer() >> OUT
@@ -63,16 +86,25 @@ BEGIN{
     print "Making guide for taxon " i > "/dev/stderr"
     OUT = "../herbarium/guide/" i ".html"
     print header("Greenstand taxon " i) > OUT
-    print "<h1>Greenstand taxon: " i "</h1>" >> OUT
-    print "<h2>" name[i] " / " common[i] "</h2>" >> OUT
+    print "<h1>" name[i] " (code: " i ")</h1>" >> OUT
+    print "<h2>" common[i] "</h2>" >> OUT
+    print "<ul>" >> OUT
+    if (fam[i])
+      print "<li><i>Family</i>: " fam[i] "</li>" >> OUT
+    if (range[i])
+      print "<li><i>Native range</i>: " range[i] "</li>" >> OUT
+    if (wp[i])
+      print "<li><i>Wikipedia</i>: <a href=\"" wp[i] "\">LINK</a></li>" >> OUT
     if (idnotes[i])
-      print "<p><b>ID notes:</b> " idnotes[i] "</p>" >> OUT
+      print "<li><i>ID notes</i>: " idnotes[i] "</li>" >> OUT
+    if (iddiff[i])
+      print "<li><i>ID difficulty</i>: <b>" iddiff[i] "</b></li>" >> OUT
+    print "</ul>" >> OUT
     print "<table>" >> OUT
     for (j in code) 
-      if (code[j] == i) {
-        print "<tr><td><img src=\"../taxa/" i "/" j \
-          "\" height=\"800\"></td></tr>" >> OUT
-      }
+      if ((code[j] == i) && (j !~ /^_/))
+        print "<tr><td><img src=\"../taxa/" i "/" j                 \
+          "\" height=\"800\" alt=\"seedling\"/></td></tr>" >> OUT
     print "</table>" >> OUT
     print footer() >> OUT
   }
@@ -91,7 +123,7 @@ function header(title) {
     "rel=\"stylesheet\"/>"                                              \
     "<link href=\"https://treetracker.org/favicon.ico\" "               \
     "rel=\"shortcut icon\" type=\"image/x-icon\"/>"                     \
-    "<style>"                                                           \
+    "<style type=\"text/css\">"                                              \
     "body { font-size: 14px; font-family: 'Montserrat', "               \
     "Verdana, Arial, Helvetica, sans-serif; }"                          \
     ".main {width: 1000px; padding-top: 10px; margin-left: auto;"       \
