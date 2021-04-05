@@ -19,6 +19,7 @@ BEGIN{
     native[$1] = $9
     iddiff[$1] = $10
     wp[$1] = $11
+    uses[$1] = $12
   }
   
   # Get photos
@@ -54,7 +55,7 @@ BEGIN{
     OUT = "../herbarium/guide/guide_" guide[i] ".html"
     print header("Restoration tree species for " country[i]) > OUT
     print "<h1>Restoration tree species for " country[i] "</h1>" >> OUT
-    print "<p>(Glossaries of botanical terms: <a href=\"https://en.wikipedia.org/wiki/Glossary_of_botanical_terms\">Wikipedia</a>, <a href=\"http://www.calflora.net/botanicalnames/botanicalterms.html\">Calflora</a>, <a href=\"https://conservationresearchinstitute.org/forms/CRI-FLORA-Glossary.pdf\">Chicago flora</a>, <a href=\"https://archive.org/details/plantform00adri\">Bell</a>)</p>" >> OUT
+    print "<p>(Raw data: <a href=\"https://github.com/Greenstand/Tree_Species/blob/master/tree_species.xml\">Github</a>). Glossaries of botanical terms: <a href=\"https://en.wikipedia.org/wiki/Glossary_of_botanical_terms\">Wikipedia</a>, <a href=\"http://www.calflora.net/botanicalnames/botanicalterms.html\">Calflora</a>, <a href=\"https://conservationresearchinstitute.org/forms/CRI-FLORA-Glossary.pdf\">Chicago flora</a>, <a href=\"https://archive.org/details/plantform00adri\">Bell</a>.)</p>" >> OUT
     print "<table>" >> OUT
     PROCINFO["sorted_in"] = "@val_str_asc"
     n=0
@@ -62,16 +63,16 @@ BEGIN{
       if ((hasphotos[j]) && (planted_in[j] ~ guide[i])) {
         f = (fam[j]) ? ("<br/>(" fam[j] ")") : ""
         x = (exotic[j] ~ guide[i]) ? ("<br/>Not native to " country[i] ) : ""
-        xn = (native[j] ~ guide[i]) ? ("<br/>Native to " country[i] ) : ""
+        xn = (native[j] ~ guide[i]) ? ("<br/><b>Native</b> to " country[i] ) : ""
         r = (range[j]) ? ("<br/>Native range: " range[j] ) : ""
         idn = (idnotes[j]) ? ("<br/><br/><i>ID notes</i>: " idnotes[j] ) : ""
-        idd = (iddiff[j]) ? ("<br/><i>ID difficulty</i>: " iddiff[j] ) : ""
+        # idd = (iddiff[j]) ? ("<br/><i>ID difficulty</i>: " iddiff[j] ) : ""
         pic1 = (hassdlphoto[j]) ? "_sdl.jpg" : firstphoto[j]
         pic2 = (haslfphoto[j]) ? \
           "<img src=\"../taxa/" j "/_lf.jpg\" width=\"180\" alt=\"seedling\"/>" : "&#160;"
 
         print "<tr><td>" ++n "</td>"                                    \
-          "<td><b>" name[j] "</b><br/>" common[j] x xn idn idd          \
+          "<td><b>" name[j] "</b><br/>" common[j] x xn idn              \
           "</td><td><a href=\"" j ".html\">" j "</a></td>"              \
           "<td><img src=\"../taxa/" j "/" pic1 "\" height=\"180\" alt=\"seedling\"/></td>" \
           "<td>" pic2 "</td>"                                           \
@@ -95,6 +96,8 @@ BEGIN{
       print "<li><i>Native range</i>: " range[i] "</li>" >> OUT
     if (wp[i])
       print "<li><i>Wikipedia</i>: <a href=\"" wp[i] "\">LINK</a></li>" >> OUT
+    if (uses[i])
+      print "<li><i>Uses</i>: " uses[i] "</li>" >> OUT
     if (idnotes[i])
       print "<li><i>ID notes</i>: " idnotes[i] "</li>" >> OUT
     if (iddiff[i])

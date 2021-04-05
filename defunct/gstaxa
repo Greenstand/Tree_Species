@@ -1,0 +1,79 @@
+#!/usr/bin/gawk -f
+
+# A webapp for displaying Greenstand treetracker taxa
+# (c) Cam Webb <cw@camwebb.info> 2021; License: Unlicense
+
+# @load "json"
+@load "/home/camwebb/local/lib/gawk/json.so"
+
+BEGIN{
+
+  # Read query string
+  split(ENVIRON["QUERY_STRING"], qs, "&")
+  for (q in qs) {
+    split(qs[q], qp, "=")
+    f[qp[1]] = substr(qp[2],1,8)
+  }
+
+  # Read tree_species.json
+  RS="\x04";
+  cmd = "curl -L -s 'https://raw.githubusercontent.com/"\
+    "Greenstand/Tree_Species/master/tree_species.json'"
+  cmd | getline json
+  if (! json_fromJSON(json, data))
+    exit 1
+  
+  header("Treetracker taxa")
+
+
+  print "<h1>Greenstand treetracker taxa</h1><ul>"
+  PROCINFO["sorted_in"] = "@ind_num_asc"
+  for (i in data["gs_taxa"]["taxon"])
+    print "<li>" data["gs_taxa"]["taxon"][i]["sci_name"] " ("   \
+      data["gs_taxa"]["taxon"][i]["gs_id"] ")</li>"
+  print "</ul>"
+  print "<p>See <a href=\"https://github.com/Greenstand/Tree_Species\">" \
+    "https://github.com/Greenstand/Tree_Species</a> for more information.</p>"
+  footer()
+}
+
+function header(title) {
+  # version history: [chars app] -> [tcm app] -> here
+  
+  print "Content-type: text/html\n"
+  print "<!DOCTYPE html>"
+  print "<html xmlns=\"http://www.w3.org/1999/xhtml\">"
+  print "<head><title>" title "</title>"
+  print "<meta http-equiv=\"Content-Type\" content=\"text/html; \
+           charset=utf-8\" />"
+  print "<link href=\"https://fonts.googleapis.com/css?family=Montserrat\" \
+           rel=\"stylesheet\"/>"
+  print "<link href=\"https://treetracker.org/favicon.ico\" "\
+    "rel=\"shortcut icon\" type=\"image/x-icon\"/>"
+  print "<style>"
+  print "body { font-size: 14px; font-family: 'Montserrat', " \
+    "Verdana, Arial, Helvetica, sans-serif; }"
+  print ".main {width: 1000px; padding-top: 30px; margin-left: auto;"\
+    "  margin-right: auto; }"
+  print "h1 { padding-top:20px; }"
+  print "select , option { font-size: 14px }"
+  print "table { border-collapse: collapse }"
+  print "td, th { border: 1px solid black; padding: 5px }"
+  print "a { color:#15358d; text-decoration:none; border-bottom-style:none }"
+  print "a:visited { color:#9f1dbc }"
+  print "a:hover {color:#15358d; border-bottom-style:solid; \
+	     border-bottom-width:thin }"
+  print ".graph { max-width: 100%; }"
+  print "</style>"
+  print "</head>\n<body>"
+  print "<div class=\"main\">"
+}
+
+function footer() {
+  print "</div>\n</body>\n</html>";
+}
+
+# needed with gawk-json > 2.0
+# function json_fromJSON(input_string, output_array) {
+#   return json::from_json(input_string, output_array)
+# }

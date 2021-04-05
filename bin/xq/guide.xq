@@ -21,5 +21,7 @@ return concat(
   '|',
   data($i//id_diff),
   '|',
-  data($i//wp)
+  data($i//wp),
+  '|',
+  normalize-space(data($i//uses))
 )

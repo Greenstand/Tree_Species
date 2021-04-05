@@ -304,11 +304,15 @@
     <exotic_in>ht</exotic_in>
     <planted_in>ht</planted_in>
     <uses>food</uses>
-    <id_notes>When young, leaf consists of winged rachis and only two
-    opposite leaflets.</id_notes>
+    <id_notes><![CDATA[Leaves alternate. In young seedlings, leaf
+    consists of <b>winged rachis</b> and only <b>two opposite</b>
+    leaflets.]]></id_notes>
     <id_diff>easy</id_diff>
     <notes>So far (2021-03-23) just making assumption that the Inga in
     Haiti planting photos is this one.</notes>
+    <links>
+      <wp>https://en.wikipedia.org/wiki/Inga_feuilleei</wp>
+    </links>
   </taxon>
   
   <taxon>
@@ -319,10 +323,12 @@
     <native_range>South India</native_range>
     <planted_in>ht</planted_in>
     <exotic_in>ht</exotic_in>
-    <uses>firewood</uses>
+    <uses>firewood food</uses>
     <notes>Can be pruned multiple times for firewood</notes>
-    <id_notes>Long, leathery leaves, with secondary veins almost
-    perpendicular to the midrib. Compare with cashew.
+    <id_notes><![CDATA[Leaves alternate. Petiole long. Leaves long,
+    leathery, with secondary veins almost perpendicular to the
+    midrib. Compare with <a
+    href="https://herbarium.treetracker.org/guide/ANACOCCI.html">cashew</a>.]]>
     </id_notes>
     <id_diff>medium</id_diff>
     <links>
@@ -339,7 +345,11 @@
     Caribbean</native_range>
     <planted_in>ht</planted_in>
     <uses>food</uses>
-    <id_notes>Secondary veins inconspicuous.</id_notes>
+    <id_notes><![CDATA[Leaves alternate, elliptic, glossy above. Secondary
+      veins inconspicuous. Compare with <a
+      href="https://herbarium.treetracker.org/guide/ANNOMURI.html">ANNOMURI</a>.
+      ]]></id_notes>
+    <id_diff>medium</id_diff>
     <links>
       <wp>https://en.wikipedia.org/wiki/Manilkara_zapota</wp>
       <link>http://wiwords.com/word/sapoti</link>
@@ -373,7 +383,8 @@
     <planted_in>ht</planted_in>
     <uses>food</uses>
     <notes>Planted by Forest Nation in Haiti</notes>
-    <id_notes>Leaves _bipinnate</id_notes>
+    <id_notes><![CDATA[Leaves alternate,
+    <b>bipinnate</b>. Leaflets oval.]]></id_notes>
     <id_diff>easy</id_diff>
     <links>
       <wp>https://en.wikipedia.org/wiki/Moringa_oleifera</wp>
@@ -463,6 +474,9 @@
     <native_range>Caribbean, Central America and South America</native_range>
     <planted_in>ht</planted_in>
     <uses>food</uses>
+    <id_notes><![CDATA[Leaves <b>opposite</b>. Secondary veins deeply
+    <b>sunken</b> into leaf (from above).]]></id_notes>
+    <id_diff>easy</id_diff>
     <links>
       <link>https://en.wikipedia.org/wiki/Psidium_guajava</link>
     </links>
@@ -473,10 +487,13 @@
     <gs_id>TAMAINDI</gs_id>
     <family>Fabaceae</family>
     <name>tamarind (en), tamren (ht)</name>
-    <native_range>tropical Africa</native_range>
+    <native_range>Tropical Africa</native_range>
     <exotic_in>ht</exotic_in>
     <planted_in>ht</planted_in>
     <uses>food woodworking</uses>
+    <id_notes><![CDATA[Leaves alternate, <b>paripinnate</b>. Leaflets
+    opposite on rachis, in 7-8 pairs, oblong in shape.]]></id_notes>
+    <id_diff>medium</id_diff>
     <links>
       <link>https://en.wikipedia.org/wiki/Tamarind</link>
     </links>
@@ -503,10 +520,12 @@
     <native_range>India to Micronesia</native_range>
     <exotic_in>ht</exotic_in>
     <planted_in>ht</planted_in>
-    <id_notes>Young seedlings still show the first pair of
-    kidney-shaped leaves.</id_notes>
+    <id_notes>Leaves alternate, obovate. Young seedlings still show
+    the first pair of kidney-shaped leaves.</id_notes>
+    <id_diff>hard</id_diff>
     <uses>shade food</uses>
     <links>
+      <wp>https://en.wikipedia.org/wiki/Terminalia_catappa</wp>
       <link>http://wiwords.com/word/almond</link>
       <link>http://tchakayiti.com/home/en/zanmann-tropical-almond/</link>
     </links>
@@ -521,15 +540,15 @@
     <exotic_in>ht</exotic_in>
     <planted_in>ht</planted_in>
     <uses>food</uses>
-    <id_notes>
-      Thin petiole, with strong angle to plane of leave, and swollen
-      'knee' at petiole apex. Large, dark-green leaves, with strongly
-      curving secondary veins. Older plants show a 'V' pair of basal
-      secondary veins, but these are less obvious in the smaller
-      plants.
+    <id_notes><![CDATA[ Leaves alternate. Petiole narrow, at an
+    <b>angle to plane of leaf</b>, and <b>swollen ‘knee’</b> at
+    petiole apex. Leaves large, dark-green, with strongly curving
+    secondary veins. Older plants show a ‘V’ pair of basal secondary
+    veins, but these are less obvious in the smaller plants.]]>
     </id_notes>
+    <id_diff>medium</id_diff>
     <links>
-      <link>https://en.wikipedia.org/wiki/Theobroma_cacao</link>
+      <wp>https://en.wikipedia.org/wiki/Theobroma_cacao</wp>
       <link>https://doi.org/10.1371/journal.pone.0047676</link>
     </links>
   </taxon>
@@ -548,7 +567,8 @@
     <exotic_in></exotic_in>
     <planted_in></planted_in>
     <uses></uses>
-    <id_notes></id_notes>
+    <id_notes><![CDATA[ ]]></id_notes>
+    <id_diff></id_diff>
     <notes></notes>
     <links>
       <link></link>
