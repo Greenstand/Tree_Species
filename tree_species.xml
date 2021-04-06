@@ -71,6 +71,45 @@
   </taxon>
   
   <taxon>
+    <sci_name>Annona reticulata L.</sci_name>
+    <gs_id>ANNORETI</gs_id>
+    <family>Annonaceae</family>
+    <name>bullock's heart (en)</name>
+    <native_range>Northern South America</native_range>
+    <uses>food</uses>
+    <notes>This Annona species has fruits ripening flesh-pink, with
+    tesselations on the fruit surface but not protrusions.</notes>
+    <id_notes><![CDATA[Leaves alternate, held disticous in older
+    plants. Leaf elliptic to oblong. Secondary veins impressed into
+    leaf blade.]]></id_notes>
+    <id_diff>medium</id_diff>
+    <links>
+      <wp>https://en.wikipedia.org/wiki/Annona_reticulata</wp>
+    </links>
+  </taxon>
+
+  <taxon>
+    <sci_name>Annona squamosa L.</sci_name>
+    <gs_id>ANNOSQUA</gs_id>
+    <family>Annonaceae</family>
+    <name>sweetsop (en), custard apple (en), cashima (ht)</name>
+    <native_range>Northern South America</native_range>
+    <planted_in>ht</planted_in>
+    <uses>food</uses>
+    <notes>Seems that the Annona grown in Haiti and called cashima is
+    A. squamosa, with the large, rounded protrusions on fruit.</notes>
+    <id_notes><![CDATA[Leaves alternate, held disticous in older
+    plants. Leaf elliptic, light green. Secondary veins appear pale on
+    leaf blade.]]></id_notes>
+    <id_diff>medium</id_diff>
+    <links>
+      <wp>https://en.wikipedia.org/wiki/Annona_squamosa</wp>
+      <link>https://guyanesegirlhaitiansoul.wordpress.com/2017/08/10/custard-apple-and-cashima/</link>
+      <link>http://wiwords.com/word/sweetsop</link>
+    </links>
+  </taxon>
+
+  <taxon>
     <sci_name>Artocarpus altilis (Parkinson) Fosberg</sci_name>
     <gs_id>ARTOALTA</gs_id>
     <family>Moraceae</family>
@@ -192,7 +231,7 @@
     <id_diff>hard</id_diff>
     <notes>A hybrid: Citrus micrantha × Citrus medica</notes>
     <links>
-      <link>https://en.wikipedia.org/wiki/Key_lime</link>
+      <wp>https://en.wikipedia.org/wiki/Key_lime</wp>
     </links>
   </taxon>
 
@@ -478,7 +517,7 @@
     <b>sunken</b> into leaf (from above).]]></id_notes>
     <id_diff>easy</id_diff>
     <links>
-      <link>https://en.wikipedia.org/wiki/Psidium_guajava</link>
+      <wp>https://en.wikipedia.org/wiki/Psidium_guajava</wp>
     </links>
   </taxon>
   
@@ -495,7 +534,7 @@
     opposite on rachis, in 7-8 pairs, oblong in shape.]]></id_notes>
     <id_diff>medium</id_diff>
     <links>
-      <link>https://en.wikipedia.org/wiki/Tamarind</link>
+      <wp>https://en.wikipedia.org/wiki/Tamarind</wp>
     </links>
   </taxon>
   
@@ -508,7 +547,7 @@
     <planted_in>tz</planted_in>
     <inat_taxon>62887</inat_taxon>
     <links>
-      <link>https://en.wikipedia.org/wiki/Teak</link>
+      <wp>https://en.wikipedia.org/wiki/Teak</wp>
     </links>
   </taxon>
 
