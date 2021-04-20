@@ -257,11 +257,32 @@
     <gs_id>COLUARBO</gs_id>
     <family>Rhamnaceae</family>
     <name>bwa ple (ht), kapab (ht), greenheart (en)</name>
-    <native_in>us</native_in>
+    <native_in>us ht</native_in>
     <planted_in>ht</planted_in>
+    <id_notes><![CDATA[Leaves alternate, glossy dark green
+    above. Rusty pubescence on twigs and petiole. Tertiary nerves
+    depressed into upper surface of leaf.]]></id_notes>
+    <id_diff>medium</id_diff>
     <notes>See 'Bwa Yo' Joel Timyan</notes>
     <links>
+      <link>https://pdf.usaid.gov/pdf_docs/PNACA072.pdf</link>
       <link>https://www.theevertree.com/haiti</link>
+    </links>
+  </taxon>
+
+    <taxon>
+    <sci_name>Cordia alliodora (Ruiz Lopez &amp; Pavon) Oken.</sci_name>
+    <gs_id>CORDALLI</gs_id>
+    <family>Boraginaceae</family>
+    <name>bwa woz (ht), bwa soumi (ht)</name>
+    <native_range>Caribbean, Central and South America</native_range>
+    <native_in>ht</native_in>
+    <planted_in>ht</planted_in>
+    <uses>timber</uses>
+    <id_notes><![CDATA[Leaves althernate.]]></id_notes>
+    <id_diff>hard</id_diff>
+    <links>
+      <link>https://pdf.usaid.gov/pdf_docs/PNACA072.pdf</link>
     </links>
   </taxon>
 
@@ -312,7 +333,7 @@
   </taxon>
   
   <taxon>
-    <sci_name>Indet. 0001</sci_name>
+    <sci_name>Indet. 1</sci_name>
     <gs_id>INDE0001</gs_id>
     <notes>
       Similar to CROTMEGA
@@ -321,7 +342,7 @@
   </taxon>
 
   <taxon>
-    <sci_name>Indet. 0002</sci_name>
+    <sci_name>Indet. 2</sci_name>
     <gs_id>INDE0002</gs_id>
     <notes>
       Misidentified as a Prunus. Most likely a Rubiaceae.
@@ -332,6 +353,16 @@
     </id_notes>
     <id_diff>medium</id_diff>
     <planted_in>ht</planted_in>
+  </taxon>
+
+  <taxon>
+    <sci_name>Indet. 3</sci_name>
+    <gs_id>INDE0003</gs_id>
+    <name></name>
+    <planted_in>ht</planted_in>
+    <id_notes><![CDATA[Leaves <b>palmate</b>. Not clear yet if
+    alternate or opposite.]]></id_notes>
+    <id_diff>easy</id_diff>
   </taxon>
 
   <taxon>
@@ -615,23 +646,32 @@
   </taxon>
 -->
 
-<!-- to add, from https://www.theevertree.com/haiti
+<!-- 
 
+Other Haiti tree taxa
+
+1. from https://www.theevertree.com/haiti "Agroforestry Species"
+
+Cedrela odorata
 Cordia alliodora 
+Gliricidia sepium  
+Leucaena leucocephala 
+Lysiloma sabicu Benth. 
+Roystonea borinquena 
+Senna siamea  
 Simarouba glauca 
 Swietenia mahagoni 
-Roystonea borinquena 
-Cedrela odorata
-Lysiloma sabicu Benth. 
-Senna siamea  
-Leucaena leucocephala 
-Gliricidia sepium  
--->
 
-<!-- to add from Landscape Factors and Restoration Practices Associated with Initial Reforestation Success in Haiti Starry D. Sprenkle-Hyppolite, Andrew M. Latimer, Truman P. Young and Kevin J. Rice
+2. from Landscape Factors and Restoration Practices Associated with Initial 
+   Reforestation Success in Haiti Starry D. Sprenkle-Hyppolite et al.
 
-Azadirachta indicaneem, "nim"
+Azadirachta indica, neem, "nim"
 Enterolobium cyclocarpum, “bwa taniswouj”
 Eucalyptus camaldulensis, “ekiliptus”
+
+3. from Bwa Yo, Joel Timyan
+
+Cordia alliodora 
+
 
 -->
