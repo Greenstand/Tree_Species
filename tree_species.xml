@@ -273,6 +273,7 @@
     <taxon>
     <sci_name>Cordia alliodora (Ruiz Lopez &amp; Pavon) Oken.</sci_name>
     <gs_id>CORDALLI</gs_id>
+    <inat_taxon>209896</inat_taxon>
     <family>Boraginaceae</family>
     <name>bwa woz (ht), bwa soumi (ht)</name>
     <native_range>Caribbean, Central and South America</native_range>
@@ -551,6 +552,26 @@
       <wp>https://en.wikipedia.org/wiki/Psidium_guajava</wp>
     </links>
   </taxon>
+
+  <taxon>
+    <sci_name>Simarouba glauca DC. var. latifolia Cronq.</sci_name>
+    <gs_id>SIMAGLAU</gs_id>
+    <inat_taxon>884600</inat_taxon>
+    <family>Simaroubaceae</family>
+    <name>bwa fwenn (ht), bwa blan (ht), doliv (ht), simarouba (en),
+    princess tree (ht)</name>
+    <native_range>Caribbean, Florida, Central America</native_range>
+    <native_in>ht</native_in>
+    <planted_in>ht</planted_in>
+    <uses>timber</uses>
+    <id_notes><![CDATA[Leaves alternate,
+    <b>imparipinnate</b>. Leaflets alternate, 6-7 pairs.]]></id_notes>
+    <id_diff>easy</id_diff>
+    <links>
+      <link>https://pdf.usaid.gov/pdf_docs/PNACA072.pdf</link>
+    </links>
+  </taxon>
+
   
   <taxon>
     <sci_name>Tamarindus indica L.</sci_name>
@@ -675,3 +696,4 @@ Cordia alliodora
 
 
 -->
+
