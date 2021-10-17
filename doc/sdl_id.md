@@ -54,7 +54,20 @@ they are _opposite_:
 
 <img src="../img/lf_arr.jpg" alt="Leaf arrangement" style="width:50%;"/>
 
+(Images taken with gratitude from from the [online][2] “Illustrated
+Glossary of Botanical Terms in the Flora of the Chicago Region” by
+Wilhelm & Rericha, 2017)
 
+Often seeing the leaf arrangement is hard in an image crouded with
+leaves, but usually there is at least a single instance where it can
+be assessed.  Some examples in Haiti are:
+
+ * Alternate
+     * _Anacardium occidentale_
+     * _Mangifera indica_
+ * Opposite
+     * _Psidium guajava_
+     * Indet. 2
 
 ### Petiole (leaf stalk) length
 
@@ -71,3 +84,5 @@ they are _opposite_:
 
 
 [1]: https://herbarium.treetracker.org/guide/guide_ht.html
+[2]: https://conservationresearchinstitute.org/forms/CRI-FLORA-Glossary.pdf
+
