@@ -42,7 +42,10 @@ Learning a core set of six characters will help you a lot:
  * Leaf color
 
 Please read through the details of these characters, referring when
-directed to the [virtual herbarium][1] for Haiti.
+directed to the [virtual herbarium][1] for Haiti.  Note also that
+there are lots of specialized terms for plant characters. You will
+need to learn a few, but in this document and in the virtual herbarium
+we will try to keep specialized vocabulary to a minimum.
 
 ### Leaf arrangement on the stem
 
@@ -66,10 +69,13 @@ be assessed.  Some examples in Haiti are:
      * _Anacardium occidentale_
      * _Mangifera indica_
  * Opposite
+     * _Catalpa longissima_
      * _Psidium guajava_
-     * Indet. 2
 
 ### Petiole (leaf stalk) length
+
+
+<img src="../img/comp.jpg" alt="Leaf arrangement" style="width:50%;"/>
 
 ### Leaf ‘compoundness’ (simple or compound)
 
