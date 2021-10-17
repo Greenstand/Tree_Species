@@ -52,8 +52,8 @@ we will try to keep specialized vocabulary to a minimum.
 The stalks of plant’s leaves may join the stem in one of two basic
 ways: they may meet separate from the stalks of other leaves, or they
 may meet at the same point as one or more other other leaves. In the
-former situation we say the leaves are _alternate_, in the latter that
-they are _opposite_:
+former situation we say the leaves are “_alternate_”, in the latter that
+they are “_opposite_”:
 
 <img src="../img/lf_arr.jpg" alt="Leaf arrangement" style="width:50%;"/>
 
@@ -74,10 +74,50 @@ be assessed.  Some examples in Haiti are:
 
 ### Petiole (leaf stalk) length
 
+At the base of the leaf is the leaf stalk that connects the leaf to
+the stem. This stalk (“_petiole_”) can be long, relative to the length
+of the leaf, or very short (termed “sessile”).  Check these plants out:
 
-<img src="../img/comp.jpg" alt="Leaf arrangement" style="width:50%;"/>
+ * Petiole long
+     * _Catalpa longissima_
+     * _Theobroma cacao_
+ * Petiole short (but not sessile)     
+     * Indet. 2 (“Indet” means we do not know the species name yet)
+     * _Terminalia catappa_ 
 
 ### Leaf ‘compoundness’ (simple or compound)
+
+A leaf is a single structural unit, which will fall off when dead as
+one. This unit is sometimes a compound structure with its own stalk
+(“rachis”) and muliple leaf units called “_leaflets_”.  It can be tricky
+to determine if what looks like a leaf is indeed a leaf, or just a
+leaflet, but the regular structure of a “_compound_” leaf becomes
+increasingly obvious as you get your eye in. The term “_simple_” is used
+for a ‘classic’ single leaf.
+
+There are several types of compund leaf, with the main division being
+between “_pinnate_” leaves and “_palmate_” leaves. In the former,
+there is a single extended stalk with leaflets coming off of it at
+different points, while in the latter all the leaflets meet at a
+single point.  A pinnate leaf may have a terminal leaflet
+(odd-pinnate, or “_imparipinnate_”), or be without a terminal leaflet
+(even-pinnate, or “_paripinnate_”).  One further complexity: if there
+are two levels of division in a pinnate leaf, the leaf is “bipinnate”.
+
+<img src="../img/comp.jpg" alt="Leaf arrangement" style="width:80%;"/>
+
+Some examples in Haiti:
+
+ * Simple
+    * _Anacardium occidentale_
+    * _Mangifera indica_
+ * Pinnate compund
+    * _Cedrela odorata_
+    * _Simarouba glauca_
+ * Palmate compound
+    * Indet. 3
+ * Bipinnate
+    * _Moringa oleifera_
 
 ### Leaf margin
 
