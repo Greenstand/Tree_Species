@@ -148,7 +148,7 @@ the terms that we will commonly use are: “_elliptic_” = widest in the
 middle, “_ovate_” (egg-shaped) = widest towards the leaf base, and
 “_obovate_” = widest towards the leaf tip.
 
-<img src="../img/comp.jpg" alt="Leaf shape" style="width:80%;"/>
+<img src="../img/lf_shape.jpg" alt="Leaf shape" style="width:80%;"/>
 
 
 ### Leaf margin
