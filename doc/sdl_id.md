@@ -32,11 +32,12 @@ limit the set of species that it could be.  The short descriptions in
 the ‘[virtual herbarium][1]’ may often explicitly mention some
 characters or combinations of characters.
 
-Learning a core set of seven characters will help you a lot:
+Learning a core set of eight characters will help you a lot:
 
  * Leaf arrangement on the stem
  * Petiole (leaf stalk) length
  * Leaf ‘compoundness’ (simple or compound)
+ * Leaf size
  * Leaf shape
  * Leaf margin
  * Leaf vein patterns
@@ -105,7 +106,7 @@ single point.  A pinnate leaf may have a terminal leaflet
 (even-pinnate, or “_paripinnate_”).  One further complexity: if there
 are two levels of division in a pinnate leaf, the leaf is “bipinnate”.
 
-<img src="../img/comp.jpg" alt="Leaf arrangement" style="width:80%;"/>
+<img src="../img/comp.jpg" alt="Simple/compound" style="width:80%;"/>
 
 Some examples in Haiti:
 
@@ -120,6 +121,36 @@ Some examples in Haiti:
  * Bipinnate
     * _Moringa oleifera_
 
+### Leaf size
+
+The size of seedling leaves (and leaflets) can be remarkably variable,
+both on the same plant, and among plants of the same species in
+different growing conditions. The size of seedling leaves is also
+generally larger than the size of the leaves on an adult of the same
+species. For this reason, we generally do not use leaf size
+measurements as characters for these seedlings.  However, as you can
+see from the images, there are some species that have strikingly
+larger leaves than others, and so some times a general “leaves large”
+or “leaves small” has been given.  For example:
+
+ * Leaves large
+    * _Artocarpus altilis_
+ * Leaflets small
+    * _Tamarindus indica_
+
+### Leaf shape
+
+Most leaves are some variation on elliptic: narrow at the base and
+narrow at the tip.  However the position of the widest part of the
+leaf is an obvious and useful character, usually consistent within a
+species. There are many terms to describe fine variation in shape, but
+the terms that we will commonly use are: “_elliptic_” = widest in the
+middle, “_ovate_” (egg-shaped) = widest towards the leaf base, and
+“_obovate_” = widest towards the leaf tip.
+
+<img src="../img/comp.jpg" alt="Leaf shape" style="width:80%;"/>
+
+
 ### Leaf margin
 
 The edge of a leaf’s blade (its “_margin_”) can be smooth, i.e.,
@@ -127,14 +158,25 @@ without teeth, or can be broken up in a variety of ways.  There are
 many terms to describe the details of the teeth or incisions, but
 three can be used to cover the majority of cases. An “_entire_” margin
 is plain and even, a “_serrate_” margin has teeth, and an “_incised_”
-margin has deep intrusions into the leaf. (Other terms you may read are
-related to these: “dentate” is similar to serrate, and “lobed” is
-similar to incised.)
+margin has deep intrusions into the leaf. (Other terms you may read
+are related to these: “dentate” is similar to serrate, and “lobed” is
+similar to incised.) Sometimes the margin is wavy not in the 2-D plane
+of the leaf surface but in a plane perpendicular to the margin, i.e.,
+not flat; this is termed “_undulate_”, and can be hard to see in a
+photo.
 
 <img src="../img/margin.jpg" alt="Margin" style="width:50%;"/>
 
+Most moist tropical species have entire leaves, with the incidence of
+serrate leaves increasing in dry habitats and in temperate
+floras. Some examples in Haiti:
 
-
+ * Entire
+    * _Mangifera indica_
+ * Incised
+    * _Artocarpus altilis_
+ * Undulate
+    * _Catalpa longissima_
 
 ### Leaf vein patterns
 
