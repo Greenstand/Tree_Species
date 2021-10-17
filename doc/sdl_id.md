@@ -3,7 +3,7 @@
 One of the most important elements in a Greenstand seedling photo is
 the _species of plant_.  Different species have different
 characteristics and are of different values for restoration
-programs. Labelling an image with its plant species adds information
+programs. Labeling an image with its plant species adds information
 to the capture and builds training sets of images for machine
 learning. Eventually it is our hope that automated image analysis will
 be able to tag a photo with its species, but there is a lot of work to be done before then.
@@ -13,7 +13,7 @@ learning. Like during learning a language, you will be aware of very
 little at first that might help you separate entities: you’ll see
 green, leaves and stems. But over time you will learn to recognize
 increasingly subtle differences, and will come to recognize species
-you have seen before. This document is intented to guide you
+you have seen before. This document is intended to guide you
 efficiently through the learning process.
 
 ## Characters
@@ -22,7 +22,7 @@ A photo is a 2-dimensional representation of an organism in the
 field. That organism has _characters_ that differ from organisms of
 other species. In general, more closely related species have more
 similar sets of characters.  Characters can be used to create
-identifucation _keys_: e.g., “Question 1: if hairs on leaf underside
+identification _keys_: e.g., “Question 1: if hairs on leaf underside
 present, got to Question 2, if not, go to Question 3”, until a unique
 combination of characters indicates that the organism is the
 corresponding species. Many of the characters necessary for
@@ -63,7 +63,7 @@ that they are “_opposite_”:
 Glossary of Botanical Terms in the Flora of the Chicago Region” by
 Wilhelm & Rericha, 2017)
 
-Often seeing the leaf arrangement is hard in an image crouded with
+Often seeing the leaf arrangement is hard in an image crowded with
 leaves, but usually there is at least a single instance where it can
 be assessed.  Some examples in Haiti are:
 
@@ -91,13 +91,13 @@ of the leaf, or very short (termed “sessile”).  Check these plants out:
 
 A leaf is a single structural unit, which will fall off when dead as
 one. This unit is sometimes a compound structure with its own stalk
-(“rachis”) and muliple leaf units called “_leaflets_”.  It can be tricky
+(“rachis”) and multiple leaf units called “_leaflets_”.  It can be tricky
 to determine if what looks like a leaf is indeed a leaf, or just a
 leaflet, but the regular structure of a “_compound_” leaf becomes
 increasingly obvious as you get your eye in. The term “_simple_” is used
 for a ‘classic’ single leaf.
 
-There are several types of compund leaf, with the main division being
+There are several types of compound leaf, with the main division being
 between “_pinnate_” leaves and “_palmate_” leaves. In the former,
 there is a single extended stalk with leaflets coming off of it at
 different points, while in the latter all the leaflets meet at a
@@ -113,7 +113,7 @@ Some examples in Haiti:
  * Simple
     * _Anacardium occidentale_
     * _Mangifera indica_
- * Pinnate compund
+ * Pinnate compound
     * _Cedrela odorata_
     * _Simarouba glauca_
  * Palmate compound
@@ -140,16 +140,27 @@ or “leaves small” has been given.  For example:
 
 ### Leaf shape
 
-Most leaves are some variation on elliptic: narrow at the base and
-narrow at the tip.  However the position of the widest part of the
-leaf is an obvious and useful character, usually consistent within a
-species. There are many terms to describe fine variation in shape, but
-the terms that we will commonly use are: “_elliptic_” = widest in the
-middle, “_ovate_” (egg-shaped) = widest towards the leaf base, and
-“_obovate_” = widest towards the leaf tip.
+Most leaves are some variation on elliptically shaped: narrow at the
+base and narrow at the tip.  However the position of the widest part
+of the leaf is an obvious and useful character, usually consistent
+within a species. There are many terms to describe fine variation in
+shape, but the terms that we will commonly use are: “_elliptic_” =
+widest in the middle, “_ovate_” (egg-shaped) = widest towards the leaf
+base, and “_obovate_” = widest towards the leaf tip.  Palm leaves are
+shaped quite differently and often are referred to as “_linear_”.
 
-<img src="../img/lf_shape.jpg" alt="Leaf shape" style="width:80%;"/>
+<img src="../img/lf_shape.jpg" alt="Leaf shape" style="width:50%;"/>
 
+Some examples in Haiti:
+
+ * Elliptic
+    * _Anacardium occidentale_
+ * Ovate
+    * __Catalpa longissima_
+ * Obovate
+    * _Terminalia catappa_
+ * Linear
+    * _Cocos nucifera_
 
 ### Leaf margin
 
@@ -180,10 +191,69 @@ floras. Some examples in Haiti:
 
 ### Leaf vein patterns
 
+The veins of leaves can be hard to see in photos taken from above -
+veins are usually clearer on the underside of the leaf. However, if
+you can see them, they provide another consistent and useful set of
+characters.  ‘Classic’ leaves have “_pinnate_” venation, while
+maple-like leaves have “_palmate_” venation, with several main veins
+meeting together at the base of the leaf. Grasses and palms, and few
+other species, have veins that mainly run “_parallel_” to the main
+axis of the leaf:
+
+<img src="../img/lf_vein.jpg" alt="Leaf venation" style="width:50%;"/>
+
+Examples in Haiti:
+
+ * Pinnate venation
+    * _Anacardium occidentale_
+ * Parallel venation
+    * _Acacia auriculiformis_
+    * _Cocos nucifera_
+ * Venation obscure
+    * _Annona muricata_
 
 ### Leaf color
 
+Finally, leaf color can be a useful character. Under different
+lighting conditions the colors in photographs can be unreliable, and
+it is difficult to describe colors. However, subconsciously you will
+come to associate species with their color. Most leaves are obviously
+some shade of green, but watch out for dark greens, pale greens,
+bluish tinges, and grayish tinges.  Yellowish tinges are more often a
+sign of nutrient deficiency than a characteristic of a species. Rarely
+a species will have consistent “variegation”, with pale or yellowish
+dots on a darker, greener surface.
 
+Another feature of the leaf surface is its sheen. Some species have
+consistently “glossy” surfaces, some are consistently “matte”. This may
+be visible in photos, depending on the image’s lighting.
+
+ * Darker
+    * _Citrus_
+    * _Simarouba glauca_
+ * Paler
+    * _Moringa oleifera_
+ * Variegated
+    * _Catalpa longissima_
+ * Glossy
+    * _Mangifera indica_
+
+## Summary
+
+As you learn these characters you will see that most tropical tree
+species have simple, alternate, entire leaves with pinnate
+venation. However, many species have at least one character that is
+not the ‘usual’ one and this alone reduces the set of species you need
+to consider. And as you learn the species, and see them commonly, your
+subconscious will start to take over and you will not need to compare
+their characters one-by-one between your image and the reference set.
+Do however please always remember that the tropics are very diverse,
+and there are often rare species that look very similar to a common
+one you may know, differing only in minor ways, and so it is vital to
+express uncertainly if you are not totally sure.
+
+Thanks for you work on this, and I hope you will find it rewarding to
+come to know tropical tree species.
 
 
 [1]: https://herbarium.treetracker.org/guide/guide_ht.html
