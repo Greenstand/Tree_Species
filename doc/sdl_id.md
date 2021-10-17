@@ -58,7 +58,7 @@ may meet at the same point as one or more other leaves. In the former
 situation we say the leaves are “_alternate_”, in the latter that they
 are “_opposite_”:
 
-<img src="../img/lf_arr.jpg" alt="Leaf arrangement" style="width:50%;"/>
+<img src="../img/lf_arr.jpg" alt="Leaf arrangement" style="width:50%;margin-left: auto; margin-right: auto; display:block;"/>
 
 (Images taken with gratitude from from the [online][2] “Illustrated
 Glossary of Botanical Terms in the Flora of the Chicago Region” by
@@ -90,13 +90,13 @@ of the leaf, or very short (termed “sessile”).  Check these plants out:
 
 ### Leaf ‘compoundness’ (simple or compound)
 
-A leaf is a single structural unit, which will fall off when dead as
-one. This unit is sometimes a compound structure with its own stalk
-(“rachis”) and multiple leaf units called “_leaflets_”.  It can be tricky
-to determine if what looks like a leaf is indeed a leaf, or just a
-leaflet, but the regular structure of a “_compound_” leaf becomes
-increasingly obvious as you get your eye in. The term “_simple_” is used
-for a ‘classic’ single leaf.
+A leaf is a single structural unit, which will fall off as one when
+dead. This unit is sometimes a compound structure with its own stalk
+(“rachis”) and multiple leaf units called “_leaflets_”.  It can be
+tricky to determine if what looks like a leaf is indeed a leaf, or
+just a leaflet, but the regular structure of a “_compound_” leaf
+becomes increasingly obvious as you get your eye in. The term
+“_simple_” is used for a ‘classic’ single leaf.
 
 There are several types of compound leaf, with the main division being
 between “_pinnate_” leaves and “_palmate_” leaves. In the former,
@@ -107,7 +107,7 @@ single point.  A pinnate leaf may have a terminal leaflet
 (even-pinnate, or “_paripinnate_”).  One further complexity: if there
 are two levels of division in a pinnate leaf, the leaf is “bipinnate”.
 
-<img src="../img/comp.jpg" alt="Simple/compound" style="width:80%;"/>
+<img src="../img/comp.jpg" alt="Simple/compound" style="width:80%;margin-left: auto; margin-right: auto; display:block;"/>
 
 Some examples in Haiti:
 
@@ -150,14 +150,14 @@ widest in the middle, “_ovate_” (egg-shaped) = widest towards the leaf
 base, and “_obovate_” = widest towards the leaf tip.  Palm leaves are
 shaped quite differently and often are referred to as “_linear_”.
 
-<img src="../img/lf_shape.jpg" alt="Leaf shape" style="width:50%;"/>
+<img src="../img/lf_shape.jpg" alt="Leaf shape" style="width:50%;margin-left: auto; margin-right: auto; display:block;"/>
 
 Some examples in Haiti:
 
  * Elliptic
     * _Anacardium occidentale_
  * Ovate
-    * __Catalpa longissima_
+    * _Catalpa longissima_
  * Obovate
     * _Terminalia catappa_
  * Linear
@@ -177,7 +177,7 @@ of the leaf surface but in a plane perpendicular to the margin, i.e.,
 not flat; this is termed “_undulate_”, and can be hard to see in a
 photo.
 
-<img src="../img/margin.jpg" alt="Margin" style="width:50%;"/>
+<img src="../img/margin.jpg" alt="Margin" style="width:50%;margin-left: auto; margin-right: auto; display:block;"/>
 
 Most moist tropical species have entire leaves, with the incidence of
 serrate leaves increasing in dry habitats and in temperate
@@ -201,7 +201,7 @@ meeting together at the base of the leaf. Grasses and palms, and few
 other species, have veins that mainly run “_parallel_” to the main
 axis of the leaf:
 
-<img src="../img/lf_vein.jpg" alt="Leaf venation" style="width:50%;"/>
+<img src="../img/lf_vein.jpg" alt="Leaf venation" style="width:50%;margin-left: auto; margin-right: auto; display:block;"/>
 
 Examples in Haiti:
 
@@ -239,7 +239,7 @@ be visible in photos, depending on the image’s lighting.
  * Glossy
     * _Mangifera indica_
 
-## Summary
+## Conclusion
 
 As you learn these characters you will see that most tropical tree
 species have simple, alternate, entire leaves with pinnate
@@ -256,6 +256,7 @@ express uncertainly if you are not totally sure.
 Thanks for you work on this, and I hope you will find it rewarding to
 come to know tropical tree species.
 
+(Cam Webb, 2021-10-17)
 
 [1]: https://herbarium.treetracker.org/guide/guide_ht.html
 [2]: https://conservationresearchinstitute.org/forms/CRI-FLORA-Glossary.pdf
