@@ -54,6 +54,8 @@ they are _opposite_:
 
 <img src="../img/lf_arr.png" alt="Leaf arrangement" style="width:80%;margin-left: auto; margin-right: auto; display:block;"/>
 
+
+
 ### Petiole (leaf stalk) length
 
 ### Leaf ‘compoundness’ (simple or compound)
