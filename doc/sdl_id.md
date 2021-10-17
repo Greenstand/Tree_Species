@@ -52,7 +52,7 @@ may meet at the same point as one or more other other leaves. In the
 former situation we say the leaves are _alternate_, in the latter that
 they are _opposite_:
 
-<img src="../img/lf_arr.jpg" alt="Leaf arrangement" style="width:80%;margin-left: auto; margin-right: auto; display:block;"/>
+<img src="../img/lf_arr.jpg" alt="Leaf arrangement" style="width:50%;"/>
 
 
 
