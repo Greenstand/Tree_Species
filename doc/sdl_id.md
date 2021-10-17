@@ -32,11 +32,12 @@ limit the set of species that it could be.  The short descriptions in
 the ‘[virtual herbarium][1]’ may often explicitly mention some
 characters or combinations of characters.
 
-Learning a core set of six characters will help you a lot:
+Learning a core set of seven characters will help you a lot:
 
  * Leaf arrangement on the stem
  * Petiole (leaf stalk) length
  * Leaf ‘compoundness’ (simple or compound)
+ * Leaf shape
  * Leaf margin
  * Leaf vein patterns
  * Leaf color
@@ -49,11 +50,11 @@ we will try to keep specialized vocabulary to a minimum.
 
 ### Leaf arrangement on the stem
 
-The stalks of plant’s leaves may join the stem in one of two basic
+The stalks of a plant’s leaves may join the stem in one of two basic
 ways: they may meet separate from the stalks of other leaves, or they
 may meet at the same point as one or more other other leaves. In the
-former situation we say the leaves are “_alternate_”, in the latter that
-they are “_opposite_”:
+former situation we say the leaves are “_alternate_”, in the latter
+that they are “_opposite_”:
 
 <img src="../img/lf_arr.jpg" alt="Leaf arrangement" style="width:50%;"/>
 
@@ -120,6 +121,20 @@ Some examples in Haiti:
     * _Moringa oleifera_
 
 ### Leaf margin
+
+The edge of a leaf’s blade (its “_margin_”) can be smooth, i.e.,
+without teeth, or can be broken up in a variety of ways.  There are
+many terms to describe the details of the teeth or incisions, but
+three can be used to cover the majority of cases. An “_entire_” margin
+is plain and even, a “_serrate_” margin has teeth, and an “_incised_”
+margin has deep intrusions into the leaf. (Other terms you may read are
+related to these: “dentate” is similar to serrate, and “lobed” is
+similar to incised.)
+
+<img src="../img/margin.jpg" alt="Margin" style="width:50%;"/>
+
+
+
 
 ### Leaf vein patterns
 
