@@ -1,7 +1,7 @@
 # Learning seedling identification
 
 One of the most important elements in a Greenstand seedling photo is
-the _species of plant_.  Different species have different
+the _species_ of plant.  Different species have different
 characteristics and are of different values for restoration
 programs. Labeling an image with its plant species adds information to
 the capture and builds training sets of images for machine
@@ -253,10 +253,10 @@ and there are often rare species that look very similar to a common
 one you may know, differing only in minor ways, and so it is vital to
 express uncertainly if you are not totally sure.
 
-Thanks for you work on this, and I hope you will find it rewarding to
+Thanks for your work on this, and I hope you will find it rewarding to
 come to know tropical tree species.
 
-(Cam Webb, 2021-10-17)
+<span style="margin-top: 30px; margin-bottom: 30px; float:right;"/><i>(Cam Webb, 2021-10-17)<i></span>
 
 [1]: https://herbarium.treetracker.org/guide/guide_ht.html
 [2]: https://conservationresearchinstitute.org/forms/CRI-FLORA-Glossary.pdf
