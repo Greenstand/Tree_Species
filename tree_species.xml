@@ -36,8 +36,8 @@
     <family>Anacardiaceae</family>
     <name>cashew (en), nwa o pom (ht)</name>
     <native_range>Northern South America</native_range>
-    <exotic_in>ht</exotic_in>
-    <planted_in>ht</planted_in>
+    <exotic_in>ht sl</exotic_in>
+    <planted_in>ht sl</planted_in>
     <uses>food charcoal firewood</uses>
     <id_notes>
       Leaves alternate. Petiole short. In older seedlings, secondary
@@ -58,7 +58,8 @@
     <family>Annonaceae</family>
     <name>soursop (en), korosol (ht)</name>
     <native_range>Caribbean and Central America</native_range>
-    <planted_in>ht</planted_in>
+    <planted_in>ht sl</planted_in>
+    <exotic_in>sl</exotic_in>
     <uses>food</uses>
     <id_notes>Leaves alternate, elliptic, with glossy upper
     surface. Secondary veins not visible.</id_notes>
@@ -129,6 +130,49 @@
     </links>
   </taxon>
 
+  <taxon>
+    <sci_name>Azadirachta indica A.Juss</sci_name>
+    <gs_id>AZADINDI</gs_id>
+    <inat_taxon>319135</inat_taxon>
+    <family>Meliaceae</family>
+    <name>neem (in, en), dogoyaro (ng)</name>
+    <native_range>India, Indochina</native_range>
+    <native_in>in</native_in>
+    <exotic_in>sl</exotic_in>
+    <planted_in>sl</planted_in>
+    <uses>medicine insecticide</uses>
+    <id_notes><![CDATA[Leaves alternate, imparipinnate. Leaflets 10 to 30, <b>serrate</b>.]]></id_notes>
+    <links>
+      <link>https://en.wikipedia.org/wiki/Azadirachta_indica</link>
+      <link>https://www.researchgate.net/profile/John-Parrotta/publication/288324260_Azadirachta_indica_A_Juss_Neem/links/567feb0f08aebccc4e07393d/Azadirachta-indica-A-Juss-Neem.pdf</link>
+    </links>
+  </taxon>
+  
+  <taxon>
+    <sci_name>Calophyllum calaba Jacq.</sci_name>
+    <gs_id>CALOCALA</gs_id>
+    <inat_taxon>957518</inat_taxon>
+    <exotic_in>ht</exotic_in>
+    <planted_in>ht</planted_in>
+    <family>Clusiaceae</family>
+    <notes>
+      Calophyllum species are very hard to ID form leaves - thre are
+      many species and all the leaves look similar except for general
+      size and fine details of the veins.  It seems from various
+      documents that the Haiti taxon in plantations is C. calaba,
+      which is not native to the New World (Diaz 2013). Asian
+      C. calaba is a difficult and variable species (Stevens 1980).
+    </notes>
+    <id_notes><![CDATA[Leaves opposite, secondary veins <b>very fine,
+    dense and parallel</b>.]]></id_notes>
+    <links>
+      <link>https://doi.org/10.1111/boj.12012</link>
+      <link>https://www.jstor.org/stable/43782071</link>
+      <link>https://pdf.usaid.gov/pdf_docs/Pnade593.pdf</link>
+      <link>https://aurora.auburn.edu/bitstream/handle/11200/49560/SECID_Auburn%20PLUS%20Report%20No.%201.pdf</link>
+    </links>
+  </taxon>
+  
   <taxon>
     <sci_name>Casuarina equisetifolia L.</sci_name>
     <gs_id>CASUEQUI</gs_id>
@@ -319,6 +363,24 @@
   </taxon>
   
   <taxon>
+    <sci_name>Gmelina arborea Roxb.</sci_name>
+    <gs_id>GMELARBO</gs_id>
+    <inat_taxon>120358</inat_taxon>
+    <family>Lamiaceae</family>
+    <name>gmelina (en), yemani (sl)</name>
+    <native_range>India and Indochina</native_range>
+    <native_in>in th vn</native_in>
+    <exotic_in>sl</exotic_in>
+    <planted_in>sl</planted_in>
+    <uses>construction</uses>
+    <id_notes><![CDATA[Leaves opposite, broadly <b>ovate</b>, deeply
+    <b>serrate</b> in seedlings, entier in adults.]]></id_notes>
+    <links>
+      <link>https://en.wikipedia.org/wiki/Gmelina_arborea</link>
+    </links>
+  </taxon>
+
+  <taxon>
     <sci_name>Grevillea robusta A.Cunn. ex R.Br.</sci_name>
     <family>Proteaceae</family>
     <gs_id>GREVROBU</gs_id>
@@ -392,8 +454,8 @@
     <family>Anacardiaceae</family>
     <name>mango (en, ht)</name>
     <native_range>South India</native_range>
-    <planted_in>ht</planted_in>
-    <exotic_in>ht</exotic_in>
+    <planted_in>ht sl</planted_in>
+    <exotic_in>ht sl</exotic_in>
     <uses>firewood food</uses>
     <notes>Can be pruned multiple times for firewood</notes>
     <id_notes><![CDATA[Leaves alternate. Petiole long. Leaves long,
@@ -580,7 +642,7 @@
     <name>tamarind (en), tamren (ht)</name>
     <native_range>Tropical Africa</native_range>
     <exotic_in>ht</exotic_in>
-    <planted_in>ht</planted_in>
+    <planted_in>ht sl</planted_in>
     <uses>food woodworking</uses>
     <id_notes><![CDATA[Leaves alternate, <b>paripinnate</b>. Leaflets
     opposite on rachis, in 7-8 pairs, oblong in shape.]]></id_notes>
@@ -596,7 +658,8 @@
     <family>Lamiaceae</family>
     <native_range>South and Southeast Asia</native_range>
     <uses>boat_building furniture</uses>
-    <planted_in>tz</planted_in>
+    <planted_in>tz sl</planted_in>
+    <exotic_in>tz sl</exotic_in>
     <inat_taxon>62887</inat_taxon>
     <links>
       <wp>https://en.wikipedia.org/wiki/Teak</wp>
@@ -673,14 +736,11 @@ Other Haiti tree taxa
 
 1. from https://www.theevertree.com/haiti "Agroforestry Species"
 
-Cedrela odorata
-Cordia alliodora 
 Gliricidia sepium  
 Leucaena leucocephala 
 Lysiloma sabicu Benth. 
 Roystonea borinquena 
 Senna siamea  
-Simarouba glauca 
 Swietenia mahagoni 
 
 2. from Landscape Factors and Restoration Practices Associated with Initial 
@@ -697,3 +757,24 @@ Cordia alliodora
 
 -->
 
+<!-- Sierra leone, from Zaven:
+
+Jackfruit	Artocarpus heterophyllus 
+Camels foot / Bauhinia	Piliostigma thoningii
+Albizia zygia	Albizia zygia
+Flame of the forest	Delonix regia 
+Moringa	Moringa oleifera 
+Cassia	Cassia siamea
+Gliricidia Sepium	Gliricidia sepium
+Ronko	Terminalia ivorensis
+
+
+ALBIZIA
+BAGGI/RONKO/TERMINALIA
+CASSIA
+FLAME OF THE FOREST
+GLYRICIDIA
+MORINGA
+TROPICAL ALMOND
+
+ -->

@@ -3,11 +3,11 @@
 One of the most important elements in a Greenstand seedling photo is
 the _species_ of plant.  Different species have different
 characteristics and are of different values for restoration
-programs. Labeling an image with its plant species adds information to
-the capture and builds training sets of images for machine
-learning. Eventually it is our hope that automated image analysis will
-be able to tag a photo with its species, but there is a lot of work to
-be done before then.
+programs. Labeling an image [with its plant species](names.html) adds
+information to the capture and builds training sets of images for
+machine learning. Eventually it is our hope that automated image
+analysis will be able to tag a photo with its species, but there is a
+lot of work to be done before then.
 
 Recognizing species in photos is not easy, and requires learning. As
 during learning a language, you will be aware at first of very little
