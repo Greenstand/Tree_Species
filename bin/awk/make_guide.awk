@@ -108,10 +108,15 @@ BEGIN{
       print "<li><i>ID difficulty</i>: <b>" iddiff[i] "</b></li>" >> OUT
     print "</ul>" >> OUT
     print "<table>" >> OUT
+    n = 0
     for (j in code) 
-      if ((code[j] == i) && (j !~ /^_/))
+      if ((code[j] == i) && (j !~ /^_/)) {
         print "<tr><td><img src=\"../taxa/" i "/" j                 \
           "\" height=\"800\" alt=\"seedling\"/></td></tr>" >> OUT
+        n++
+      }
+    if (n > 20)
+      print "  (NOTE: taxon " i " has " n " photos!)" > "/dev/stderr"
     print "</table>" >> OUT
     print footer() >> OUT
   }
