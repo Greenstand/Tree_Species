@@ -11,6 +11,10 @@ start =
          element gs_id { xsd:NCName } &
          element inat_taxon { xsd:integer }? &
          element name { text }? &
+         # the country being considered where the species was first
+         # added to the DB. Does not mean the species is actually
+         # native in the country or planted there.
+         element first_locn { xsd:NCName } &
          element native_in {
             list { xsd:NCName+ }
          }? &

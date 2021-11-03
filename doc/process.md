@@ -28,7 +28,7 @@ unknown Croton could bet `CROT0001`, and an unknown species could be
 `INDE0012` (INDE for “indeterminate”). These labels can be used as
 identifiers to cross-reference background information on species in
 the
-[`tree_species.json`](../tree_species.json)
+[`tree_species.xml`](../tree_species.xml)
 file. Even if a morphotype of a previously unknown species is later
 given a determination, the label should be preserved unchanged.
 

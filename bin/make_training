@@ -1,0 +1,12 @@
+#!/bin/sh
+
+cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+find ../raw/training/ -type f | \
+    grep -E "/[A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9]/" | \
+    grep -v ".comments" | \
+    sed -e 's|../raw/training/||g' -e 's^/^|^g' | \
+    sed -E 's/\|[a-z][a-z]_/|/g' | \
+    sort > ../training/training.psv
+
+

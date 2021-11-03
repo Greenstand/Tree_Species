@@ -11,7 +11,7 @@ do
     rm -rf $i
 done
 
-s3cmd -v --no-preserve -c ~/.s3cfg-herbarium sync ../herbarium/ s3://herbarium.treetracker.org/
+s3cmd -v --no-preserve --delete-removed -c ~/.s3cfg-herbarium sync ../herbarium/ s3://herbarium.treetracker.org/
 
 
 
