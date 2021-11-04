@@ -133,9 +133,10 @@ function header(title) {
     "charset=utf-8\" />"                                                \
     "<link href=\"https://fonts.googleapis.com/css?family=Montserrat\" "\
     "rel=\"stylesheet\"/>"                                              \
-    "<link href=\"https://treetracker.org/favicon.ico\" "               \
-    "rel=\"shortcut icon\" type=\"image/x-icon\"/>"                     \
-    "<style type=\"text/css\">"                                              \
+    "<link rel=\"shortcut icon\" "                                      \
+    "href=\"https://greenstand.org/fileadmin/02-graphics/04-favicons/"  \
+    "favicon.ico\" type=\"image/x-icon\"/>"                             \
+    "<style type=\"text/css\">"                                         \
     "body { font-size: 14px; font-family: 'Montserrat', "               \
     "Verdana, Arial, Helvetica, sans-serif; }"                          \
     ".main {width: 1000px; padding-top: 10px; margin-left: auto;"       \

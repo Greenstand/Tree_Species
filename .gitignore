@@ -1,3 +1,5 @@
 herbarium/*
 !herbarium/herbarium.json
 raw*
+training/taxa*
+bin/passwords

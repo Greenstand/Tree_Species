@@ -294,6 +294,25 @@
   </taxon>
 
   <taxon>
+    <sci_name>Codiaeum variegatum (L.) A.Juss.</sci_name>
+    <gs_id>CODIVARI</gs_id>
+    <family>Euphorbiaceae</family>
+    <name>variegated croton</name>
+    <first_locn>sl</first_locn>
+    <native_range>Malesia</native_range>
+    <exotic_in>sl</exotic_in>
+    <planted_in>sl</planted_in>
+    <id_notes><![CDATA[Leaves alternate; petioles thick, curved; leaves obovate, <b>veriegated</b>.]]></id_notes>
+    <id_diff>easy</id_diff>
+    <notes>Common decorative plant throughout tropics. Appears to be
+    planted in Freetown GS photos
+    (5451a835-162b-481d-8583-aa10c0477ecc)</notes>
+    <links>
+      <wp>https://en.wikipedia.org/wiki/Codiaeum_variegatum</wp>
+    </links>
+  </taxon>
+
+  <taxon>
     <sci_name>Cocos nucifera L.</sci_name>
     <family>Arecaceae</family>
     <gs_id>COCONUCI</gs_id>
@@ -806,6 +825,7 @@
       <link>https://apps.worldagroforestry.org/treedb/AFTPDFS/Terminalia_ivorensis.PDF</link>
       <link>https://www.ville-ge.ch/musinfo/bd/cjb/africa/details.php?langue=an&amp;id=702</link>
       <link>http://www.africanplants.senckenberg.de/root/index.php?page_id=78&amp;id=1561</link>
+      <link>https://plants.jstor.org/stable/10.5555/al.ap.upwta.1_807</link>
     </links>
   </taxon>
 

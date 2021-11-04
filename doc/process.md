@@ -27,17 +27,18 @@ epithet.  E.g., `CROTMEGA` for _Croton megalocarpus_. A second,
 unknown Croton could bet `CROT0001`, and an unknown species could be
 `INDE0012` (INDE for “indeterminate”). These labels can be used as
 identifiers to cross-reference background information on species in
-the
-[`tree_species.xml`](../tree_species.xml)
-file. Even if a morphotype of a previously unknown species is later
-given a determination, the label should be preserved unchanged.
+the [`tree_species.xml`](../tree_species.xml) file. Even if a
+morphotype of a previously unknown species is later given a
+determination, the label should be preserved unchanged.
 
 ## Pipeline for assembling a training set
 
 _Numbers of images_. First, we need to determine an appropriate number
 of training images for each species. The more the better, but since
 these will be hand-curated, we cannot demand too many. Let’s begin
-with a target of 200 images per species.
+with a target of 200 images per species. The number of images in the
+herbarium should be limited to about 20 for each taxon; extras should
+be placed in the training folders.
 
 _Site sampling_. The Greenstand images are of a particular type, that
 differ from most images used in machine learning of plants: they are

@@ -1,0 +1,44 @@
+#!/bin/sh
+
+# Authorization:
+# 1. You will need to first access dbuser@bp1.treetracker.org via:
+#   ssh -i ./dbuser.id_rsa dbuser@bp1.treetracker.org
+# with the ssh private key and password, as provided by GS
+# and add a rsa public key to the remote .ssh/authorized_keys file
+# 2. Create a file in this directory called `passwords` with a single
+# line: `dbsql PSQLPASS`, where PSQLPASS is the pgsql password, from GS
+
+cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+# Usages test
+if [ $# = 0 ]
+then
+    echo "Usage: query_org_by_yx lat1 long1 lat2 long2 [-p]"
+    exit 1
+fi
+
+# Create tunnel
+ssh -fN -L 1111:treetracker-cluster-read-only-37982-do-user-8540031-0.b.db.ondigitalocean.com:25060 dbuser@bp1.treetracker.org
+PID=`ps auwx | grep ssh | grep treetracker | gawk '{printf "%d", $2}'`
+# echo "(ssh PID: ${PID})"
+
+# For organizations
+SQL="select distinct entity.name, entity.first_name, entity.email, entity.phone FROM trees, planter, entity WHERE trees.lon > $2 AND trees.lat < $1 AND trees.lon < $4 AND trees.lat > $3 AND trees.planter_id = planter.id AND planter.organization_id = entity.id;"
+
+# but if
+if [ $# -eq 5 ]
+then
+   if [ $5 = "-p" ]
+   then
+       # For planters
+       SQL="select distinct planter.first_name, planter.last_name, planter.email, planter.phone FROM trees, planter WHERE trees.lon > $2 AND trees.lat < $1 AND trees.lon < $4 AND trees.lat > $3 AND trees.planter_id = planter.id;"
+   fi
+fi
+
+SQLPW=`grep dbsql passwords | gawk '{printf "%s", $2}'`
+
+# Execute SQL
+echo "$SQL" | psql "sslmode=require host=localhost dbname=treetracker user=readonlyuser port=1111 password=$SQLPW"
+
+# kill tunnel
+kill -9 $PID
