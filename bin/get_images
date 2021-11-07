@@ -1,0 +1,22 @@
+#!/bin/gawk -f 
+
+BEGIN{
+  # Usages test
+  if (ARGC != 6) {
+    print"Usage: get_images <file> <sampling_start> <sampling_step> <max> <prefix>"
+    exit 1
+  }
+
+  i = j = 0
+  while ((getline < ARGV[1]) > 0) {
+    if (i >= ARGV[2]) {
+      if (((i % ARGV[3]) == 0) && (j <= ARGV[4])) {
+        print i
+        system("curl -s -L " $0 " > '" ARGV[5] "_"    \
+               gensub(/^.*\//,"","G",$0)"'")
+        j++
+      }
+    }
+    i++
+  }
+}

@@ -1,0 +1,29 @@
+#!/bin/sh
+
+# Authorization:
+# 1. You will need to first access dbuser@bp1.treetracker.org via:
+#   ssh -i ./dbuser.id_rsa dbuser@bp1.treetracker.org
+# with the ssh private key and password, as provided by GS
+# and add a rsa public key to the remote .ssh/authorized_keys file
+# 2. Create a file in this directory called `passwords` with a single
+# line: `dbsql PSQLPASS`, where PSQLPASS is the pgsql password, from GS
+
+cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+# Create tunnel
+ssh -fN -L 1111:treetracker-cluster-read-only-37982-do-user-8540031-0.b.db.ondigitalocean.com:25060 dbuser@bp1.treetracker.org
+PID=`ps auwx | grep ssh | grep treetracker | gawk '{printf "%d", $2}'`
+# echo "(ssh PID: ${PID})"
+
+SQLPW=`grep dbsql passwords | gawk '{printf "%s", $2}'`
+
+psql "sslmode=require host=localhost dbname=treetracker user=readonlyuser port=1111 password=$SQLPW"
+
+# kill tunnel
+kill -9 $PID
+if [ $? -eq 0 ]
+then
+    echo "ssh tunnel killed (PID: ${PID})"
+else    
+    echo "Failed to kill ssh tunnel (PID: ${PID})"
+fi

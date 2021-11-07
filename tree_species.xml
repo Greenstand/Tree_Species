@@ -2,9 +2,8 @@
   <!-- External information about tree species used in the Greenstand project.
        See tree_species.rnc for field descriptions.
   -->
-  <taxon>
+  <taxon id="CITR0000">
     <sci_name>Acacia auriculiformis A.Cunn. ex Benth.</sci_name>
-    <gs_id>ACACAURI</gs_id>
     <family>Fabaceae</family>
     <name>earleaf acacia (en)</name>
     <first_locn>ht</first_locn>
@@ -31,9 +30,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="ANACOCCI">
     <sci_name>Anacardium occidentale L.</sci_name>
-    <gs_id>ANACOCCI</gs_id>
     <family>Anacardiaceae</family>
     <name>cashew (en), nwa o pom (ht)</name>
     <first_locn>ht</first_locn>
@@ -54,9 +52,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="ANNOMURI">
     <sci_name>Annona muricata L.</sci_name>
-    <gs_id>ANNOMURI</gs_id>
     <family>Annonaceae</family>
     <name>soursop (en), korosol (ht)</name>
     <first_locn>ht</first_locn>
@@ -74,9 +71,8 @@
     </links>
   </taxon>
   
-  <taxon>
+  <taxon id="ANNORETI">
     <sci_name>Annona reticulata L.</sci_name>
-    <gs_id>ANNORETI</gs_id>
     <family>Annonaceae</family>
     <name>bullock's heart (en)</name>
     <first_locn>ht</first_locn>
@@ -93,9 +89,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="ANNOSQUA">
     <sci_name>Annona squamosa L.</sci_name>
-    <gs_id>ANNOSQUA</gs_id>
     <family>Annonaceae</family>
     <name>sweetsop (en), custard apple (en), cashima (ht)</name>
     <first_locn>ht</first_locn>
@@ -115,9 +110,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="ARTOALTA">
     <sci_name>Artocarpus altilis (Parkinson) Fosberg</sci_name>
-    <gs_id>ARTOALTA</gs_id>
     <family>Moraceae</family>
     <name>breadfruit (en), labapen (ht)</name>
     <first_locn>ht</first_locn>
@@ -136,9 +130,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="AZADINDI">
     <sci_name>Azadirachta indica A.Juss</sci_name>
-    <gs_id>AZADINDI</gs_id>
     <inat_taxon>319135</inat_taxon>
     <family>Meliaceae</family>
     <name>neem (in, en), dogoyaro (ng)</name>
@@ -155,9 +148,8 @@
     </links>
   </taxon>
   
-  <taxon>
+  <taxon id="CALOCALA">
     <sci_name>Calophyllum calaba Jacq.</sci_name>
-    <gs_id>CALOCALA</gs_id>
     <inat_taxon>957518</inat_taxon>
     <first_locn>ht</first_locn>
     <exotic_in>ht</exotic_in>
@@ -181,9 +173,8 @@
     </links>
   </taxon>
   
-  <taxon>
+  <taxon id="CASUEQUI">
     <sci_name>Casuarina equisetifolia L.</sci_name>
-    <gs_id>CASUEQUI</gs_id>
     <inat_taxon>62888</inat_taxon>
     <first_locn>tz</first_locn>
     <planted_in>tz</planted_in>
@@ -198,9 +189,8 @@
     </notes>
   </taxon>
 
-  <taxon>
+  <taxon id="CATALONG">
     <sci_name>Catalpa longissima (Jacq.) Dum. Cours.</sci_name>
-    <gs_id>CATALONG</gs_id>
     <family>Bignoniaceae</family>
     <name>
       chèn (ht), Haitian catalpa (en), Jamaican oak (en), Spanish oak (en),
@@ -220,10 +210,9 @@
     </links>
   </taxon>
   
-  <taxon>
+  <taxon id="CEDRODOR">
     <sci_name>Cedrela odorata L.</sci_name>
     <family>Meliaceae</family>
-    <gs_id>CEDRODOR</gs_id>
     <name>sed (ht), sède (ht), Spanish cedar (en)</name>
     <first_locn>ht</first_locn>
     <planted_in>ht</planted_in>
@@ -235,9 +224,8 @@
     <native_in>ht</native_in>
   </taxon>
 
-  <taxon>
+  <taxon id="CITR0000">
     <sci_name>Citrus</sci_name>
-    <gs_id>CITR0000</gs_id>
     <family>Rutaceae</family>
     <name>citrus (en)</name>
     <first_locn>ht</first_locn>
@@ -255,9 +243,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="CITRAURA">
     <sci_name>Citrus × aurantium L.</sci_name>
-    <gs_id>CITRAURA</gs_id>
     <family>Rutaceae</family>
     <name>sour orange (en), zoranj si (ht)</name>
     <first_locn>ht</first_locn>
@@ -277,9 +264,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="CITRAURF">
     <sci_name>Citrus × aurantiifolia (Christm.) Swingle</sci_name>
-    <gs_id>CITRAURF</gs_id>
     <family>Rutaceae</family>
     <name>key lime (en), citron (ht)</name>
     <first_locn>ht</first_locn>
@@ -293,9 +279,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="CODIVARI">
     <sci_name>Codiaeum variegatum (L.) A.Juss.</sci_name>
-    <gs_id>CODIVARI</gs_id>
     <family>Euphorbiaceae</family>
     <name>variegated croton</name>
     <first_locn>sl</first_locn>
@@ -312,10 +297,9 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="COCONUCI">
     <sci_name>Cocos nucifera L.</sci_name>
     <family>Arecaceae</family>
-    <gs_id>COCONUCI</gs_id>
     <first_locn>ht</first_locn>
     <planted_in>ht</planted_in>
     <id_diff>easy</id_diff>
@@ -330,9 +314,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="COLUARBO">
     <sci_name>Colubrina arborescens (Mill.) Sarg.</sci_name>
-    <gs_id>COLUARBO</gs_id>
     <family>Rhamnaceae</family>
     <name>bwa ple (ht), kapab (ht), greenheart (en)</name>
     <first_locn>ht</first_locn>
@@ -349,9 +332,8 @@
     </links>
   </taxon>
 
-    <taxon>
+  <taxon id="CORDALLI">
     <sci_name>Cordia alliodora (Ruiz Lopez &amp; Pavon) Oken.</sci_name>
-    <gs_id>CORDALLI</gs_id>
     <inat_taxon>209896</inat_taxon>
     <family>Boraginaceae</family>
     <name>bwa woz (ht), bwa soumi (ht)</name>
@@ -367,9 +349,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="CROTMEGA">
     <sci_name>Croton megalocarpus Hutch.</sci_name>
-    <gs_id>CROTMEGA</gs_id>
     <family>Euphorbiaceae</family>
     <first_locn>tz</first_locn>
     <native_range>Sub-Saharan Africa</native_range>
@@ -382,9 +363,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="CUPRLUSI">
     <sci_name>Cupressus lusitanica Mill.</sci_name>
-    <gs_id>CUPRLUSI</gs_id>
     <family>Cupressaceae</family>
     <first_locn>tz</first_locn>
     <native_range>Central America</native_range>
@@ -400,9 +380,8 @@
     </links>
   </taxon>
   
-  <taxon>
+  <taxon id="GMELARBO">
     <sci_name>Gmelina arborea Roxb.</sci_name>
-    <gs_id>GMELARBO</gs_id>
     <inat_taxon>120358</inat_taxon>
     <family>Lamiaceae</family>
     <name>gmelina (en), yemani (sl)</name>
@@ -419,9 +398,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="GLIRSEPI">
     <sci_name>Gliricidia sepium (Jacq.) Steud.</sci_name>
-    <gs_id>GLIRSEPI</gs_id>
     <inat_taxon>163327</inat_taxon>
     <family>Fabaceae</family>
     <name>gliricidia (en)</name>
@@ -437,10 +415,9 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="GREVROBU">
     <sci_name>Grevillea robusta A.Cunn. ex R.Br.</sci_name>
     <family>Proteaceae</family>
-    <gs_id>GREVROBU</gs_id>
     <inat_taxon>77302</inat_taxon>
     <name>silky oak (en)</name>
     <first_locn>tz</first_locn>
@@ -453,9 +430,8 @@
     </links>
   </taxon>
   
-  <taxon>
+  <taxon id="INDE0001">
     <sci_name>Indet. 1</sci_name>
-    <gs_id>INDE0001</gs_id>
     <first_locn>tz</first_locn>
     <notes>
       Similar to CROTMEGA
@@ -463,9 +439,8 @@
     <planted_in>tz</planted_in>
   </taxon>
 
-  <taxon>
+  <taxon id="INDE0002">
     <sci_name>Indet. 2</sci_name>
-    <gs_id>INDE0002</gs_id>
     <first_locn>ht</first_locn>
     <notes>
       Misidentified as a Prunus. Most likely a Rubiaceae.
@@ -478,9 +453,8 @@
     <planted_in>ht</planted_in>
   </taxon>
 
-  <taxon>
+  <taxon id="INDE0003">
     <sci_name>Indet. 3</sci_name>
-    <gs_id>INDE0003</gs_id>
     <first_locn>ht</first_locn>
     <planted_in>ht</planted_in>
     <id_notes><![CDATA[Leaves <b>palmate</b>. Not clear yet if
@@ -488,9 +462,8 @@
     <id_diff>easy</id_diff>
   </taxon>
 
-  <taxon>
+  <taxon id="INGAFEUI">
     <sci_name>Inga feuilleei DC.</sci_name>
-    <gs_id>INGAFEUI</gs_id>
     <family>Fabaceae</family>
     <name>pacay (ht), ice-cream bean (en)</name>
     <first_locn>ht</first_locn>
@@ -509,9 +482,8 @@
     </links>
   </taxon>
   
-  <taxon>
+  <taxon id="MANGINDI">
     <sci_name>Mangifera indica L.</sci_name>
-    <gs_id>MANGINDI</gs_id>
     <family>Anacardiaceae</family>
     <name>mango (en, ht)</name>
     <first_locn>ht</first_locn>
@@ -531,9 +503,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="MANIZAPO">
     <sci_name>Manilkara zapota (L.) P.Royen</sci_name>
-    <gs_id>MANIZAPO</gs_id>
     <family>Sapotaceae</family>
     <name>sapodilla (en), sapoti (ht)</name>
     <first_locn>ht</first_locn>
@@ -552,9 +523,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="MELIBIJU">
     <sci_name>Melicoccus bijugatus Jacq.</sci_name>
-    <gs_id>MELIBIJU</gs_id>
     <family>Sapindaceae</family>
     <name>Spanish lime (en), kenep (ht)</name>
     <first_locn>ht</first_locn>
@@ -570,9 +540,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="MORIOLEI">
     <sci_name>Moringa oleifera Lam.</sci_name>
-    <gs_id>MORIOLEI</gs_id>
     <family>Moringaceae</family>
     <name>doliv (ht), moringa (en)</name>
     <first_locn>ht</first_locn>
@@ -590,9 +559,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="PERSAMER">
     <sci_name>Persea americana Mill.</sci_name>
-    <gs_id>PERSAMER</gs_id>
     <family>Lauraceae</family>
     <name>zaboka (ht), avocado (en)</name>
     <first_locn>ht</first_locn>
@@ -616,9 +584,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="PILITHON">
     <sci_name>Piliostigma thonningii (Schum.) Milne-Redh.</sci_name>
-    <gs_id>PILITHON</gs_id>
     <inat_taxon>592162</inat_taxon>
     <family>Fabaceae</family>
     <name>camel's foot (en)</name>
@@ -634,9 +601,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="PINUPATU">
     <sci_name>Pinus patula Schltdl. &amp; Cham.</sci_name>
-    <gs_id>PINUPATU</gs_id>
     <first_locn>tz</first_locn>
     <notes>
       In Tanzania, the main restoration Pinus species appears to be
@@ -668,9 +634,8 @@
   </taxon>
   -->
 
-  <taxon>
+  <taxon id="PROSJULI">
     <sci_name>Prosopis juliflora (Sw.) DC.</sci_name>
-    <gs_id>PROSJULI</gs_id>
     <family>Fabaceae</family>
     <name>bayawonn (ht)</name>
     <first_locn>ht</first_locn>
@@ -685,9 +650,8 @@
     </links>
   </taxon>
   
-  <taxon>
+  <taxon id="PSIDGUAJ">
     <sci_name>Psidium guajava L.</sci_name>
-    <gs_id>PSIDGUAJ</gs_id>
     <family>Myrtaceae</family>
     <name>guava (en)</name>
     <first_locn>ht</first_locn>
@@ -702,9 +666,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="SENNSIAM">
     <sci_name>Senna siamea (Lam.) Irwin et Barneby</sci_name>
-    <gs_id>SENNSIAM</gs_id>
     <inat_taxon>208839</inat_taxon>
     <family>Fabaceae</family>
     <name>siamese cassia, kassod (en)</name>
@@ -726,9 +689,8 @@
     </links>
  </taxon>
 
-  <taxon>
+  <taxon id="SIMAGLAU">
     <sci_name>Simarouba glauca DC. var. latifolia Cronq.</sci_name>
-    <gs_id>SIMAGLAU</gs_id>
     <inat_taxon>884600</inat_taxon>
     <family>Simaroubaceae</family>
     <name>bwa fwenn (ht), bwa blan (ht), doliv (ht), simarouba (en),
@@ -747,9 +709,8 @@
   </taxon>
 
   
-  <taxon>
+  <taxon id="TAMAINDI">
     <sci_name>Tamarindus indica L.</sci_name>
-    <gs_id>TAMAINDI</gs_id>
     <family>Fabaceae</family>
     <name>tamarind (en), tamren (ht)</name>
     <first_locn>ht</first_locn>
@@ -765,9 +726,8 @@
     </links>
   </taxon>
   
-  <taxon>
+  <taxon id="TECTGRAN">
     <sci_name>Tectona grandis L.f.</sci_name>
-    <gs_id>TECTGRAN</gs_id>
     <family>Lamiaceae</family>
     <name>teak (en)</name>
     <first_locn>tz</first_locn>
@@ -781,9 +741,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="TERMCATA">
     <sci_name>Terminalia catappa L.</sci_name>
-    <gs_id>TERMCATA</gs_id>
     <family>Combretaceae</family>
     <name>sea almond (en), zanmann (ht), ketapang (id)</name>
     <first_locn>ht</first_locn>
@@ -801,9 +760,8 @@
     </links>
   </taxon>
   
-  <taxon>
+  <taxon id="TERMIVOR">
     <sci_name>Terminalia ivorensis A.Chev.</sci_name>
-    <gs_id>TERMIVOR</gs_id>
     <family>Combretaceae</family>
     <name>ronko (sl), bagyi (sl), idigbo (en)</name>
     <first_locn>sl</first_locn>
@@ -829,9 +787,8 @@
     </links>
   </taxon>
 
-  <taxon>
+  <taxon id="THEOCACA">
     <sci_name>Theobroma cacao L.</sci_name>
-    <gs_id>THEOCACA</gs_id>
     <family>Malvaceae</family>
     <name>cacao (en)</name>
     <first_locn>ht</first_locn>
@@ -855,9 +812,8 @@
 </gs_taxa>
 
 <!-- template
-  <taxon>
+  <taxon id="">
     <sci_name></sci_name>
-    <gs_id></gs_id>
     <inat_taxon></inat_taxon>
     <family></family>
     <name></name>

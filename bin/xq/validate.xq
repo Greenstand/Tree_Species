@@ -4,8 +4,8 @@
 <errors>
 {
 (: find non-unique indiv ids :)
-for $i in distinct-values(//taxon/gs_id)
-let $j := //taxon[gs_id = $i]
+for $i in distinct-values(//taxon/@id)
+let $j := //taxon[@id = $i]
 where count($j) > 1
 return element non_uniq_count {
   attribute gs_id {$i},

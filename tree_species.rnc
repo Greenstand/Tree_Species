@@ -3,12 +3,12 @@ default namespace = ""
 start =
    element gs_taxa {
       element taxon {
+         attribute id { xsd:ID } &
          element sci_name { text } &
          element exotic_in {
             list { xsd:NCName+ }
          }? &
          element family { xsd:NCName }? &
-         element gs_id { xsd:NCName } &
          element inat_taxon { xsd:integer }? &
          element name { text }? &
          # the country being considered where the species was first
