@@ -809,6 +809,45 @@
     </links>
   </taxon>
 
+  <country id="ht">
+    <notes>
+      1. from https://www.theevertree.com/haiti "Agroforestry Species"
+      Gliricidia sepium  
+      Leucaena leucocephala 
+      Lysiloma sabicu Benth. 
+      Roystonea borinquena 
+      Senna siamea  
+      Swietenia mahagoni 
+
+      2. from Landscape Factors and Restoration Practices Associated with
+      Initial Reforestation Success in Haiti Starry D. Sprenkle-Hyppolite et al.
+      Azadirachta indica, neem, "nim"
+      Enterolobium cyclocarpum, “bwa taniswouj”
+      Eucalyptus camaldulensis, “ekiliptus”
+
+      3. from Bwa Yo, Joel Timyan
+      Cordia alliodora 
+    </notes>
+  </country>
+
+  <country id="sl">
+    <notes>
+      1. spreadsheet for Freetown from Zaven:
+      Jackfruit	Artocarpus heterophyllus 
+      Albizia zygia	Albizia zygia
+      Flame of the forest	Delonix regia 
+      Ronko/Baggi	Terminalia ivorensis
+      TROPICAL ALMOND
+    </notes>
+  </country>
+  
+  <country id="tz">
+    <notes/>
+    <links>
+      <link>https://www.flickr.com/photos/ncordeiro/albums</link>
+    </links>
+  </country>
+  
 </gs_taxa>
 
 <!-- template
@@ -830,46 +869,13 @@
       <link></link>
     </links>
   </taxon>
--->
 
-<!-- 
-
-Other Haiti tree taxa
-
-1. from https://www.theevertree.com/haiti "Agroforestry Species"
-
-Gliricidia sepium  
-Leucaena leucocephala 
-Lysiloma sabicu Benth. 
-Roystonea borinquena 
-Senna siamea  
-Swietenia mahagoni 
-
-2. from Landscape Factors and Restoration Practices Associated with Initial 
-   Reforestation Success in Haiti Starry D. Sprenkle-Hyppolite et al.
-
-Azadirachta indica, neem, "nim"
-Enterolobium cyclocarpum, “bwa taniswouj”
-Eucalyptus camaldulensis, “ekiliptus”
-
-3. from Bwa Yo, Joel Timyan
-
-Cordia alliodora 
-
+  <country id="">
+    <notes></notes>
+    <links>
+      <link></link>
+    </links>
+  </country>
 
 -->
 
-<!-- Sierra leone, from Zaven:
-
-Jackfruit	Artocarpus heterophyllus 
-Albizia zygia	Albizia zygia
-Flame of the forest	Delonix regia 
-Ronko	Terminalia ivorensis
-
-
-ALBIZIA
-BAGGI/RONKO/TERMINALIA
-FLAME OF THE FOREST
-TROPICAL ALMOND
-
- -->

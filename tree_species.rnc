@@ -28,10 +28,19 @@ start =
          element uses {
             list { xsd:NCName+ }
          }? &
-         element links {
-            element link { xsd:anyURI }* &
-            element wp { xsd:anyURI }?
-         }?
-      }+
+         links?
+      }+ ,
+      element country {
+         attribute id { xsd:ID } &
+         element notes { text }? &
+         links?
+      }*      
    }
-   
+
+links =
+   element links {
+      element link { xsd:anyURI }* &
+      element wp { xsd:anyURI }?
+   }
+
+         

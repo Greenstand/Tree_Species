@@ -1,22 +1,49 @@
 #!/bin/gawk -f 
 
 BEGIN{
+  MINSIZE = 100000
   # Usages test
   if (ARGC != 6) {
     print"Usage: get_images <file> <sampling_start> <sampling_step> <max> <prefix>"
     exit 1
   }
 
-  i = j = 0
+  # test for downloaded file
+  cmd = "test -f downloaded ; echo $?"
+  cmd | getline downloaded_exists
+  close(cmd)
+  if (!downloaded_exists)
+    while ((getline < "downloaded") > 0)
+      already[$1]++
+  
+  x = ARGV[2]
   while ((getline < ARGV[1]) > 0) {
-    if (i >= ARGV[2]) {
-      if (((i % ARGV[3]) == 0) && (j <= ARGV[4])) {
-        print i
-        system("curl -s -L " $0 " > '" ARGV[5] "_"    \
-               gensub(/^.*\//,"","G",$0)"'")
-        j++
-      }
-    }
     i++
+    uuid = gensub(\
+     /.*_([a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})_.*$/, \
+     "\\1","G",$0)      
+    if ((i >= ARGV[2]) && (n < ARGV[4]) && (i == x)) {
+      if (already[uuid]) {
+        print i ": already downloaded, skipping..."
+      }
+      else {
+        # first time to get size
+        cmd = "curl -s -I " $0 " | grep Content-Length"
+        cmd | getline size
+        close(cmd)
+        split(size, s)
+        print i ": size: " s[2] 
+        if (s[2] >= MINSIZE) {
+          n++
+          print "  fetching... (" n ")"
+          system("curl -s -L " $0 " > '" ARGV[5] "_"    \
+                 gensub(/^.*\//,"","G",$0)"'")
+          print uuid >> "downloaded"
+          close("downloaded")
+        }
+      }
+      # next one
+      x = i + ARGV[3]
+    }
   }
 }
