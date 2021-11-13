@@ -2,7 +2,7 @@
   <!-- External information about tree species used in the Greenstand project.
        See tree_species.rnc for field descriptions.
   -->
-  <taxon id="CITR0000">
+  <taxon id="ACACAURI">
     <sci_name>Acacia auriculiformis A.Cunn. ex Benth.</sci_name>
     <family>Fabaceae</family>
     <name>earleaf acacia (en)</name>
