@@ -5,26 +5,29 @@ start =
       element taxon {
          attribute id { xsd:ID } &
          element sci_name { text } &
-         element exotic_in {
-            list { xsd:NCName+ }
-         }? &
          element family { xsd:NCName }? &
-         element inat_taxon { xsd:integer }? &
          element name { text }? &
-         # the country being considered where the species was first
-         # added to the DB. Does not mean the species is actually
-         # native in the country or planted there.
-         element first_locn { xsd:NCName } &
+         element inat_taxon { xsd:integer }? &
+         # first_locn the country being considered where the species
+         # was first added to the DB. Does not mean the species is
+         # actually native in the country or planted there.
+         element first_locn {
+            attribute ref { xsd:IDREF }
+         }? &
+         # Note: this maybe valid, but jing gives error if ID-types are not
+         # attributes: element native_in { list { xsd:IDREF+ } }?
          element native_in {
-            list { xsd:NCName+ }
-         }? &
+            attribute ref { xsd:IDREF }
+         }* &
+         element exotic_in {
+            attribute ref { xsd:IDREF }
+         }* &
          element planted_in {
-            list { xsd:NCName+ }
-         }? &
+            attribute ref { xsd:IDREF }
+         }* &
          element native_range { text }? &
          element notes { text }? &
          element id_notes { text }? &
-         element id_diff { xsd:NCName }? &
          element cf {
             attribute ref { xsd:IDREF }
          }* &

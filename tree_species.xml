@@ -6,10 +6,10 @@
     <sci_name>Acacia auriculiformis A.Cunn. ex Benth.</sci_name>
     <family>Fabaceae</family>
     <name>earleaf acacia (en)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>Australasia</native_range>
-    <exotic_in>ht</exotic_in>
-    <planted_in>ht</planted_in>
+    <exotic_in ref="ht"/>
+    <planted_in ref="ht"/>
     <id_notes>
        <![CDATA[Distinctive, curved leaf with several <b>parallel
        midribs</b> (the ‘leaf’ is actually a flattened rachis). A
@@ -17,8 +17,7 @@
        so if there are two such species planted in the same area, care
        must be taken. Leaves alternate.]]>
     </id_notes>
-    <id_diff>easy</id_diff>
-    <notes>
+        <notes>
       Assuming that the acacia in Haiti is this one, based on various
       online lists of planting projects. There are several similar
       species that are hard to tell apart as seedlings (e.g., Acacia
@@ -34,17 +33,18 @@
     <sci_name>Anacardium occidentale L.</sci_name>
     <family>Anacardiaceae</family>
     <name>cashew (en), nwa o pom (ht)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>Northern South America</native_range>
-    <exotic_in>ht sl</exotic_in>
-    <planted_in>ht sl</planted_in>
+    <exotic_in ref="ht"/>
+    <planted_in ref="ht"/>
+    <exotic_in ref="sl"/>
+    <planted_in ref="sl"/>
     <uses>food charcoal firewood</uses>
     <id_notes>
       Leaves alternate. Petiole short. In older seedlings, secondary
       veins almost perpendicular to midrib. Leaf sometimes reddish.
     </id_notes>
-    <id_diff>medium</id_diff>
-    <notes>Native range probably does not include
+        <notes>Native range probably does not include
     Haiti. Pre-domemestication species from NE Amazon Basin.</notes>
     <links>
       <wp>https://en.wikipedia.org/wiki/Cashew</wp>
@@ -56,15 +56,15 @@
     <sci_name>Annona muricata L.</sci_name>
     <family>Annonaceae</family>
     <name>soursop (en), korosol (ht)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>Caribbean and Central America</native_range>
-    <planted_in>ht sl</planted_in>
-    <exotic_in>sl</exotic_in>
+    <planted_in ref="ht"/>
+    <planted_in ref="sl"/>
+    <exotic_in ref="sl"/>
     <uses>food</uses>
     <id_notes>Leaves alternate, elliptic, with glossy upper
     surface. Secondary veins not visible.</id_notes>
-    <id_diff>medium</id_diff>
-    <notes>Location of original domestication uncertain.</notes>
+        <notes>Location of original domestication uncertain.</notes>
     <links>
       <wp>https://en.wikipedia.org/wiki/Soursop</wp>
       <link>https://www.biodiversitylibrary.org/page/7775858</link>
@@ -75,7 +75,7 @@
     <sci_name>Annona reticulata L.</sci_name>
     <family>Annonaceae</family>
     <name>bullock's heart (en)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>Northern South America</native_range>
     <uses>food</uses>
     <notes>This Annona species has fruits ripening flesh-pink, with
@@ -83,8 +83,7 @@
     <id_notes><![CDATA[Leaves alternate, held disticous in older
     plants. Leaf elliptic to oblong. Secondary veins impressed into
     leaf blade.]]></id_notes>
-    <id_diff>medium</id_diff>
-    <links>
+        <links>
       <wp>https://en.wikipedia.org/wiki/Annona_reticulata</wp>
     </links>
   </taxon>
@@ -93,17 +92,16 @@
     <sci_name>Annona squamosa L.</sci_name>
     <family>Annonaceae</family>
     <name>sweetsop (en), custard apple (en), cashima (ht)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>Northern South America</native_range>
-    <planted_in>ht</planted_in>
+    <planted_in ref="ht"/>
     <uses>food</uses>
     <notes>Seems that the Annona grown in Haiti and called cashima is
     A. squamosa, with the large, rounded protrusions on fruit.</notes>
     <id_notes><![CDATA[Leaves alternate, held disticous in older
     plants. Leaf elliptic, light green. Secondary veins appear pale on
     leaf blade.]]></id_notes>
-    <id_diff>medium</id_diff>
-    <links>
+        <links>
       <wp>https://en.wikipedia.org/wiki/Annona_squamosa</wp>
       <link>https://guyanesegirlhaitiansoul.wordpress.com/2017/08/10/custard-apple-and-cashima/</link>
       <link>http://wiwords.com/word/sweetsop</link>
@@ -114,10 +112,10 @@
     <sci_name>Artocarpus altilis (Parkinson) Fosberg</sci_name>
     <family>Moraceae</family>
     <name>breadfruit (en), lam veritab (ht)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>Southeast Asia</native_range>
-    <exotic_in>ht</exotic_in>
-    <planted_in>ht</planted_in>
+    <exotic_in ref="ht"/>
+    <planted_in ref="ht"/>
     <uses>food</uses>
     <id_notes><![CDATA[Leaves alternate, tough, dark-green
     leaves. Youngest seedlings with serrated leaf margin, soon
@@ -138,10 +136,10 @@
     <sci_name>Artocarpus camansi</sci_name>
     <family>Moraceae</family>
     <name>breadnut (en), labapen (ht)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>Maluku, New Guinea</native_range>
-    <exotic_in>ht</exotic_in>
-    <planted_in>ht</planted_in>
+    <exotic_in ref="ht"/>
+    <planted_in ref="ht"/>
     <uses>food</uses>
     <id_notes><![CDATA[Leaves alternate, tough, dark-green
     leaves. Youngest seedlings with serrated leaf margin, soon
@@ -163,11 +161,11 @@
     <inat_taxon>319135</inat_taxon>
     <family>Meliaceae</family>
     <name>neem (in, en), dogoyaro (ng)</name>
-    <first_locn>sl</first_locn>
+    <first_locn ref="sl"/>
     <native_range>India, Indochina</native_range>
-    <native_in>in</native_in>
-    <exotic_in>sl</exotic_in>
-    <planted_in>sl</planted_in>
+    <native_in ref="in"/>
+    <exotic_in ref="sl"/>
+    <planted_in ref="sl"/>
     <uses>medicine insecticide</uses>
     <id_notes><![CDATA[Leaves alternate, imparipinnate. Leaflets 10 to 30, <b>serrate</b>.]]></id_notes>
     <links>
@@ -179,9 +177,9 @@
   <taxon id="CALOCALA">
     <sci_name>Calophyllum calaba Jacq.</sci_name>
     <inat_taxon>957518</inat_taxon>
-    <first_locn>ht</first_locn>
-    <exotic_in>ht</exotic_in>
-    <planted_in>ht</planted_in>
+    <first_locn ref="ht"/>
+    <exotic_in ref="ht"/>
+    <planted_in ref="ht"/>
     <family>Clusiaceae</family>
     <notes>
       Calophyllum species are very hard to ID form leaves - thre are
@@ -204,8 +202,8 @@
   <taxon id="CASUEQUI">
     <sci_name>Casuarina equisetifolia L.</sci_name>
     <inat_taxon>62888</inat_taxon>
-    <first_locn>tz</first_locn>
-    <planted_in>tz</planted_in>
+    <first_locn ref="tz"/>
+    <planted_in ref="tz"/>
     <family>Casuarinaceae</family>
     <notes>
       It appears from iNaturalist and other resources (e.g.,
@@ -224,15 +222,14 @@
       chèn (ht), Haitian catalpa (en), Jamaican oak (en), Spanish oak (en),
       yokewood (en)
     </name>
-    <first_locn>ht</first_locn>
-    <native_in>ht</native_in>
-    <planted_in>ht</planted_in>
+    <first_locn ref="ht"/>
+    <native_in ref="ht"/>
+    <planted_in ref="ht"/>
     <id_notes><![CDATA[Leaves <b>opposite</b> with long, thin
     peioles. Margin sometimes appearing sometimes coursely serrate but
     maybe just undulate. Leaves of young seedlings usually with pale
     yeallow <b>variegation</b> streaks on leaf.]]></id_notes>
-    <id_diff>medium</id_diff>
-    <inat_taxon>430790</inat_taxon>
+        <inat_taxon>430790</inat_taxon>
     <links>
       <link>https://www.gbif.org/occurrence/gallery?taxon_key=3172614</link>
     </links>
@@ -242,30 +239,28 @@
     <sci_name>Cedrela odorata L.</sci_name>
     <family>Meliaceae</family>
     <name>sed (ht), sède (ht), Spanish cedar (en)</name>
-    <first_locn>ht</first_locn>
-    <planted_in>ht</planted_in>
+    <first_locn ref="ht"/>
+    <planted_in ref="ht"/>
     <id_notes><![CDATA[Leaves alternate, <b>imparipinnate</b>, with
     3-6 opposite leaflets. Secondary veins on leaflets faint, paler
     than lamina where visible, 5-8 pairs.]]></id_notes>
-    <id_diff>medium</id_diff>
-    <notes>commercially important</notes>
-    <native_in>ht</native_in>
+        <notes>commercially important</notes>
+    <native_in ref="ht"/>
   </taxon>
 
   <taxon id="CITR0000">
     <sci_name>Citrus</sci_name>
     <family>Rutaceae</family>
     <name>citrus (en)</name>
-    <first_locn>ht</first_locn>
-    <exotic_in>ht</exotic_in>
-    <planted_in>ht</planted_in>
+    <first_locn ref="ht"/>
+    <exotic_in ref="ht"/>
+    <planted_in ref="ht"/>
     <uses>food</uses>
     <id_notes><![CDATA[Leaves alternate. <b>Petiole winged</b>,
     obovately. Leaf blade obovate, dark green. Secondary veins
     obsure. Citrus (hybrid) species are difficult to tell apart. Use
     this genus-level class for most citrus IDs.]]></id_notes>
-    <id_diff>hard</id_diff>
-    <native_range>South Asia to Australia</native_range>
+        <native_range>South Asia to Australia</native_range>
     <links>
       <wp>https://en.wikipedia.org/wiki/Citrus</wp>
     </links>
@@ -275,14 +270,13 @@
     <sci_name>Citrus × aurantium L.</sci_name>
     <family>Rutaceae</family>
     <name>sour orange (en), zoranj si (ht)</name>
-    <first_locn>ht</first_locn>
-    <exotic_in>ht</exotic_in>
-    <planted_in>ht</planted_in>
+    <first_locn ref="ht"/>
+    <exotic_in ref="ht"/>
+    <planted_in ref="ht"/>
     <uses>food</uses>
     <id_notes>May be impossible to differentiate from other
     citrus.</id_notes>
-    <id_diff>hard</id_diff>
-    <notes>
+        <notes>
       From the ORE website: "Wild sour oranges abound in most of the
       project areas." This variety may have long become
       widely naturalized.
@@ -296,12 +290,11 @@
     <sci_name>Citrus × aurantiifolia (Christm.) Swingle</sci_name>
     <family>Rutaceae</family>
     <name>key lime (en), citron (ht)</name>
-    <first_locn>ht</first_locn>
-    <exotic_in>ht</exotic_in>
-    <planted_in>ht</planted_in>
+    <first_locn ref="ht"/>
+    <exotic_in ref="ht"/>
+    <planted_in ref="ht"/>
     <uses>food</uses>
-    <id_diff>hard</id_diff>
-    <notes>A hybrid: Citrus micrantha × Citrus medica</notes>
+        <notes>A hybrid: Citrus micrantha × Citrus medica</notes>
     <links>
       <wp>https://en.wikipedia.org/wiki/Key_lime</wp>
     </links>
@@ -311,13 +304,12 @@
     <sci_name>Codiaeum variegatum (L.) A.Juss.</sci_name>
     <family>Euphorbiaceae</family>
     <name>variegated croton</name>
-    <first_locn>sl</first_locn>
+    <first_locn ref="sl"/>
     <native_range>Malesia</native_range>
-    <exotic_in>sl</exotic_in>
-    <planted_in>sl</planted_in>
+    <exotic_in ref="sl"/>
+    <planted_in ref="sl"/>
     <id_notes><![CDATA[Leaves alternate; petioles thick, curved; leaves obovate, <b>veriegated</b>.]]></id_notes>
-    <id_diff>easy</id_diff>
-    <notes>Common decorative plant throughout tropics. Appears to be
+        <notes>Common decorative plant throughout tropics. Appears to be
     planted in Freetown GS photos
     (5451a835-162b-481d-8583-aa10c0477ecc)</notes>
     <links>
@@ -328,11 +320,10 @@
   <taxon id="COCONUCI">
     <sci_name>Cocos nucifera L.</sci_name>
     <family>Arecaceae</family>
-    <first_locn>ht</first_locn>
-    <planted_in>ht</planted_in>
-    <id_diff>easy</id_diff>
-    <native_range>Southeast Asia and Melanesia</native_range>
-    <exotic_in>ht</exotic_in>
+    <first_locn ref="ht"/>
+    <planted_in ref="ht"/>
+        <native_range>Southeast Asia and Melanesia</native_range>
+    <exotic_in ref="ht"/>
     <name>kokoye (ht), coconut (en)</name>
     <uses>food cash_crop</uses>
     <id_notes><![CDATA[Leaves emerge spirally from a hidden apex. Venation
@@ -346,14 +337,14 @@
     <sci_name>Colubrina arborescens (Mill.) Sarg.</sci_name>
     <family>Rhamnaceae</family>
     <name>bwa ple (ht), kapab (ht), greenheart (en)</name>
-    <first_locn>ht</first_locn>
-    <native_in>us ht</native_in>
-    <planted_in>ht</planted_in>
+    <first_locn ref="ht"/>
+    <native_in ref="us"/>
+    <native_in ref="ht"/>
+    <planted_in ref="ht"/>
     <id_notes><![CDATA[Leaves alternate, glossy dark green
     above. Rusty pubescence on twigs and petiole. Tertiary nerves
     depressed into upper surface of leaf.]]></id_notes>
-    <id_diff>medium</id_diff>
-    <notes>See 'Bwa Yo' Joel Timyan</notes>
+        <notes>See 'Bwa Yo' Joel Timyan</notes>
     <links>
       <link>https://pdf.usaid.gov/pdf_docs/PNACA072.pdf</link>
       <link>https://www.theevertree.com/haiti</link>
@@ -365,14 +356,13 @@
     <inat_taxon>209896</inat_taxon>
     <family>Boraginaceae</family>
     <name>bwa woz (ht), bwa soumi (ht)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>Caribbean, Central and South America</native_range>
-    <native_in>ht</native_in>
-    <planted_in>ht</planted_in>
+    <native_in ref="ht"/>
+    <planted_in ref="ht"/>
     <uses>timber</uses>
     <id_notes><![CDATA[Leaves althernate.]]></id_notes>
-    <id_diff>hard</id_diff>
-    <links>
+        <links>
       <link>https://pdf.usaid.gov/pdf_docs/PNACA072.pdf</link>
     </links>
   </taxon>
@@ -380,9 +370,9 @@
   <taxon id="CROTMEGA">
     <sci_name>Croton megalocarpus Hutch.</sci_name>
     <family>Euphorbiaceae</family>
-    <first_locn>tz</first_locn>
+    <first_locn ref="tz"/>
     <native_range>Sub-Saharan Africa</native_range>
-    <planted_in>tz</planted_in>
+    <planted_in ref="tz"/>
     <uses>firewood charcoal</uses>
     <inat_taxon>133588</inat_taxon>
     <links>
@@ -394,10 +384,10 @@
   <taxon id="CUPRLUSI">
     <sci_name>Cupressus lusitanica Mill.</sci_name>
     <family>Cupressaceae</family>
-    <first_locn>tz</first_locn>
+    <first_locn ref="tz"/>
     <native_range>Central America</native_range>
-    <exotic_in>tz</exotic_in>
-    <planted_in>tz</planted_in>
+    <exotic_in ref="tz"/>
+    <planted_in ref="tz"/>
     <notes>
       Most of these are placed here by inferrence “Cupressus in TZ”
     </notes>
@@ -413,11 +403,13 @@
     <inat_taxon>120358</inat_taxon>
     <family>Lamiaceae</family>
     <name>gmelina (en), yemani (sl)</name>
-    <first_locn>sl</first_locn>
+    <first_locn ref="sl"/>
     <native_range>India and Indochina</native_range>
-    <native_in>in th vn</native_in>
-    <exotic_in>sl</exotic_in>
-    <planted_in>sl</planted_in>
+    <native_in ref="in"/>
+    <native_in ref="th"/>
+    <native_in ref="vn"/>
+    <exotic_in ref="sl"/>
+    <planted_in ref="sl"/>
     <uses>construction</uses>
     <id_notes><![CDATA[Leaves opposite, broadly <b>ovate</b>, deeply
     <b>serrate</b> in seedlings, entier in adults.]]></id_notes>
@@ -431,11 +423,11 @@
     <inat_taxon>163327</inat_taxon>
     <family>Fabaceae</family>
     <name>gliricidia (en)</name>
-    <first_locn>sl</first_locn>
+    <first_locn ref="sl"/>
     <native_range>Mexico and Central America</native_range>
-    <native_in>mx</native_in>
-    <exotic_in>sl</exotic_in>
-    <planted_in>sl</planted_in>
+    <native_in ref="mx"/>
+    <exotic_in ref="sl"/>
+    <planted_in ref="sl"/>
     <uses>fodder firewood</uses>
     <id_notes><![CDATA[Leaves alternate, imparipinnate. Leaflets elliptical, entire. Secondary veins obscure.]]></id_notes>
     <links>
@@ -448,10 +440,10 @@
     <family>Proteaceae</family>
     <inat_taxon>77302</inat_taxon>
     <name>silky oak (en)</name>
-    <first_locn>tz</first_locn>
+    <first_locn ref="tz"/>
     <native_range>Australia</native_range>
-    <exotic_in>tz</exotic_in>
-    <planted_in>tz</planted_in>
+    <exotic_in ref="tz"/>
+    <planted_in ref="tz"/>
     <uses>timber firewood mulch shade</uses>
     <links>
       <wp>https://en.wikipedia.org/wiki/Grevillea_robusta</wp>
@@ -460,16 +452,16 @@
   
   <taxon id="INDE0001">
     <sci_name>Indet. 1</sci_name>
-    <first_locn>tz</first_locn>
+    <first_locn ref="tz"/>
     <notes>
       Similar to CROTMEGA
     </notes>
-    <planted_in>tz</planted_in>
+    <planted_in ref="tz"/>
   </taxon>
 
   <taxon id="INDE0002">
     <sci_name>Indet. 2</sci_name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <notes>
       Misidentified as a Prunus. Most likely a Rubiaceae.
     </notes>
@@ -477,33 +469,30 @@
     pale midrib. Longer twigs tend towards growing horizontally; then
     leaves are held in a single plane.]]>
     </id_notes>
-    <id_diff>medium</id_diff>
-    <planted_in>ht</planted_in>
+        <planted_in ref="ht"/>
   </taxon>
 
   <taxon id="INDE0003">
     <sci_name>Indet. 3</sci_name>
-    <first_locn>ht</first_locn>
-    <planted_in>ht</planted_in>
+    <first_locn ref="ht"/>
+    <planted_in ref="ht"/>
     <id_notes><![CDATA[Leaves <b>palmate</b>. Not clear yet if
     alternate or opposite.]]></id_notes>
-    <id_diff>easy</id_diff>
-  </taxon>
+      </taxon>
 
   <taxon id="INGAFEUI">
     <sci_name>Inga feuilleei DC.</sci_name>
     <family>Fabaceae</family>
     <name>pacay (ht), ice-cream bean (en)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>NW South America</native_range>
-    <exotic_in>ht</exotic_in>
-    <planted_in>ht</planted_in>
+    <exotic_in ref="ht"/>
+    <planted_in ref="ht"/>
     <uses>food</uses>
     <id_notes><![CDATA[Leaves alternate. In young seedlings, leaf
     consists of <b>winged rachis</b> and only <b>two opposite</b>
     leaflets.]]></id_notes>
-    <id_diff>easy</id_diff>
-    <notes>So far (2021-03-23) just making assumption that the Inga in
+        <notes>So far (2021-03-23) just making assumption that the Inga in
     Haiti planting photos is this one.</notes>
     <links>
       <wp>https://en.wikipedia.org/wiki/Inga_feuilleei</wp>
@@ -514,10 +503,12 @@
     <sci_name>Mangifera indica L.</sci_name>
     <family>Anacardiaceae</family>
     <name>mango (en, ht)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>South India</native_range>
-    <planted_in>ht sl</planted_in>
-    <exotic_in>ht sl</exotic_in>
+    <planted_in ref="ht"/>
+    <exotic_in ref="ht"/>
+    <planted_in ref="sl"/>
+    <exotic_in ref="sl"/>
     <uses>firewood food</uses>
     <notes>Can be pruned multiple times for firewood</notes>
     <id_notes><![CDATA[Leaves alternate. Petiole long. Leaves long,
@@ -525,8 +516,7 @@
     midrib. Compare with <a
     href="https://herbarium.treetracker.org/guide/ANACOCCI.html">cashew</a>.]]>
     </id_notes>
-    <id_diff>medium</id_diff>
-    <links>
+        <links>
       <wp>https://en.wikipedia.org/wiki/Mango</wp>
     </links>
   </taxon>
@@ -535,17 +525,16 @@
     <sci_name>Manilkara zapota (L.) P.Royen</sci_name>
     <family>Sapotaceae</family>
     <name>sapodilla (en), sapoti (ht)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>Southern Mexico, Central America and the
     Caribbean</native_range>
-    <planted_in>ht</planted_in>
+    <planted_in ref="ht"/>
     <uses>food</uses>
     <id_notes><![CDATA[Leaves alternate, elliptic, glossy above. Secondary
       veins inconspicuous. Compare with <a
       href="https://herbarium.treetracker.org/guide/ANNOMURI.html">ANNOMURI</a>.
       ]]></id_notes>
-    <id_diff>medium</id_diff>
-    <links>
+        <links>
       <wp>https://en.wikipedia.org/wiki/Manilkara_zapota</wp>
       <link>http://wiwords.com/word/sapoti</link>
     </links>
@@ -555,10 +544,10 @@
     <sci_name>Melicoccus bijugatus Jacq.</sci_name>
     <family>Sapindaceae</family>
     <name>Spanish lime (en), kenep (ht)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>Northern South and Central America</native_range>
-    <exotic_in>ht</exotic_in>
-    <planted_in>ht</planted_in>
+    <exotic_in ref="ht"/>
+    <planted_in ref="ht"/>
     <uses>food</uses>
     <id_notes>Rachis of leaves (in young plants?) can be winged and
     may be confused with Inga.</id_notes>
@@ -572,16 +561,17 @@
     <sci_name>Moringa oleifera Lam.</sci_name>
     <family>Moringaceae</family>
     <name>doliv (ht), moringa (en)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>India</native_range>
-    <exotic_in>ht sl</exotic_in>
-    <planted_in>ht sl</planted_in>
+    <exotic_in ref="ht"/>
+    <planted_in ref="ht"/>
+    <exotic_in ref="sl"/>
+    <planted_in ref="sl"/>
     <uses>food</uses>
     <notes>Planted by Forest Nation in Haiti</notes>
     <id_notes><![CDATA[Leaves alternate,
     <b>bipinnate</b>. Leaflets oval.]]></id_notes>
-    <id_diff>easy</id_diff>
-    <links>
+        <links>
       <wp>https://en.wikipedia.org/wiki/Moringa_oleifera</wp>
       <link>https://forestnation.com/blog/haiti/</link>
     </links>
@@ -591,17 +581,16 @@
     <sci_name>Persea americana Mill.</sci_name>
     <family>Lauraceae</family>
     <name>zaboka (ht), avocado (en)</name>
-    <first_locn>ht</first_locn>
-    <planted_in>ht</planted_in>
+    <first_locn ref="ht"/>
+    <planted_in ref="ht"/>
     <native_range>Mexico</native_range>
-    <native_in>mx</native_in>
-    <exotic_in>ht</exotic_in>
+    <native_in ref="mx"/>
+    <exotic_in ref="ht"/>
     <uses>food</uses>
     <id_notes>Leaves alternate. Tending towards obovate, sometime
     reddish when young. Very generic tropical tree seedling leaves.
     </id_notes>
-    <id_diff>hard</id_diff>
-    <notes>
+        <notes>
       Karen: "Seedlings requires a lot of water the first 3
       years". Likely exotic in Haiti: first humans to Haiti ~1,200 AD,
       well after avocado was domesticated.
@@ -617,10 +606,10 @@
     <inat_taxon>592162</inat_taxon>
     <family>Fabaceae</family>
     <name>camel's foot (en)</name>
-    <first_locn>sl</first_locn>
+    <first_locn ref="sl"/>
     <native_range>Central and Southern Africa</native_range>
-    <native_in>sl</native_in>
-    <planted_in>sl</planted_in>
+    <native_in ref="sl"/>
+    <planted_in ref="sl"/>
     <id_notes><![CDATA[Leaves alternate, simple. Leaf apex <b>deeply cleft</b>.]]></id_notes>
     <links>
       <wp>https://en.wikipedia.org/wiki/Piliostigma_thonningii</wp>
@@ -631,15 +620,15 @@
 
   <taxon id="PINUPATU">
     <sci_name>Pinus patula Schltdl. &amp; Cham.</sci_name>
-    <first_locn>tz</first_locn>
+    <first_locn ref="tz"/>
     <notes>
       In Tanzania, the main restoration Pinus species appears to be
       Pinus patula Schltdl. &amp; Cham., a native of Mexico.
       Most of the images are placed here by inferrence “Pinus in TZ”
     </notes>
     <native_range>Mexico</native_range>
-    <planted_in>tz</planted_in>
-    <exotic_in>tz</exotic_in>
+    <planted_in ref="tz"/>
+    <exotic_in ref="tz"/>
     <links>
       <wp>https://en.wikipedia.org/wiki/Pinus_patula</wp>
       <link>https://www.gbif.org/occurrence/gallery?taxon_key=5285090</link>
@@ -666,10 +655,10 @@
     <sci_name>Prosopis juliflora (Sw.) DC.</sci_name>
     <family>Fabaceae</family>
     <name>bayawonn (ht)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>Mexico, South America and the Caribbean</native_range>
-    <native_in>ht</native_in>
-    <planted_in>ht</planted_in>
+    <native_in ref="ht"/>
+    <planted_in ref="ht"/>
     <uses>food forage wood</uses>
     <notes>See 'Bwa Yo' Joel Timyan</notes>
     <links>
@@ -682,14 +671,13 @@
     <sci_name>Psidium guajava L.</sci_name>
     <family>Myrtaceae</family>
     <name>guava (en)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>Caribbean, Central America and South America</native_range>
-    <planted_in>ht</planted_in>
+    <planted_in ref="ht"/>
     <uses>food</uses>
     <id_notes><![CDATA[Leaves <b>opposite</b>. Secondary veins deeply
     <b>sunken</b> into leaf (from above).]]></id_notes>
-    <id_diff>easy</id_diff>
-    <links>
+        <links>
       <wp>https://en.wikipedia.org/wiki/Psidium_guajava</wp>
     </links>
   </taxon>
@@ -699,18 +687,18 @@
     <inat_taxon>208839</inat_taxon>
     <family>Fabaceae</family>
     <name>siamese cassia, kassod (en)</name>
-    <first_locn>sl</first_locn>
+    <first_locn ref="sl"/>
     <native_range>India and SE Asia</native_range>
-    <native_in>in th</native_in>
-    <exotic_in>sl</exotic_in>
-    <planted_in>sl</planted_in>
+    <native_in ref="in"/>
+    <native_in ref="th"/>
+    <exotic_in ref="sl"/>
+    <planted_in ref="sl"/>
     <uses>furniture</uses>
     <id_notes><![CDATA[Leaves alternate, <b>paripinnate</b>. Leaflets
     opposite, 6-16, elliptic. Secondary veins obscure. Leaflets
     similar to GLIRSEPI, but leaf without a terminal
     leaflet.]]></id_notes>
-    <id_diff>medium</id_diff>
-    <notes>Previously called Cassia siamea</notes>
+        <notes>Previously called Cassia siamea</notes>
     <links>
       <wp>https://en.wikipedia.org/wiki/Senna_siamea</wp>
       <link>https://keyserver.lucidcentral.org/weeds/data/media/Html/senna_siamea.htm</link>
@@ -723,15 +711,14 @@
     <family>Simaroubaceae</family>
     <name>bwa fwenn (ht), bwa blan (ht), doliv (ht), simarouba (en),
     princess tree (ht)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>Caribbean, Florida, Central America</native_range>
-    <native_in>ht</native_in>
-    <planted_in>ht</planted_in>
+    <native_in ref="ht"/>
+    <planted_in ref="ht"/>
     <uses>timber</uses>
     <id_notes><![CDATA[Leaves alternate,
     <b>imparipinnate</b>. Leaflets alternate, 6-7 pairs.]]></id_notes>
-    <id_diff>easy</id_diff>
-    <links>
+        <links>
       <link>https://pdf.usaid.gov/pdf_docs/PNACA072.pdf</link>
     </links>
   </taxon>
@@ -741,15 +728,15 @@
     <sci_name>Tamarindus indica L.</sci_name>
     <family>Fabaceae</family>
     <name>tamarind (en), tamren (ht)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>Tropical Africa</native_range>
-    <exotic_in>ht</exotic_in>
-    <planted_in>ht sl</planted_in>
+    <exotic_in ref="ht"/>
+    <planted_in ref="sl"/>
+    <planted_in ref="ht"/>
     <uses>food woodworking</uses>
     <id_notes><![CDATA[Leaves alternate, <b>paripinnate</b>. Leaflets
     opposite on rachis, in 7-8 pairs, oblong in shape.]]></id_notes>
-    <id_diff>medium</id_diff>
-    <links>
+        <links>
       <wp>https://en.wikipedia.org/wiki/Tamarind</wp>
     </links>
   </taxon>
@@ -758,11 +745,13 @@
     <sci_name>Tectona grandis L.f.</sci_name>
     <family>Lamiaceae</family>
     <name>teak (en)</name>
-    <first_locn>tz</first_locn>
+    <first_locn ref="tz"/>
     <native_range>South and Southeast Asia</native_range>
     <uses>boat_building furniture</uses>
-    <planted_in>tz sl</planted_in>
-    <exotic_in>tz sl</exotic_in>
+    <planted_in ref="tz"/>
+    <exotic_in ref="tz"/>
+    <planted_in ref="sl"/>
+    <exotic_in ref="sl"/>
     <inat_taxon>62887</inat_taxon>
     <links>
       <wp>https://en.wikipedia.org/wiki/Teak</wp>
@@ -773,14 +762,13 @@
     <sci_name>Terminalia catappa L.</sci_name>
     <family>Combretaceae</family>
     <name>sea almond (en), zanmann (ht), ketapang (id)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>India to Micronesia</native_range>
-    <exotic_in>ht</exotic_in>
-    <planted_in>ht</planted_in>
+    <exotic_in ref="ht"/>
+    <planted_in ref="ht"/>
     <id_notes>Leaves alternate, obovate. Young seedlings still show
     the first pair of kidney-shaped leaves.</id_notes>
-    <id_diff>hard</id_diff>
-    <uses>shade food</uses>
+        <uses>shade food</uses>
     <links>
       <wp>https://en.wikipedia.org/wiki/Terminalia_catappa</wp>
       <link>http://wiwords.com/word/almond</link>
@@ -792,14 +780,13 @@
     <sci_name>Terminalia ivorensis A.Chev.</sci_name>
     <family>Combretaceae</family>
     <name>ronko (sl), bagyi (sl), idigbo (en)</name>
-    <first_locn>sl</first_locn>
+    <first_locn ref="sl"/>
     <native_range>West Africa</native_range>
-    <native_in>sl</native_in>
-    <planted_in>sl</planted_in>
+    <native_in ref="sl"/>
+    <planted_in ref="sl"/>
     <uses>furniture</uses>
     <id_notes><![CDATA[ ]]></id_notes>
-    <id_diff>diff</id_diff>
-    <notes>There are many Terminalia native to West Africa, plus the
+        <notes>There are many Terminalia native to West Africa, plus the
     ubiquitous T. catappa, and most Terminalia are similar as
     seedlings.  Inferrence (weak): {local name from Freetown planters
     = ronko} + {ronko in online wood database = T. ivorensis} +
@@ -819,10 +806,10 @@
     <sci_name>Theobroma cacao L.</sci_name>
     <family>Malvaceae</family>
     <name>cacao (en)</name>
-    <first_locn>ht</first_locn>
+    <first_locn ref="ht"/>
     <native_range>Northern South America</native_range>
-    <exotic_in>ht</exotic_in>
-    <planted_in>ht</planted_in>
+    <exotic_in ref="ht"/>
+    <planted_in ref="ht"/>
     <uses>food</uses>
     <id_notes><![CDATA[ Leaves alternate. Petiole narrow, at an
     <b>angle to plane of leaf</b>, and <b>swollen ‘knee’</b> at
@@ -830,8 +817,7 @@
     secondary veins. Older plants show a ‘V’ pair of basal secondary
     veins, but these are less obvious in the smaller plants.]]>
     </id_notes>
-    <id_diff>medium</id_diff>
-    <links>
+        <links>
       <wp>https://en.wikipedia.org/wiki/Theobroma_cacao</wp>
       <link>https://doi.org/10.1371/journal.pone.0047676</link>
     </links>
@@ -902,6 +888,12 @@
       <link>http://www.worldcat.org/oclc/26129237</link>
     </links>
   </country>
+
+  <country id="us"/>
+  <country id="vn"/>
+  <country id="in"/>
+  <country id="th"/>
+  <country id="mx"/>
   
 </gs_taxa>
 
@@ -918,8 +910,7 @@
     <planted_in></planted_in>
     <uses></uses>
     <id_notes><![CDATA[ ]]></id_notes>
-    <id_diff></id_diff>
-    <notes></notes>
+        <notes></notes>
     <links>
       <link></link>
     </links>
