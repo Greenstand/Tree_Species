@@ -20,6 +20,7 @@ BEGIN{
     iddiff[$1] = $10
     wp[$1] = $11
     uses[$1] = $12
+    cf[$1] = $13
   }
   close(cmd)
   
@@ -71,13 +72,14 @@ BEGIN{
         xn = (native[j] ~ guide[i]) ? ("<br/><b>Native</b> to " country[i] ) : ""
         r = (range[j]) ? ("<br/>Native range: " range[j] ) : ""
         idn = (idnotes[j]) ? ("<br/><br/><i>ID notes</i>: " idnotes[j] ) : ""
+        cfn = (cf[j]) ? ("<br/><br/><i>Compare with</i>: " cf[j] ) : ""
         # idd = (iddiff[j]) ? ("<br/><i>ID difficulty</i>: " iddiff[j] ) : ""
         pic1 = (hassdlphoto[j]) ? "_sdl.jpg" : firstphoto[j]
         pic2 = (haslfphoto[j]) ? \
           "<img src=\"../taxa/" j "/_lf.jpg\" width=\"180\" alt=\"seedling\"/>" : "&#160;"
 
         print "<tr><td>" ++n "</td>"                                    \
-          "<td><b>" name[j] "</b><br/>" common[j] x xn idn              \
+          "<td><b>" name[j] "</b><br/>" common[j] x xn idn cfn             \
           "</td><td><a href=\"" j ".html\">" j "</a></td>"              \
           "<td><img src=\"../taxa/" j "/" pic1 "\" height=\"180\" alt=\"seedling\"/></td>" \
           "<td>" pic2 "</td>"                                           \
