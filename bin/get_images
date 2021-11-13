@@ -17,27 +17,28 @@ BEGIN{
       already[$1]++
   
   x = ARGV[2]
+  FS="|"
   while ((getline < ARGV[1]) > 0) {
     i++
-    uuid = gensub(\
+    uuid = gensub(                                                      \
      /.*_([a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})_.*$/, \
-     "\\1","G",$0)      
+     "\\1","G",$1)
     if ((i >= ARGV[2]) && (n < ARGV[4]) && (i == x)) {
       if (already[uuid]) {
         print i ": already downloaded, skipping..."
       }
       else {
         # first time to get size
-        cmd = "curl -s -I " $0 " | grep Content-Length"
+        cmd = "curl -s -I " $1 " | grep Content-Length"
         cmd | getline size
         close(cmd)
-        split(size, s)
+        split(size, s, / +/)
         print i ": size: " s[2] 
         if (s[2] >= MINSIZE) {
           n++
           print "  fetching... (" n ")"
-          system("curl -s -L " $0 " > '" ARGV[5] "_"    \
-                 gensub(/^.*\//,"","G",$0)"'")
+          system("curl -s -L " $1 " > '" ARGV[5] "_"    \
+                 gensub(/^.*\//,"","G",$1)"'")
           print uuid >> "downloaded"
           close("downloaded")
         }

@@ -17,7 +17,7 @@ PID=`ps auwx | grep ssh | grep treetracker | gawk '{printf "%d", $2}'`
 
 SQLPW=`grep dbsql passwords | gawk '{printf "%s", $2}'`
 
-psql "sslmode=require host=localhost dbname=treetracker user=readonlyuser port=1111 password=$SQLPW"
+psql -L treetracker_output "sslmode=require host=localhost dbname=treetracker user=readonlyuser port=1111 password=$SQLPW"
 
 # kill tunnel
 kill -9 $PID

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "Backslash-a for unaligned"
+echo -e "\\pset pager 0"
+echo -e "\\o /home/cam/tmp/ttout"
+
+echo "-- get photos of an ID in Admin panel"
+echo "SELECT image_url, CONCAT_WS(' ',first_name, last_name) AS person FROM audit, trees, tree_species, admin_user WHERE (audit.operation->'payload'->>'speciesId')::integer = tree_species.id AND audit.admin_user_id = admin_user.id AND (audit.operation->'payload'->>'id')::integer = trees.id AND tree_species.name = 'SIMAGLAU';"
+
