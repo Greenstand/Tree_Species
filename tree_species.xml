@@ -113,20 +113,48 @@
   <taxon id="ARTOALTA">
     <sci_name>Artocarpus altilis (Parkinson) Fosberg</sci_name>
     <family>Moraceae</family>
-    <name>breadfruit (en), labapen (ht)</name>
+    <name>breadfruit (en), lam veritab (ht)</name>
     <first_locn>ht</first_locn>
     <native_range>Southeast Asia</native_range>
     <exotic_in>ht</exotic_in>
     <planted_in>ht</planted_in>
     <uses>food</uses>
-    <id_notes><![CDATA[Leaves alternate, tough, dark-green leaves. Youngest
-    seedlings with serrated leaf margin, soon becoming <b>deeply incised</b> in
-    older plants.]]></id_notes>
-    <id_diff>easy</id_diff>
-    <notes>Not Artocarpus camansi Blanco, which is the wild relative
-    of breadfruit.</notes>
+    <id_notes><![CDATA[Leaves alternate, tough, dark-green
+    leaves. Youngest seedlings with serrated leaf margin, soon
+    becoming <b>deeply incised</b> in older plants. This change to
+    incised leaves happens <b>later</b> than in ARTOCAMA]]></id_notes>
+    <cf ref="ARTOCAMA"/>
+    <notes>Lam veritab is not generally grown from seed, only
+    cuttings. THTP captures 2021-11-01 to 2021-11-12 are ALTOALTA,
+    verified by Karen Nicolas on 2021-11-12.</notes>
     <links>
       <wp>https://en.wikipedia.org/wiki/Breadfruit</wp>
+      <link>http://www.vincytoronto.com/flyers/2006/Breadfruit%20BreadnutJackfruit.pdf</link>
+      <link>https://ntbg.org/breadfruit/about/species/</link>
+    </links>
+  </taxon>
+
+  <taxon id="ARTOCAMA">
+    <sci_name>Artocarpus camansi</sci_name>
+    <family>Moraceae</family>
+    <name>breadnut (en), labapen (ht)</name>
+    <first_locn>ht</first_locn>
+    <native_range>Maluku, New Guinea</native_range>
+    <exotic_in>ht</exotic_in>
+    <planted_in>ht</planted_in>
+    <uses>food</uses>
+    <id_notes><![CDATA[Leaves alternate, tough, dark-green
+    leaves. Youngest seedlings with serrated leaf margin, soon
+    becoming <b>deeply incised</b> in older plants. This change to
+    incised leaves happens <b>earlier</b> than in
+    ARTOALTA]]></id_notes>
+    <cf ref="ARTOALTA"/>
+    <notes>All Artocarpus in THTP (ht) before Oct 1 2021 were
+    labapen (ARTOCAMA), not lam veritab (ARTOALTA).</notes>
+    <links>
+      <wp>https://en.wikipedia.org/wiki/Artocarpus_camansi</wp>
+      <link>http://www.vincytoronto.com/flyers/2006/Breadfruit%20BreadnutJackfruit.pdf</link>
+      <link>https://ntbg.org/breadfruit/about/species/</link>
     </links>
   </taxon>
 
@@ -842,9 +870,36 @@
   </country>
   
   <country id="tz">
-    <notes/>
+    <notes>
+      ## Usambaras
+      
+      Usambara species from https://doi.org/10.1371/journal.pone.0250859 (via
+      KNB): Albizia gummifera, Albizia sp, Allanblackia stuhlmannii,
+      Allophyllus melliodorus, Anisophyllea obtusifolia, Annickia
+      kummeriae, Anthocleista grandiflora, Antiaris toxicaria, Bersama
+      abyssinica, Blighia unijugata, Bridelia micrantha, Cedrela
+      odorata, Celtis gomphophylla, Cephalosphaera usambarensis,
+      Chrysophyllum perpulchrum, Cinnamomum camphora, Cussonia
+      zimmermannii, Drypetes gerrardii, Ficus altissima, Ficus
+      natalensis, Ficus sp., Ficus sp. [strangler], Ficus
+      sp. [triangular leaves], Greenwayodendron suaveolens, Grevillea
+      robusta, Harungana madagascariensis, Macaranga capensis, Maesa
+      lanceolata, Maesopsis eminii, Maranthes goetzeniana, Newtonia
+      buchananii, Odyendea zimmermannii, Parinari excelsa, Polyscias
+      fulva, Psidium guajava, Rauvolfia caffra, Rhodognaphalon
+      schumannianum, Rinorea ilicifolia, Rubiaceae sp, Rubiaceae sp2,
+      Sapium ellipticum, Sorindeia madagascariensis, Strombosia
+      scheffleri, Synsepalum cerasiferum, Syzygium guineense,
+      Tricalysia sp., Trichilia dregeana, Trichilia emetica,
+      Trilepisium madagascariense, unknown, unknown spp 1, Xylopia
+      aethiopica, Xymalos monospora, Zanha golungensis, Zanthoxylum
+      usambarense
+    </notes>
     <links>
+      <link>https://doi.org/10.1371/journal.pone.0250859</link>
       <link>https://www.flickr.com/photos/ncordeiro/albums</link>
+      <link>https://repository.lib.ncsu.edu/handle/1840.16/2221</link>
+      <link>http://www.worldcat.org/oclc/26129237</link>
     </links>
   </country>
   

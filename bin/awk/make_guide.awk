@@ -21,6 +21,7 @@ BEGIN{
     wp[$1] = $11
     uses[$1] = $12
   }
+  close(cmd)
   
   # Get photos
   cmd = "find ../herbarium/taxa/ -type f -name '*.[jJpP][pPnN][gG]' | sort "\
@@ -36,7 +37,8 @@ BEGIN{
     if ($2 == "_sdl.jpg")
       hassdlphoto[$1] = 1
   }
-
+  close(cmd)
+  
   # Get tag
   "git tag" | getline TAG
 
