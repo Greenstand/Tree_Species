@@ -1,7 +1,7 @@
 BEGIN{
 
-  guides = "ht|sl|tz"
-  countries = "Haiti|Sierra Leone|Tanzania"
+  guides = "co|ht|sl|tz"
+  countries = "Colombia|Haiti|Sierra Leone|Tanzania"
   split(guides,guide,"|")
   split(countries, country,"|")
   

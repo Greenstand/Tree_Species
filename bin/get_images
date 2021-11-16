@@ -1,12 +1,9 @@
 #!/bin/gawk -f 
 
 BEGIN{
-  MINSIZE = 100000
-  # Usages test
-  if (ARGC != 6) {
-    print"Usage: get_images <file> <sampling_start> <sampling_step> <max> <prefix>"
-    exit 1
-  }
+
+  # Set defaults and load args
+  read_args()
 
   # test for downloaded file
   cmd = "test -f downloaded ; echo $?"
@@ -16,14 +13,14 @@ BEGIN{
     while ((getline < "downloaded") > 0)
       already[$1]++
   
-  x = ARGV[2]
+  x = START
   FS="|"
-  while ((getline < ARGV[1]) > 0) {
+  while ((getline < FILE) > 0) {
     i++
     uuid = gensub(                                                      \
      /.*_([a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})_.*$/, \
      "\\1","G",$1)
-    if ((i >= ARGV[2]) && (n < ARGV[4]) && (i == x)) {
+    if ((i >= START) && (n < MAX) && (i == x)) {
       if (already[uuid]) {
         print i ": already downloaded, skipping..."
       }
@@ -37,14 +34,59 @@ BEGIN{
         if (s[2] >= MINSIZE) {
           n++
           print "  fetching... (" n ")"
-          system("curl -s -L " $1 " > '" ARGV[5] "_"    \
-                 gensub(/^.*\//,"","G",$1)"'")
+          if (!STAMPCOL)
+            system("curl -s -L " $1 " > '" PREFIX   \
+                   gensub(/^.*\//,"","G",$1)"'")
+          else {
+            # test
+            if (NF < STAMPCOL) {
+              print "Error: no stamp column" > "/dev/stderr"
+              exit 1
+            }
+            system("curl -s -L " $1 " > _tmpimg")
+            system("convert _tmpimg -auto-orient -font helvetica -pointsize 50 "     \
+                   "-fill blue -gravity SouthEast -draw \"text 60,60 '" \
+                   substr($STAMPCOL, 1, 20) "'\" " PREFIX               \
+                   gensub(/^.*\//,"","G",$1) )
+            system("rm -f _tmpimg")
+          }
           print uuid >> "downloaded"
           close("downloaded")
         }
       }
       # next one
-      x = i + ARGV[3]
+      x = i + STEP
     }
+  }
+}
+
+function read_args(    arg) {
+  # Read arguments, check, give usage. Long args to avoid Gawk clash
+
+  # Defaults
+  FILE = PREFIX = STAMP = ""
+  START = STEP = 1
+  MAX = 100
+  MINSIZE = 100000
+  
+  for (arg = 1; arg < ARGC; arg++) {
+    if      (ARGV[arg] == "--trees"    ) FILE      = ARGV[arg+1]
+    else if (ARGV[arg] == "--start"   ) START     = ARGV[arg+1]
+    else if (ARGV[arg] == "--step"    ) STEP      = ARGV[arg+1]
+    else if (ARGV[arg] == "--max"     ) MAX       = ARGV[arg+1]
+    else if (ARGV[arg] == "--prefix"  ) PREFIX    = ARGV[arg+1] "_"
+    else if (ARGV[arg] == "--stamp"   ) STAMPCOL  = ARGV[arg+1]
+    else if (ARGV[arg] == "--minsize" ) MINSIZE   = ARGV[arg+1]
+  }
+
+  if (!FILE) {
+    print"Usage: get_images --trees  <file>           \\\n"    \
+      "               [  --start  <sampling_start> \\\n"      \
+      "                  --step   <sampling_step>  \\\n"      \
+      "                  --max    <max_images>     \\\n"      \
+      "                  --prefix <prefix>         \\\n"      \
+      "                  --stamp  <stamp_column>   \\\n"      \
+      "                  --minsize <min_image_size> ]"
+    exit 1
   }
 }

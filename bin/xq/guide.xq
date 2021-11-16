@@ -25,5 +25,17 @@ return concat(
   '|',
   normalize-space(data($i/uses)),
   '|',
-  string-join( data($i/cf/@ref), ' ')
+  string-join( data($i/cf/@ref), ' '),
+  '|',
+  replace(
+    replace(
+      concat(
+        normalize-space(
+          string-join(
+            data($i/note)
+            , '. ')
+        )
+      ,'.')
+    , '\.\.', '.')
+  , '^\.$','')  
 )
