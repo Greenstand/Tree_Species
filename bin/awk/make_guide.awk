@@ -67,7 +67,7 @@ BEGIN{
     n=0
     for (j in name)
       if ((hasphotos[j]) && (planted_in[j] ~ guide[i])) {
-        f = (fam[j]) ? ("<br/>(" fam[j] ")") : ""
+        f = (fam[j]) ? (" (" fam[j] ")") : ""
         x = (exotic[j] ~ guide[i]) ? ("<br/>Not native to " country[i] ) : ""
         xn = (native[j] ~ guide[i]) ? ("<br/><b>Native</b> to " country[i] ) : ""
         r = (range[j]) ? ("<br/>Native range: " range[j] ) : ""
@@ -79,7 +79,7 @@ BEGIN{
           "<img src=\"../taxa/" j "/_lf.jpg\" width=\"180\" alt=\"seedling\"/>" : "&#160;"
 
         print "<tr><td>" ++n "</td>"                                    \
-          "<td><b>" name[j] "</b><br/>" common[j] x xn idn cfn             \
+          "<td><b>" name[j] "</b>" f "<br/>" common[j] x xn idn cfn             \
           "</td><td><a href=\"" j ".html\">" j "</a></td>"              \
           "<td><img src=\"../taxa/" j "/" pic1 "\" height=\"180\" alt=\"seedling\"/></td>" \
           "<td>" pic2 "</td>"                                           \

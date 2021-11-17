@@ -476,6 +476,24 @@
     </links>
   </taxon>
 
+  <taxon id="HANDCHRY">
+    <sci_name>Handroanthus chrysanthus (Jacq.) S.O.Grose</sci_name>
+    <inat_taxon>910833</inat_taxon>
+    <family>Bignoniaceae</family>
+    <name>yellow ipê (en), guayacán (co), araguaney (ve)</name>
+    <first_locn ref="co">MACAO</first_locn>
+    <native_range>northern South America</native_range>
+    <native_in ref="co"/>
+    <planted_in ref="co"/>
+    <uses>timber</uses>
+    <note>Identity of common saplings in MACAO confirmed by Maria
+    C. on 2021-11-16.</note>
+    <id_notes><![CDATA[Leaves opposite, <b>palmately compound</b>.]]></id_notes>
+    <links>
+      <wp>https://en.wikipedia.org/wiki/Handroanthus_chrysanthus</wp>
+    </links>
+  </taxon>
+
   <taxon id="HYMECOUR">
     <sci_name>Hymenaea courbaril L.</sci_name>
     <inat_taxon>139075</inat_taxon>
@@ -584,6 +602,31 @@
     </links>
   </taxon>
 
+  <taxon id="MARKLUTE">
+    <sci_name>Markhamia lutea (Benth.) K.Schum.</sci_name>
+    <inat_taxon>431279</inat_taxon>
+    <family>Bignoniaceae</family>
+    <name>Nile tulip tree (en)</name>
+    <first_locn ref="tz">Fairtree - Usambaras</first_locn>
+    <native_range>Africa</native_range>
+    <native_in ref="tz"/>
+    <planted_in ref="tz"/>
+    <id_notes><![CDATA[Leaves opposite, simple in youngest seedlings,
+    <b>imparipinnate</b> after ~tenth leaf (with three leaflets, then
+    five, then seven). Stipules large, appearing interpetiolar. Margin
+    serrate (in seedlings).]]></id_notes>
+    <note>Thanks to Nobby Cordeiro and Henry Ndangalasi for the
+    determination of Fairtree seedlings, 2021-11-16.</note>
+    <links>
+      <wp>https://en.wikipedia.org/wiki/Markhamia_lutea</wp>
+      <link>https://treeskenya.org/gallery/markhamia-lutea-seedling/</link>
+      <link>https://davesgarden.com/guides/pf/go/76637/</link>
+      <link>https://sites.google.com/site/efloraofindia/species/a---l/b/bignoniaceae/markhamia/markhamia-lutea</link>
+      <link>http://www.plantsofasia.com/index/markhamia_lutea/0-847</link>
+      <link>https://www.growsonyou.com/photo/slideshow/214106-markhamia-lutea-markhamia-nile-tulip-tree/all</link>
+    </links>
+  </taxon>
+
   <taxon id="MELIBIJU">
     <sci_name>Melicoccus bijugatus Jacq.</sci_name>
     <family>Sapindaceae</family>
@@ -664,6 +707,7 @@
 
   <taxon id="PINUPATU">
     <sci_name>Pinus patula Schltdl. &amp; Cham.</sci_name>
+    <family>Pinaceae</family>
     <first_locn ref="tz"/>
     <note>
       In Tanzania, the main restoration Pinus species appears to be
