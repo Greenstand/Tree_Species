@@ -56,6 +56,7 @@
     <sci_name>Annona muricata L.</sci_name>
     <family>Annonaceae</family>
     <name>soursop (en), korosol (ht)</name>
+    <inat_taxon>284503</inat_taxon>
     <first_locn ref="ht"/>
     <native_range>Caribbean and Central America</native_range>
     <planted_in ref="ht"/>
@@ -92,6 +93,7 @@
     <sci_name>Annona squamosa L.</sci_name>
     <family>Annonaceae</family>
     <name>sweetsop (en), custard apple (en), cashima (ht)</name>
+    <inat_taxon>69973</inat_taxon>
     <first_locn ref="ht">THTP</first_locn>
     <native_range>Northern South America</native_range>
     <planted_in ref="ht"/>
@@ -352,6 +354,32 @@
     <b>palmate</b>.]]></id_notes>
     <links>
       <wp>https://en.wikipedia.org/wiki/Coconut</wp>
+    </links>
+  </taxon>
+
+  <taxon id="COFF0000">
+    <sci_name>Coffea</sci_name>
+    <inat_taxon>64343</inat_taxon>
+    <family>Rubiaceae</family>
+    <name>coffee (en), kopi (id)</name>
+    <first_locn ref="ht">2021.05.26.10.31.24_18.291886666666667_-73.56106666666666_b81c2899-a835-41f2-8816-762c31a0783e_IMG_20210523_114814_2901822846522095512.jpg</first_locn>
+    <native_range>North and east Africa</native_range>
+    <exotic_in ref="ht"/>
+    <planted_in ref="ht"/>
+    <uses>food</uses>
+    <id_notes><![CDATA[Leaves opposite, broadly elliptical. With
+    pointed interpetiolar stipule. Generic Rubiaceae
+    appearence.]]></id_notes>
+    <note>Comparing images on iNaturalist and elsewhere, I have been
+    unable to reliably find features visible in photographs of sterile
+    plants that separate C. arabica from C. canephora ("robusta"). The
+    leaves of the former appear to have fewer veins than the latter,
+    but... It seems better to lump both taxa into a generic class. It
+    is likely that coffee plants will appear in Treetracker images
+    from both uplands and lowlands.</note>
+    <links>
+      <link>https://www.inaturalist.org/observations?place_id=any&amp;quality_grade=research&amp;taxon_id=64345</link>
+      <link>https://www.inaturalist.org/observations?place_id=any&amp;quality_grade=research&amp;taxon_id=64342</link>
     </links>
   </taxon>
 
@@ -823,11 +851,13 @@
     <native_range>northern South America</native_range>
     <native_in ref="co"/>
     <planted_in ref="co"/>
+    <planted_in ref="ht"/>
     <uses>timber</uses>
     <id_notes><![CDATA[Leaves alternate, <b>paripinnate</b>. Secondary
     veins sunken.]]></id_notes>
     <note>Identity of common saplings in MACAO confirmed by Maria
     C. on 2021-11-16.</note>
+    <note>In Haiti from this seedling: 2020.12.10.13.47.31_18.288809931837022_-73.56056836433709_80914ed4-be48-4bf9-967a-b7f32cdd7819_IMG_20201207_113956_701386243352788961.jpg</note>
     <links>
       <wp>https://en.wikipedia.org/wiki/Swietenia_macrophylla</wp>
     </links>
