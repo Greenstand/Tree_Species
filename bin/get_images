@@ -26,7 +26,7 @@ BEGIN{
       }
       else {
         # first time to get size
-        cmd = "curl -s -I " $1 " | grep Content-Length"
+        cmd = "curl -s -I " $1 " | grep -E '[Cc]ontent-[Ll]ength'"
         cmd | getline size
         close(cmd)
         split(size, s, / +/)

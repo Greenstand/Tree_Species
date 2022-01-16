@@ -17,12 +17,13 @@
        so if there are two such species planted in the same area, care
        must be taken. Leaves alternate.]]>
     </id_notes>
-        <note>
+    <note>
       Assuming that the acacia in Haiti is this one, based on various
       online lists of planting projects. There are several similar
       species that are hard to tell apart as seedlings (e.g., Acacia
       mangium).
     </note>
+    <wdz cite="58">0.680</wdz>
     <links>
       <wp>https://en.wikipedia.org/wiki/Acacia_auriculiformis</wp>
       <link>http://www.fao.org/3/az764e/az764e.pdf</link>
@@ -40,6 +41,12 @@
     <exotic_in ref="sl"/>
     <planted_in ref="sl"/>
     <uses>food charcoal firewood</uses>
+    <wdz cite="114">0.420</wdz>
+    <wdz cite="111">0.500</wdz>
+    <wdz cite="204">0.410</wdz>
+    <wdz cite="45">0.450</wdz>
+    <wdz cite="4">0.431</wdz>
+    <wdz cite="14">0.468</wdz>
     <id_notes>
       Leaves alternate. Petiole short. In older seedlings, secondary
       veins almost perpendicular to midrib. Leaf sometimes reddish.
@@ -57,12 +64,15 @@
     <family>Annonaceae</family>
     <name>soursop (en), korosol (ht)</name>
     <inat_taxon>284503</inat_taxon>
+    <eol_taxon>1054863</eol_taxon>
     <first_locn ref="ht"/>
     <native_range>Caribbean and Central America</native_range>
     <planted_in ref="ht"/>
     <planted_in ref="sl"/>
     <exotic_in ref="sl"/>
     <uses>food</uses>
+    <wdz cite="111">0.400</wdz>
+    <wdz cite="204">0.320</wdz>
     <id_notes>Leaves alternate, elliptic, with glossy upper
     surface. Secondary veins not visible.</id_notes>
         <note>Location of original domestication uncertain.</note>
@@ -377,9 +387,15 @@
     but... It seems better to lump both taxa into a generic class. It
     is likely that coffee plants will appear in Treetracker images
     from both uplands and lowlands.</note>
+    <note>2021-11-25. Pers. comm. from Aaron Davis @ Kew (via
+    Alexandre Monro): Coffea arabica: leaf 6–22 × 3.5–8.5 cm, veins
+    6–14 pairs; Coffea canephora: leaf 12–35 × 5–12 cm, veins 10–16
+    pairs. ... So, having veins 6-8 might be a reliable character for
+    C. arabica. More than that and it could be either.</note>
     <links>
       <link>https://www.inaturalist.org/observations?place_id=any&amp;quality_grade=research&amp;taxon_id=64345</link>
       <link>https://www.inaturalist.org/observations?place_id=any&amp;quality_grade=research&amp;taxon_id=64342</link>
+      <link>https://doi.org/10.1111/j.1095-8339.2006.00584.x</link>
     </links>
   </taxon>
 
@@ -1025,6 +1041,17 @@
       Trilepisium madagascariense, unknown, unknown spp 1, Xylopia
       aethiopica, Xymalos monospora, Zanha golungensis, Zanthoxylum
       usambarense
+    </note>
+    <note>
+      (From Ezra) ECHO East Africa Impact Center plants: Afzelai
+      quansensis (pod mahogony, mbabakofi), Juniperus procera (pencil
+      cedar, mtarakwa), Khaya nyasica (red mahogony, mkangazi),
+      Milletia stuhlmannii (milletia, mkuunge), Ocotea usambarensis (E
+      African camphor, mkulo), Olea capensis (East african olive,
+      loliondo), Osyris lanceolate (sandalwood, msandalii), Podocarpus
+      falcatus (yellow wood, mpodo), Prunus africana (African teak,
+      mkonde), Bracylaena huilensis (silver oak, muhuhu), Dalbergia
+      melanoxylon (blackwood, mpingo).
     </note>
     <links>
       <link>https://doi.org/10.1371/journal.pone.0250859</link>

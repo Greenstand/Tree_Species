@@ -1,7 +1,7 @@
 BEGIN{
 
-  guides = "co|ht|sl|tz"
-  countries = "Colombia|Haiti|Sierra Leone|Tanzania"
+  guides = "co|ht|sl|tz|global"
+  countries = "Colombia|Haiti|Sierra Leone|Tanzania|Global"
   split(guides,guide,"|")
   split(countries, country,"|")
   
@@ -66,7 +66,8 @@ BEGIN{
     PROCINFO["sorted_in"] = "@val_str_asc"
     n=0
     for (j in name)
-      if ((hasphotos[j]) && (planted_in[j] ~ guide[i])) {
+      if ((hasphotos[j]) && ((planted_in[j] ~ guide[i]) || \
+                             (guide[i] == "global"))) {
         f = (fam[j]) ? (" (" fam[j] ")") : ""
         x = (exotic[j] ~ guide[i]) ? ("<br/>Not native to " country[i] ) : ""
         xn = (native[j] ~ guide[i]) ? ("<br/><b>Native</b> to " country[i] ) : ""

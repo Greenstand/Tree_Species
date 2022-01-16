@@ -23,7 +23,7 @@ PID=`ps auwx | grep ssh | grep treetracker | gawk '{printf "%d", $2}'`
 # echo "(ssh PID: ${PID})"
 
 # For trees, default
-SQL="\\pset format csv\n select image_url FROM trees WHERE trees.lon > $2 AND trees.lat < $1 AND trees.lon < $4 AND trees.lat > $3 ORDER BY image_url;"
+SQL="\\pset format csv\n select image_url FROM trees WHERE trees.lon > $2 AND trees.lat < $1 AND trees.lon < $4 AND trees.lat > $3 ORDER BY time_created;"
 
 # but if
 if [ $# -eq 5 ]
