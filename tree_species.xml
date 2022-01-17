@@ -175,9 +175,27 @@
     <uses>fruit</uses>
     <wdz>0.491</wdz>
     <id_notes><![CDATA[Leaves alternate, tough, bright green to dark green, <b>glabrous</b>. Margin <b>entire</b>.]]></id_notes>
+    <cf ref="ARTOINTE"/>
     <cf ref="ARTOALTA"/>
     <links>
       <wp>https://en.wikipedia.org/wiki/Jackfruit</wp>
+    </links>
+  </taxon>
+
+  <taxon id="ARTOINTE">
+    <sci_name>Artocarpus integer</sci_name>
+    <inat_taxon>347392</inat_taxon>
+    <family>Moraceae</family>
+    <name>cempedak (id)</name>
+    <native_range>SE Asia</native_range>
+    <native_in ref="id"/>
+    <planted_in ref="id"/>
+    <uses>fruit</uses>
+    <wdz>0.551</wdz>
+    <id_notes><![CDATA[Leaves alternate, <b>with wiry hairs on twigs and petioles</b>. Margin <b>entire</b>.]]></id_notes>
+    <cf ref="ARTOHETE"/>
+    <links>
+      <wp>https://en.wikipedia.org/wiki/Artocarpus_integer</wp>
     </links>
   </taxon>
   
@@ -202,6 +220,29 @@
     </links>
   </taxon>
   
+  <taxon id="CAES0001">
+    <sci_name>Caesalpinia pulcherrima</sci_name>
+    <inat_taxon>60439</inat_taxon>
+    <family>Fabaceae</family>
+    <name>poinciana (en)</name>
+    <first_locn ref="sl"/>
+    <native_range>tropical Americas</native_range>
+    <exotic_in ref="sl"/>
+    <planted_in ref="sl"/>
+    <wdz>0.84</wdz>
+    <id_notes><![CDATA[Leaves alternate, bipinnate, with 7-10 leaflets
+    per sub-rachis.]]></id_notes>
+    <note>Caesalpinia pulcherrima is very similar to Delonix regia,
+    but has fewer leaflets per sub-rachis. A spreadsheet from Zaven
+    gave one of the species planted in Freetown as Delonix regia, but
+    iNat gives three dets of Caesalpinia pulcherrima and no Delonix
+    regia. I (Cam, 2022-01-16) am going with Caesalpinia pulcherrima as
+    the taxon planted in Freetown.</note>
+    <links>
+      <wp>https://en.wikipedia.org/wiki/Caesalpinia_pulcherrima</wp>
+    </links>
+  </taxon>
+
   <taxon id="CALOCALA">
     <sci_name>Calophyllum calaba Jacq.</sci_name>
     <inat_taxon>957518</inat_taxon>
@@ -785,6 +826,23 @@
     </links>
   </taxon>
 
+  <taxon id="PITHDULC">
+    <sci_name>Pithecellobium dulce (Roxb.) Benth.</sci_name>
+    <inat_taxon>166920</inat_taxon>
+    <family>Fabaceae</family>
+    <name>guamúchil (mx)</name>
+    <first_locn ref="sl"></first_locn>
+    <native_range>Mexico</native_range>
+    <exotic_in ref="sl"/>
+    <planted_in ref="sl"/>
+    <uses>food</uses>
+    <wdz>0.68</wdz>
+    <id_notes><![CDATA[Leaves alternate, <b>bijugate</b> (paripinnate with one pair of leflets). Twig with thorns.]]></id_notes>
+    <links>
+      <wp>https://en.wikipedia.org/wiki/Pithecellobium_dulce</wp>
+    </links>
+  </taxon>
+
   <!--
   <taxon>
     <sci_name>Pinus pendula</sci_name>
@@ -1021,7 +1079,6 @@
     <note>
       1. spreadsheet for Freetown from Zaven:
       Albizia zygia	Albizia zygia
-      Flame of the forest	Delonix regia 
     </note>
   </country>
   
@@ -1084,6 +1141,7 @@
   <taxon id="">
     <sci_name></sci_name>
     <inat_taxon></inat_taxon>
+    <eol_taxon></eol_ta
     <family></family>
     <name></name>
     <first_locn ref=""></first_locn>
@@ -1092,7 +1150,7 @@
     <exotic_in ref=""/>
     <planted_in ref=""/>
     <uses></uses>
-    <wdz cite=""></wdz>
+    <wdz></wdz>
     <id_notes><![CDATA[ ]]></id_notes>
     <note></note>
     <links>
