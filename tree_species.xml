@@ -23,7 +23,7 @@
       species that are hard to tell apart as seedlings (e.g., Acacia
       mangium).
     </note>
-    <wdz cite="58">0.680</wdz>
+    <wdz>0.68</wdz>
     <links>
       <wp>https://en.wikipedia.org/wiki/Acacia_auriculiformis</wp>
       <link>http://www.fao.org/3/az764e/az764e.pdf</link>
@@ -41,12 +41,7 @@
     <exotic_in ref="sl"/>
     <planted_in ref="sl"/>
     <uses>food charcoal firewood</uses>
-    <wdz cite="114">0.420</wdz>
-    <wdz cite="111">0.500</wdz>
-    <wdz cite="204">0.410</wdz>
-    <wdz cite="45">0.450</wdz>
-    <wdz cite="4">0.431</wdz>
-    <wdz cite="14">0.468</wdz>
+    <wdz>0.4465</wdz>
     <id_notes>
       Leaves alternate. Petiole short. In older seedlings, secondary
       veins almost perpendicular to midrib. Leaf sometimes reddish.
@@ -71,8 +66,7 @@
     <planted_in ref="sl"/>
     <exotic_in ref="sl"/>
     <uses>food</uses>
-    <wdz cite="111">0.400</wdz>
-    <wdz cite="204">0.320</wdz>
+    <wdz>0.36</wdz>
     <id_notes>Leaves alternate, elliptic, with glossy upper
     surface. Secondary veins not visible.</id_notes>
         <note>Location of original domestication uncertain.</note>
@@ -168,6 +162,25 @@
     </links>
   </taxon>
 
+  <taxon id="ARTOHETE">
+    <sci_name>Artocarpus heterophyllus Lam.</sci_name>
+    <inat_taxon>123003</inat_taxon>
+    <family>Moraceae</family>
+    <name>jackfruit (en), nangka (id)</name>
+    <first_locn ref="sl"></first_locn>
+    <native_range>India to New Guinea</native_range>
+    <native_in ref="id"/>
+    <exotic_in ref="sl"/>
+    <planted_in ref="sl"/>
+    <uses>fruit</uses>
+    <wdz>0.491</wdz>
+    <id_notes><![CDATA[Leaves alternate, tough, bright green to dark green, <b>glabrous</b>. Margin <b>entire</b>.]]></id_notes>
+    <cf ref="ARTOALTA"/>
+    <links>
+      <wp>https://en.wikipedia.org/wiki/Jackfruit</wp>
+    </links>
+  </taxon>
+  
   <taxon id="AZADINDI">
     <sci_name>Azadirachta indica A.Juss</sci_name>
     <inat_taxon>319135</inat_taxon>
@@ -1000,17 +1013,15 @@
   </country>
 
   <country id="co"/>
+  <country id="id"/>
   <country id="in"/>
   <country id="mx"/>
   
   <country id="sl">
     <note>
       1. spreadsheet for Freetown from Zaven:
-      Jackfruit	Artocarpus heterophyllus 
       Albizia zygia	Albizia zygia
       Flame of the forest	Delonix regia 
-      Ronko/Baggi	Terminalia ivorensis
-      TROPICAL ALMOND
     </note>
   </country>
   
@@ -1081,6 +1092,7 @@
     <exotic_in ref=""/>
     <planted_in ref=""/>
     <uses></uses>
+    <wdz cite=""></wdz>
     <id_notes><![CDATA[ ]]></id_notes>
     <note></note>
     <links>

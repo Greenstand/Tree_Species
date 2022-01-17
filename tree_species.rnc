@@ -31,14 +31,8 @@ start =
          element native_range { text }? &
          # wdz: Wood density estimates from "Zanne, Amy E. et al. (2009),
          #   Data from: Towards a worldwide wood economics spectrum, Dryad,
-         #   Dataset, https://doi.org/10.5061/dryad.234" with source citation.
-         #   Note: these data are also available in EOL, but the API there is
-         #   hard to access (must be a power user). Note: the taxonomic match
-         #   in Zanne is without author, so may not be exact.
-         element wdz {
-            attribute cite { xsd:integer } ,
-            xsd:decimal
-         }* &
+         #   Dataset, https://doi.org/10.5061/dryad.234" MEAN per taxon
+         element wdz { xsd:decimal }? &
          element note {
             attribute ref { xsd:IDREF  }? &
             text
