@@ -5,6 +5,7 @@ start =
       element taxon {
          attribute id { xsd:ID } &
          element sci_name { text } &
+         element apname { text }* &
          element family { xsd:NCName }? &
          element name { text }? &
          element inat_taxon { xsd:integer }? &

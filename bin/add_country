@@ -1,0 +1,33 @@
+#!/usr/bin/gawk -f
+
+BEGIN{
+  FS = OFS = "|"
+}
+
+{
+  l[++i] = $0
+  # build python tuple
+  s = s "(" $2 "," $3 "),"
+}
+
+END{
+  # remove trailing comma
+  gsub(/,$/,"",s)
+  RS="\x04"
+  # python script uses bash's $'...\n...' construct
+  python = "python -c $'import reverse_geocoder\nfor i in reverse_geocoder.search(eval(input())):\n    print(i[\"cc\"].lower())'"
+
+  # coprocess
+  print s |& python
+  python |& getline c
+  
+  split(c, d, "\n")
+  # note that the python script produces an extra line at the beginning
+  for (j = 1; j <= i; j++)
+    print l[j], d[j+1]
+}
+
+
+# import reverse_geocoder
+# for i in reverse_geocoder.search(eval(input())):
+#     print(i["cc"].lower())

@@ -30,6 +30,28 @@
     </links>
   </taxon>
 
+  <taxon id="ACACTORT">
+    <sci_name>Vachellia tortilis (Forssk.) Galasso &amp; Banfi</sci_name>
+    <apname>Acacia tortilis</apname>
+    <inat_taxon>489563</inat_taxon>
+    <family>Fabaceae</family>
+    <name>umbrella thorn (en), ltepes (ke)</name>
+    <first_locn ref="ke"></first_locn>
+    <native_range>Africa</native_range>
+    <native_in ref="ke"/>
+    <planted_in ref="ke"/>
+    <native_in ref="tz"/>
+    <planted_in ref="tz"/>
+    <uses>firewood timber charcoal</uses>
+    <id_notes><![CDATA[Twigs with pairs of straight, long, white
+    thorns and pairs of shorter, curved dark thorns. Leaves
+    approx. 2.5 cm long, pinnate, with 4 to 10 pairs of pinnae, each
+    with up to 15 pairs of leaflets.  Pods coiled.]]></id_notes>
+    <links>
+      <wp>https://en.wikipedia.org/wiki/Vachellia_tortilis</wp>
+    </links>
+  </taxon>
+  
   <taxon id="ANACOCCI">
     <sci_name>Anacardium occidentale L.</sci_name>
     <family>Anacardiaceae</family>
@@ -232,12 +254,18 @@
     <wdz>0.84</wdz>
     <id_notes><![CDATA[Leaves alternate, bipinnate, with 7-10 leaflets
     per sub-rachis.]]></id_notes>
-    <note>Caesalpinia pulcherrima is very similar to Delonix regia,
-    but has fewer leaflets per sub-rachis. A spreadsheet from Zaven
-    gave one of the species planted in Freetown as Delonix regia, but
-    iNat gives three dets of Caesalpinia pulcherrima and no Delonix
-    regia. I (Cam, 2022-01-16) am going with Caesalpinia pulcherrima as
-    the taxon planted in Freetown.</note>
+    <note>
+      Caesalpinia pulcherrima is very similar to Delonix regia, but
+      has fewer leaflets per sub-rachis. A spreadsheet from Zaven gave
+      one of the species planted in Freetown as Delonix regia, but
+      iNat gives three dets of Caesalpinia pulcherrima and no Delonix
+      regia. I (Cam, 2022-01-16) am going with Caesalpinia pulcherrima
+      as the common taxon planted in Freetown. // Note also that some
+      of the seedlings have tags saying 'African wattle' which is
+      Peltophorum africanum. However, P. a. appears in all online
+      photos with a mucronate apex to leaflets, but CAES0001 does not
+      have this, and better matches images of C. pulcherrima.
+    </note>
     <links>
       <wp>https://en.wikipedia.org/wiki/Caesalpinia_pulcherrima</wp>
     </links>
@@ -490,12 +518,21 @@
 
   <taxon id="CROTMEGA">
     <sci_name>Croton megalocarpus Hutch.</sci_name>
+    <inat_taxon>133588</inat_taxon>
+    <apname>Croton</apname>
     <family>Euphorbiaceae</family>
+    <name>mukinduri (ke)</name>
     <first_locn ref="tz"/>
+    <native_in ref="tz"/>
+    <native_in ref="ke"/>
     <native_range>Sub-Saharan Africa</native_range>
     <planted_in ref="tz"/>
+    <planted_in ref="ke"/>
     <uses>firewood charcoal</uses>
-    <inat_taxon>133588</inat_taxon>
+    <id_notes><![CDATA[Leaves alternate, long-petioled,
+    <b>golden-scaled below</b>. Margin entire. Lamina deeply
+    <b>corrugated</b> between secondary nerves. Leaf base
+    <b>cordate</b>.]]></id_notes>
     <links>
       <wp>https://en.wikipedia.org/wiki/Croton_megalocarpus</wp>
       <link>http://www.africanplants.senckenberg.de/root/index.php?page_id=78&amp;id=3569#</link>
@@ -612,10 +649,13 @@
   
   <taxon id="INDE0001">
     <sci_name>Indet. 1</sci_name>
+    <apname>Croton</apname>
     <first_locn ref="tz"/>
-    <note>
-      Similar to CROTMEGA
-    </note>
+    <cf ref="CROTMEGA"/>
+    <id_notes><![CDATA[Leaves ovoid, long-petioled, pale below but not
+    golden. Seven <b>basal veins</b> originating from leaf base. Leaf
+    base deeply <b>cordate</b> with margins <b>overlapping</b>. Leaf
+    margin serrate.]]></id_notes>
     <planted_in ref="tz"/>
   </taxon>
 
@@ -1073,12 +1113,77 @@
   <country id="co"/>
   <country id="id"/>
   <country id="in"/>
+
+  <country id="ke">
+    <links>
+      <link>https://fairtree.org/samburu</link>
+    </links>
+  </country>
+  
   <country id="mx"/>
   
   <country id="sl">
     <note>
-      1. spreadsheet for Freetown from Zaven:
-      Albizia zygia	Albizia zygia
+      from doc 'RUSLP Greening  Model_phase2_2021_EFA_25012021.xlsx'
+      (seen images and/or added to herbarium = *)
+      
+      Albizia lebeek (Flea tree)
+      Albizia zygia (Albizia)
+          (https://www.inaturalist.org/observations/52345934)
+      Allamanda cathertica (Yellow bell)
+      Alternanthria species
+      Anacardium occidentale (Cashew nut) *
+      Annona muricata (Sour sop) *
+      Artocarpus heterophyllus (Jack fruit) *
+      Azadiratcha indica (Neem) *
+      Bauhinia varigata (Camel's foot)
+      Bougainvillea spectabilis (Paper flower)
+      Brunsfelsia americanna (Yesterday, Today Tomorrow)
+      Callindra species (Powder puff)
+      Canna Hybrida
+      Cassia fistula (Golden shower)
+      Cassia species (Cassia)
+      Cesalpania pulcherima (Pride of Barbadous) *
+      Chrysipogon zizanioides (Vetiver)
+      Citrus x paradisi (Grape fruit)
+      Codium varigatum (Croton) *
+      Cuphea species
+      Cymbopogon citratus (Leomon)
+      Cynodon dactylon (Bermuda grass)
+      Delonix regia (Flame of the forest)
+      Duranta pulmeri
+      Eucalyptus species (Eucalyptus)
+      Gardenia jasminoides (Jasmine)
+      Gliricidia sepium (Forest Lilac) *
+      Gmelina arborea (White teak) *
+      Hibiscus species
+      Ixora species (Star flower)
+      Jacaranda mimosiphylla (Jacaranda)
+      Largastormia flosringinea (Pride of India)
+      Largastormia indica (Crape myrtel)
+      Mangifera indica (Mango) *
+      Mangrove (avicennia)
+      Mangrove (conocarpus)
+      Mangrove (laguncularia)
+      Mangrove (rhizophora)
+      Moringa olifera (Moringa) * 
+      Musanda species
+      Nerium oleander (Oleander)
+      Ornamental Palms
+      Peltophorum africanum (African wattle)
+      Persea americana (Avocado)
+      Phragmites species(Reed)
+      Polyalthia pendula (Willow tree)
+      Psidium guajava (Guava)
+      Senna semia (Siamese Cassia) *
+      Tamarindus indica (Tamarind) *
+      Tectonia grandis (Teak) *
+      Terbanamontana coronaria (Pinwheel flower)
+      Terbanamontana corymbosa (Flower of love)
+      Thevetia peruvania (Yellow Oleander)
+      Thunbergia erecta
+      Xylopia aethiopica (Spice tree)
+      Zoysia Japonica (Carpet grass)
     </note>
   </country>
   
