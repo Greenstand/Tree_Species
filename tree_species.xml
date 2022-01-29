@@ -265,6 +265,8 @@
       Peltophorum africanum. However, P. a. appears in all online
       photos with a mucronate apex to leaflets, but CAES0001 does not
       have this, and better matches images of C. pulcherrima.
+
+      2022-01-26: Confirmed, with appropriate uncertainty, by Marco Schmidt
     </note>
     <links>
       <wp>https://en.wikipedia.org/wiki/Caesalpinia_pulcherrima</wp>
@@ -1125,33 +1127,27 @@
   <country id="sl">
     <note>
       from doc 'RUSLP Greening  Model_phase2_2021_EFA_25012021.xlsx'
-      (seen images and/or added to herbarium = *)
-      
+      (seen images and/or added to herbarium = *) (herbs and grasses excluded)
+
       Albizia lebeek (Flea tree)
       Albizia zygia (Albizia)
           (https://www.inaturalist.org/observations/52345934)
-      Allamanda cathertica (Yellow bell)
-      Alternanthria species
+      Allamanda cathertica (Yellow bell) APOCY
       Anacardium occidentale (Cashew nut) *
       Annona muricata (Sour sop) *
       Artocarpus heterophyllus (Jack fruit) *
       Azadiratcha indica (Neem) *
       Bauhinia varigata (Camel's foot)
       Bougainvillea spectabilis (Paper flower)
-      Brunsfelsia americanna (Yesterday, Today Tomorrow)
+      Brunsfelsia americanna (Yesterday, Today Tomorrow) PETUN
       Callindra species (Powder puff)
-      Canna Hybrida
       Cassia fistula (Golden shower)
       Cassia species (Cassia)
       Cesalpania pulcherima (Pride of Barbadous) *
-      Chrysipogon zizanioides (Vetiver)
       Citrus x paradisi (Grape fruit)
       Codium varigatum (Croton) *
-      Cuphea species
-      Cymbopogon citratus (Leomon)
-      Cynodon dactylon (Bermuda grass)
       Delonix regia (Flame of the forest)
-      Duranta pulmeri
+      Duranta pulmeri VERBE
       Eucalyptus species (Eucalyptus)
       Gardenia jasminoides (Jasmine)
       Gliricidia sepium (Forest Lilac) *
@@ -1167,12 +1163,11 @@
       Mangrove (laguncularia)
       Mangrove (rhizophora)
       Moringa olifera (Moringa) * 
-      Musanda species
+      Musanda species ... Mussaenda? RUBIA
       Nerium oleander (Oleander)
       Ornamental Palms
       Peltophorum africanum (African wattle)
       Persea americana (Avocado)
-      Phragmites species(Reed)
       Polyalthia pendula (Willow tree)
       Psidium guajava (Guava)
       Senna semia (Siamese Cassia) *
@@ -1183,7 +1178,6 @@
       Thevetia peruvania (Yellow Oleander)
       Thunbergia erecta
       Xylopia aethiopica (Spice tree)
-      Zoysia Japonica (Carpet grass)
     </note>
   </country>
   

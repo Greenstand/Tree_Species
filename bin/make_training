@@ -6,7 +6,6 @@ find ../training/taxa/ -type f | \
     grep -E "/[A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9]/" | \
     grep -v ".comments" | \
     sed -e 's|../training/taxa/||g' -e 's^/^|^g' | \
-    sed -E 's/\|[a-z][a-z]_/|/g' | \
+    # sed -E 's/\|[a-z][a-z]_/|/g' | \
+    gawk 'BEGIN{FS=OFS="|"}{i[$2]=$1; n[$1]++}END{for (j in i) if (n[i[j]] >= 50) print i[j],gensub(/^[a-z]+_/,"","G",j)}' | \
     sort > ../training/training.psv
-
-
