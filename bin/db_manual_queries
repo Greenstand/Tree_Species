@@ -9,3 +9,6 @@ echo "SELECT image_url, CONCAT_WS(' ',first_name, last_name) AS person FROM audi
 
 echo "-- get photos of platings by an org"
 echo "SELECT trees.image_url, trees.id FROM trees, planter WHERE trees.planter_id = planter.id AND planter.organization_id = 308;"
+
+echo "-- who has done dets?"
+echo "select admin_user.user_name, count(*) from audit, admin_user where audit.admin_user_id = admin_user.id and (audit.operation->'payload'->>'speciesId')::integer is not null group by admin_user.user_name order by count(*) desc;"

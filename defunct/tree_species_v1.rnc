@@ -1,0 +1,70 @@
+default namespace = ""
+
+start =
+   element gs_taxa {
+      element taxon {
+         attribute id { xsd:ID } &
+         element sci_name { text } &
+         element apname { text }* &
+         element family { xsd:NCName }? &
+         element name { text }? &
+         element inat_taxon { xsd:integer }? &
+         element eol_taxon { xsd:integer }? &
+         # first_locn the country being considered where the species
+         # was first added to the DB. Does not mean the species is
+         # actually native in the country or planted there.
+         element first_locn {
+            attribute ref { xsd:IDREF },
+            text?
+         }? &
+         # Note: this maybe valid, but jing gives error if ID-types are not
+         # attributes: element native_in { list { xsd:IDREF+ } }?
+         element native_in {
+            attribute ref { xsd:IDREF }
+         }* &
+         element exotic_in {
+            attribute ref { xsd:IDREF }
+         }* &
+         element planted_in {
+            attribute ref { xsd:IDREF } ,
+            attribute docref { xsd:IDREF }?
+         }* &
+         element native_range { text }? &
+         # wdz: Wood density estimates from "Zanne, Amy E. et al. (2009),
+         #   Data from: Towards a worldwide wood economics spectrum, Dryad,
+         #   Dataset, https://doi.org/10.5061/dryad.234" MEAN per taxon
+         element wdz { xsd:decimal }? &
+         element note {
+            attribute ref { xsd:IDREF  }? &
+            text
+         }* &
+         element id_notes { text }? &
+         element cf {
+            attribute ref { xsd:IDREF }
+         }* &
+         element uses {
+            list { xsd:NCName+ }
+         }? &
+         links?
+      }+ ,
+      element country {
+         attribute id { xsd:ID } &
+         element note {
+            attribute ref { xsd:IDREF  }? &
+            text
+         }* &
+         links?
+      }* ,
+      element doc {
+         attribute id { xsd:ID } &
+         text
+      }*
+   }
+
+links =
+   element links {
+      element link { xsd:anyURI }* &
+      element wp { xsd:anyURI }?
+   }
+
+         
