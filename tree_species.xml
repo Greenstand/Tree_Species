@@ -58,6 +58,30 @@
     <first_locn ref="ke"/>
   </mtype>
   
+  <mtype id="ACROFRAX">
+    <det>
+      <taxon id="t_acrofrax">
+        <name>Acrocarpus fraxinifolius Arn.</name>
+        <family>Fabaceae</family>
+        <inat_taxon>280601</inat_taxon>
+        <vern>pink cedar</vern>
+        <range>India, Indochina</range>
+        <exotic_in ref="tz"/>
+        <wdz>0.5915</wdz>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Acrocarpus</wp>
+        </links>
+      </taxon>
+    </det>
+    <morph><![CDATA[Leaves alternate. Leaves on small seedlings
+    pinnate, with later leaves <b>bipinnate</b>. Some intermediate
+    leaves may even be present with opposite leaflets basal on the
+    main rachis, and pinnate leaflets more proximally. Leaflets
+    entire, indeed looking like fraxinus leaflets.]]></morph>
+    <planted_in ref="tz"/>
+    <first_locn ref="tz"/>
+  </mtype>
+
   <mtype id="ANACOCCI">
     <det>
       <taxon id="t_anacocci">
@@ -793,17 +817,24 @@
 
   <mtype id="INDE0002">
     <det>
-      <taxon id="t_inde0002">
-        <name>Indet. 2</name>
+      <taxon id="t_malpglab">
+        <name>Malpighia glabra L.</name>
+        <family>Malpighiaceae</family>
+        <inat_taxon>165102</inat_taxon>
+        <vern>acerola, cherise (ht)</vern>
+        <range>Central America and Caribbean</range>
+        <native_in ref="ht"/>
+        <uses>medicinal</uses>
+        <links><wp>https://en.wikipedia.org/wiki/Malpighia_glabra</wp></links>
+        <note>http://legacy.tropicos.org/Image/100012169</note>
       </taxon>
+      <note>Might also be M. emarginata, but that tends indeed to have
+      a more rounded, emarginate leaf apex.</note>
     </det>
     <morph><![CDATA[ Small, <b>opposite</b>, coriaceous leaves with
     pale midrib. Longer twigs tend towards growing horizontally; then
     leaves are held in a single plane.
     ]]></morph>
-    <note>
-      Misidentified as a Prunus. Most likely a Rubiaceae.
-    </note>
     <planted_in ref="ht"/>
     <first_locn ref="ht"/>
   </mtype>
@@ -816,6 +847,21 @@
     </det>
     <morph><![CDATA[Leaves <b>palmate</b>. Not clear yet if
     alternate or opposite.]]></morph>
+    <planted_in ref="ht"/>
+    <first_locn ref="ht"/>
+  </mtype>
+
+  <mtype id="INDE0004">
+    <det>
+      <taxon id="t_inde0004">
+        <name>Indet. 4</name>
+      </taxon>
+    </det>
+    <note>Maybe a burseraceae?</note>
+    <morph><![CDATA[Leaves alternate, elliptical or obovate, base
+    acute. Upper leaf surface shiny. Petiole long, with a <b>knee</b>
+    at junction with leaf blade.]]></morph>
+    <cf ref="THEOCACA"/>
     <planted_in ref="ht"/>
     <first_locn ref="ht"/>
   </mtype>
@@ -1437,3 +1483,31 @@
     of Haiti. South-East Consortium for International Development.</doc>
   </docs>
 </morphotypes>
+
+
+<!-- 
+
+  <mtype id="">
+    <det>
+      <taxon id="t_">
+        <name></name>
+        <family></family>
+        <vern></vern>
+        <range></range>
+        <native_in ref=""/>
+        <exotic_in ref=""/>
+        <wdz></wdz>
+        <links>
+          <wp></wp>
+          <link></link>
+        </links>
+        <note></note>
+      </taxon>
+      <note></note>
+    </det>
+    <morph><![CDATA[]]></morph>
+    <planted_in ref="ht"/>
+    <first_locn ref="ht"/>
+  </mtype>
+
+-->

@@ -46,8 +46,15 @@ BEGIN{
               exit 1
             }
             system("curl -s -L " $1 " > _tmpimg")
-            system("convert _tmpimg -auto-orient -font helvetica -pointsize 50 "     \
-                   "-fill blue -gravity SouthEast -draw \"text 60,60 '" \
+            cmd = "file _tmpimg | sed -E "\
+              "'s/^.*([0-9][0-9][0-9])x[0-9][0-9][0-9].*$/\\1/g'"
+            cmd | getline width
+            close(cmd)
+            if (!width)
+              width = 480
+            system("convert _tmpimg -auto-orient -font helvetica -pointsize " \
+                   int(width * 0.05) \
+                   " -fill blue -gravity SouthEast -draw \"text 60,60 '" \
                    substr($STAMPCOL, 1, 20) "'\" " PREFIX               \
                    gensub(/^.*\//,"","G",$1) )
             system("rm -f _tmpimg")

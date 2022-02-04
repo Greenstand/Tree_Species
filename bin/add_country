@@ -14,6 +14,7 @@ END{
   # remove trailing comma
   gsub(/,$/,"",s)
   RS="\x04"
+  # print s
   # python script uses bash's $'...\n...' construct
   python = "python -c $'import reverse_geocoder\nfor i in reverse_geocoder.search(eval(input())):\n    print(i[\"cc\"].lower())'"
 
