@@ -35,5 +35,16 @@ return concat(
         )
       ,'.')
     , '\.\.', '.')
+  , '^\.$','')  ,
+  replace(
+    replace(
+      concat(
+        normalize-space(
+          string-join(
+            data($i//det/note)
+            , '. ')
+        )
+      ,'.')
+    , '\.\.', '.')
   , '^\.$','')  
 )

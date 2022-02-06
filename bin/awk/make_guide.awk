@@ -21,6 +21,8 @@ BEGIN{
     wp[$1] = $11
     uses[$1] = $12
     cf[$1] = $13
+    mnote[$1] = $14
+    dnote[$1] = $15
   }
   close(cmd)
   
@@ -111,6 +113,10 @@ BEGIN{
       print "<li><i>ID notes</i>: " idnotes[i] "</li>" >> OUT
     if (iddiff[i])
       print "<li><i>ID difficulty</i>: <b>" iddiff[i] "</b></li>" >> OUT
+    if (mnote[i])
+      print "<li><i>Morphotype notes</i>: " mnote[i] "</li>" >> OUT
+    if (dnote[i])
+      print "<li><i>Determination notes</i>: " dnote[i] "</li>" >> OUT
     print "</ul>" >> OUT
     print "<table>" >> OUT
     n = 0

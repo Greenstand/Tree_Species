@@ -1,0 +1,40 @@
+#!/bin/sh
+
+# Authorization:
+# 1. You will need to first access dbuser@bp1.treetracker.org via:
+#   ssh -i ./dbuser.id_rsa dbuser@bp1.treetracker.org
+# with the ssh private key and password, as provided by GS
+# and add a rsa public key to the remote .ssh/authorized_keys file
+# 2. Create a file in this directory called `passwords` with a single
+# line: `dbsql PSQLPASS`, where PSQLPASS is the pgsql password, from GS
+
+cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+# Usages test
+if [ $# = 0 ]
+then
+    echo "Usage: db_query_by_user <adminpanel_username>"
+    exit 1
+fi
+
+# Create tunnel
+ssh -fN -L 1111:treetracker-cluster-read-only-37982-do-user-8540031-0.b.db.ondigitalocean.com:25060 dbuser@bp1.treetracker.org
+PID=`ps auwx | grep ssh | grep treetracker | gawk '{printf "%d", $2}'`
+# echo "(ssh PID: ${PID})"
+
+# For trees, default
+SQL="\\pset format unaligned\n \
+  SELECT trees.image_url, lat, lon, tree_species.name AS species \
+  FROM entity, planter, trees \
+  LEFT JOIN tree_species ON trees.species_id = tree_species.id \
+    WHERE trees.planter_id = planter.id \
+    AND planter.organization_id = entity.id \
+    AND entity.name LIKE '%$1%';"
+
+SQLPW=`grep dbsql passwords | gawk '{printf "%s", $2}'`
+
+# Execute SQL
+echo -e "$SQL" | psql "sslmode=require host=localhost dbname=treetracker user=readonlyuser port=1111 password=$SQLPW"
+
+# kill tunnel
+kill -9 $PID
