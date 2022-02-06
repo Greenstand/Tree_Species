@@ -72,6 +72,7 @@
           <wp>https://en.wikipedia.org/wiki/Acrocarpus</wp>
         </links>
       </taxon>
+      <note>Name via Sebastian, via Fairtree. Matches well.</note>
     </det>
     <morph><![CDATA[Leaves alternate. Leaves on small seedlings
     pinnate, with later leaves <b>bipinnate</b>. Some intermediate
@@ -120,6 +121,7 @@
         <vern>soursop (en), korosol (ht)</vern>
         <range>Caribbean and Central America</range>
         <exotic_in ref="sl"/>
+        <exotic_in ref="tz"/>
         <wdz>0.36</wdz>
         <uses>food</uses>
         <links>
@@ -133,6 +135,7 @@
     <note>Location of original domestication uncertain.</note>
     <planted_in ref="ht"/>
     <planted_in ref="sl"/>
+    <planted_in ref="tz"/>
     <first_locn ref="ht"/>
   </mtype>
   
@@ -667,6 +670,26 @@
     <first_locn ref="tz"/>
   </mtype>
 
+  <mtype id="CUPR0000">
+    <det>
+      <taxon id="t_cupr0000">
+        <name>Cupressaceae spp.</name>
+        <family>Cupressaceae</family>
+      </taxon>
+    </det>
+    <morph><![CDATA[Youngest seedlings with <b>opposite, needle leaves</b>. Older seedlings and trees with scale leaves adpressed to twig.]]></morph>
+    <cf ref="CUPRLUSI"/>
+    <cf ref="JUNIPROC"/>
+    <planted_in ref="tz"/>
+    <first_locn ref="tz"/>
+    <note>2022-02-06: I do not think Cupressus lusitanica and
+    Juniperus procera (both Cupressaceae) can be told apart reliably
+    as seedlings. Therefore this morphotype is needed where both may
+    be planted (TZ). C. lusitanica is probably much more widely
+    planted, though the ECHO project lists JUNIPROC. JUNIPROC may only
+    be planted in montane areas.</note>
+  </mtype>
+
   <mtype id="CUPRLUSI">
     <det>
       <taxon id="t_cuprlusi">
@@ -674,18 +697,49 @@
         <family>Cupressaceae</family>
         <range>Central America</range>
         <exotic_in ref="tz"/>
+        <exotic_in ref="et"/>
+        <wdz>0.39</wdz>
         <links>
           <wp>https://en.wikipedia.org/wiki/Cupressus_lusitanica</wp>
           <link>https://link.springer.com/article/10.1007/s11842-019-09414-8</link>
           <link>https://landmatrix.org/media/uploads/sifisewp-contentuploads201202forest-plantations-and-woodlots-in-tanzaniapdf.pdf</link>
         </links>
+        <note>Widely planted in TZ and Ethiopia</note>
       </taxon>
     </det>
-    <note>
-      Most of these are placed here by inferrence “Cupressus in TZ”
-    </note>
+    <morph><![CDATA[Youngest seedlings with <b>opposite, needle leaves</b>. Older seedlings and trees with scale leaves adpressed to twig.]]></morph>
+    <cf ref="CUPR0000"/>
+    <cf ref="JUNIPROC"/>
+    <planted_in ref="tz"/>
+    <planted_in ref="et"/>
+    <first_locn ref="tz"/>
+  </mtype>
+
+  <mtype id="EUCA0000">
+    <det>
+      <taxon id="t_euca0000">
+        <name>Eucalyptus spp.</name>
+        <family>Myrtaceae</family>
+        <vern>eucalyptus</vern>
+        <range>Australia</range>
+        <exotic_in ref="tz"/>
+        <links>
+          <link>https://leafyplace.com/eucalyptus-tree/</link>
+          <link>https://www.gbcma.vic.gov.au/downloads/Biodiversity%20Current%20Projects/2017_-_November_-_Eucalyptus_tree_identity_guide_for_the_Strathbogie_Ranges_and_surrounds.pdf</link>
+          <link>https://apps.lucidcentral.org/euclid/text/intro/index.html</link>
+        </links>
+      </taxon>
+    </det>
+    <morph><![CDATA[Smallest seedlings often with sessile, opposite
+    leaves. Older seedlings with alternate, petiolate
+    leaves.]]></morph>
     <planted_in ref="tz"/>
     <first_locn ref="tz"/>
+    <note>This is a general, lumping morphotype for eucalypts, which
+    are very diverse (even where planted as exotics) and show great
+    morphological variation as seedlings age.</note>
+    <note>In East Africa, E. globulus and E. saligna appear to be
+    commonly planted.</note>
   </mtype>
 
   <mtype id="GMELARBO">
@@ -736,6 +790,28 @@
     <first_locn ref="sl"/>
   </mtype>
 
+  <mtype id="GREVBANK">
+    <det>
+      <taxon id="t_grevbank">
+        <name>Grevillea banksii R.Br.</name>
+        <family>Proteaceae</family>
+        <inat_taxon>163372</inat_taxon>
+        <vern>scarlet grevillea (en)</vern>
+        <range>Australia</range>
+        <exotic_in ref="tz"/>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Grevillea_banksii</wp>
+        </links>
+      </taxon>
+    </det>
+    <morph><![CDATA[Leaves alternate, pinnately lobed. Lobes opposite,
+    4 pairs with terminal, narrow, with parallel sides, <b>not tending
+    towards pinnate sub-lobing</b>.]]></morph>
+    <cf ref="GREVROBU"/>
+    <planted_in ref="tz"/>
+    <note>https://www.inaturalist.org/observations/35613549, https://www.inaturalist.org/observations/34438302</note>
+  </mtype>
+
   <mtype id="GREVROBU">
     <det>
       <taxon id="t_grevrobu">
@@ -745,13 +821,20 @@
         <vern>silky oak (en)</vern>
         <range>Australia</range>
         <exotic_in ref="tz"/>
+        <exotic_in ref="ug"/>
         <uses>timber firewood mulch shade</uses>
         <links>
           <wp>https://en.wikipedia.org/wiki/Grevillea_robusta</wp>
         </links>
       </taxon>
     </det>
+    <morph><![CDATA[Leaves alternate, pinnately to bipinnately
+    lobed. lobes with serrate margins, <b>tending towards pinnate
+    sub-lobing</b>. Primary lobes up to 10 pairs, opposite on
+    'rachis'.]]></morph>
+    <cf ref="GREVBANK"/>
     <planted_in ref="tz"/>
+    <planted_in ref="ug"/>
     <first_locn ref="tz"/>
   </mtype>
 
@@ -887,6 +970,28 @@
     Haiti planting photos is this one.</note>
     <planted_in ref="ht"/>
     <first_locn ref="ht"/>
+  </mtype>
+
+  <mtype id="JUNIPROC">
+    <det>
+      <taxon id="t_juniproc">
+        <name>Juniperus procera Hochst. ex Endl.</name>
+        <family>Cupressaceae</family>
+        <vern>African pencil cedar (en), African juniper (en),
+        mtarakwa (tz)</vern>
+        <range>Montane forests of East Africa and Arabia</range>
+        <native_in ref="tz"/>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Juniperus_procera</wp>
+          <link></link>
+        </links>
+        <uses>timber</uses>
+      </taxon>
+    </det>
+    <morph><![CDATA[Youngest seedlings with <b>opposite, needle leaves</b>. Older seedlings and trees with scale leaves adpressed to twig.]]></morph>
+    <cf ref="CUPRLUSI"/>
+    <cf ref="CUPR0000"/>
+    <planted_in ref="tz"/>
   </mtype>
 
   <mtype id="MANGINDI">
@@ -1137,6 +1242,7 @@
         <vern>guava (en)</vern>
         <range>Caribbean, Central America and South America</range>
         <uses>food</uses>
+        <exotic_in ref="tz"/>
         <links>
           <wp>https://en.wikipedia.org/wiki/Psidium_guajava</wp>
         </links>
@@ -1145,6 +1251,7 @@
     <morph><![CDATA[Leaves <b>opposite</b>. Secondary veins deeply
     <b>sunken</b> into leaf (from above).]]></morph>
     <planted_in ref="ht"/>
+    <planted_in ref="tz"/>
     <first_locn ref="ht"/>
   </mtype>
 
@@ -1262,6 +1369,8 @@
         </links>
       </taxon>
     </det>
+    <morph><![CDATA[Leaves <b>opposite, large, obovate, almost
+    sessile</b>.]]></morph>
     <planted_in ref="tz"/>
     <planted_in ref="sl"/>
     <first_locn ref="tz"/>
@@ -1475,6 +1584,7 @@
         <link>http://www.worldcat.org/oclc/26129237</link>
       </links>
     </country>
+    <country id="ug"/>
     <country id="us"/>
     <country id="vn"/>
   </countries>
@@ -1506,8 +1616,9 @@
       <note></note>
     </det>
     <morph><![CDATA[]]></morph>
-    <planted_in ref="ht"/>
-    <first_locn ref="ht"/>
+    <cf ref=""/>
+    <planted_in ref=""/>
+    <first_locn ref=""/>
   </mtype>
 
 -->

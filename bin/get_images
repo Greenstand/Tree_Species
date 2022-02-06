@@ -59,6 +59,15 @@ BEGIN{
                    gensub(/^.*\//,"","G",$1) )
             system("rm -f _tmpimg")
           }
+
+          if (FILEBY) {
+            if (!dirmade[$FILEBY]) {
+              system("mkdir '" $FILEBY "'")
+              dirmade[$FILEBY] = 1
+            }
+            system("mv '" PREFIX gensub(/^.*\//,"","G",$1) "' '" $FILEBY "'")
+          }
+            
           print uuid >> "downloaded"
           close("downloaded")
         }
@@ -86,6 +95,7 @@ function read_args(    arg) {
     else if (ARGV[arg] == "--prefix"  ) PREFIX    = ARGV[arg+1] "_"
     else if (ARGV[arg] == "--prefixf" ) PREFIXCOL = ARGV[arg+1]
     else if (ARGV[arg] == "--stamp"   ) STAMPCOL  = ARGV[arg+1]
+    else if (ARGV[arg] == "--fileby"  ) FILEBY    = ARGV[arg+1]
     else if (ARGV[arg] == "--minsize" ) MINSIZE   = ARGV[arg+1]
   }
 
@@ -97,6 +107,7 @@ function read_args(    arg) {
       "                  --prefix  <prefix>         \\\n"      \
       "                  --prefixf <prefix_column>  \\\n"      \
       "                  --stamp   <stamp_column>   \\\n"      \
+      "                  --fileby  <file_column>   \\\n"      \
       "                  --minsize <min_image_size> ]"
     exit 1
   }
