@@ -675,6 +675,18 @@
       <taxon id="t_cupr0000">
         <name>Cupressaceae spp.</name>
         <family>Cupressaceae</family>
+        <note ref="page1990cup">Seedlings of all genera have narrowly
+        linear, free, spreading leaves, of rather similar
+        appearance. These are lost very early in the seedling stage of
+        many genera (e. g., Calocedrus, Tetraclinis), but in others
+        (e. g., Cupressus, Chamaecyparis, Callitris) the change from
+        juvenile to adult foliage takes place later in adolescence
+        as plants mature - the exact stage often varying widely
+        between species. In Widdringtonia and Juniperus and some
+        Chamaecyparis and Cupressus, juvenile leaves may occur on
+        adult plants.</note>
+        <note ref="wikipedia0cup">Juniperus and Cupressus are sister taxa.
+        </note>
       </taxon>
     </det>
     <morph><![CDATA[Youngest seedlings with <b>opposite, needle leaves</b>. Older seedlings and trees with scale leaves adpressed to twig.]]></morph>
@@ -705,6 +717,8 @@
           <link>https://landmatrix.org/media/uploads/sifisewp-contentuploads201202forest-plantations-and-woodlots-in-tanzaniapdf.pdf</link>
         </links>
         <note>Widely planted in TZ and Ethiopia</note>
+        <note>Adult plants have tightly adpressed scale leaves on a
+        twig, very hard to differetiate from Juniperus procera.</note>
       </taxon>
     </det>
     <morph><![CDATA[Youngest seedlings with <b>opposite, needle leaves</b>. Older seedlings and trees with scale leaves adpressed to twig.]]></morph>
@@ -986,6 +1000,8 @@
           <link></link>
         </links>
         <uses>timber</uses>
+        <note>Adult plants have tightly adpressed scale leaves on a
+        twig, very hard to differetiate from Cupressus lusitanica.</note>
       </taxon>
     </det>
     <morph><![CDATA[Youngest seedlings with <b>opposite, needle leaves</b>. Older seedlings and trees with scale leaves adpressed to twig.]]></morph>
@@ -1591,6 +1607,8 @@
   <docs>
     <doc id="timyam1996bwa">Timyam, Joel. 1996. Bwa Yo: Important Trees
     of Haiti. South-East Consortium for International Development.</doc>
+    <doc id="page1990cup">Page C.N. (1990) Cupressaceae. In: Kramer K.U., Green P.S. (eds) Pteridophytes and Gymnosperms. The Families and Genera of Vascular Plants, vol 1. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-662-02604-5_56</doc>
+    <doc id="wikipedia0cup">Wikipedia (last edit: 2022). Cupressaceae. https://en.wikipedia.org/wiki/Cupressaceae</doc>
   </docs>
 </morphotypes>
 
