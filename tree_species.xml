@@ -404,17 +404,19 @@
       <taxon id="t_casuequi">
         <name>Casuarina equisetifolia L.</name>
         <family>Casuarinaceae</family>
+        <vern>beach sheoak (en)</vern>
         <inat_taxon>62888</inat_taxon>
+        <note>This can become an invasive under
+        certain circumstances, and should probably not be encouraged.
+        </note>
       </taxon>
       <note>
         It appears from iNaturalist and other resources (e.g.,
         https://phytokeys.pensoft.net/article/49602/ and
         doi:10.1007/s11676-018-0621-x) that Casuarina equisetifolia is
-        the most common Casuarina in East Africa.  restoration: NOTE
-        this can become an invasive under certain circumstances, and
-        should probably not be encouraged.
-      </note>
+      the most common Casuarina in East Africa.</note>
     </det>
+    <morph><![CDATA[Long, leaf-like twigs with reduced leaves. Superficially like a pine.]]></morph>
     <planted_in ref="tz"/>
     <first_locn ref="tz"/>
   </mtype>
