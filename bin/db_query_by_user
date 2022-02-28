@@ -23,18 +23,21 @@ PID=`ps auwx | grep ssh | grep treetracker | gawk '{printf "%d", $2}'`
 # echo "(ssh PID: ${PID})"
 
 # For trees, default
+# SQL="\\pset format unaligned\n \
+#   SELECT trees.image_url, lat, lon, \
+#     audit.created_at AS time , admin_user.user_name, \
+#     CONCAT_WS(' ', admin_user.first_name, admin_user.last_name) AS person, \
+#     entity.name AS org, tree_species.name AS species \
+#   FROM audit, trees, tree_species, admin_user, entity, planter \
+#   WHERE (audit.operation->'payload'->>'speciesId')::integer = tree_species.id \
+#     AND audit.admin_user_id = admin_user.id \
+#     AND admin_user.user_name = '"$1"' \
+#     AND (audit.operation->'payload'->>'id')::integer = trees.id \
+#     AND trees.planter_id = planter.id \
+#     AND planter.organization_id = entity.id;"
+
 SQL="\\pset format unaligned\n \
-  SELECT trees.image_url, lat, lon, \
-    audit.created_at AS time , admin_user.user_name, \
-    CONCAT_WS(' ', admin_user.first_name, admin_user.last_name) AS person, \
-    entity.name AS org, tree_species.name AS species \
-  FROM audit, trees, tree_species, admin_user, entity, planter \
-  WHERE (audit.operation->'payload'->>'speciesId')::integer = tree_species.id \
-    AND audit.admin_user_id = admin_user.id \
-    AND admin_user.user_name = '"$1"' \
-    AND (audit.operation->'payload'->>'id')::integer = trees.id \
-    AND trees.planter_id = planter.id \
-    AND planter.organization_id = entity.id;"
+select trees.image_url, lat, lon, a.cid, a.t, tree_species.name from (select (audit.operation->'payload'->>'id')::integer as cid, max(audit.created_at) t from audit, admin_user where audit.admin_user_id = admin_user.id and admin_user.user_name = '"$1"' group by cid order by cid) as a left join (select (audit.operation->'payload'->>'id')::integer as cid, audit.created_at as t, (audit.operation->'payload'->>'speciesId')::integer as spid from audit) as b on a.cid = b.cid and a.t = b.t left join tree_species on b.spid = tree_species.id left join trees on a.cid = trees.id;"
 
 SQLPW=`grep dbsql passwords | gawk '{printf "%s", $2}'`
 

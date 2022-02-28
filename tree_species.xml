@@ -5,7 +5,7 @@
       <taxon id="t_acacauri">
         <name>Acacia auriculiformis A.Cunn. ex Benth.</name>
         <family>Fabaceae</family>
-        <vern>earleaf acacia (en)</vern>
+        <vern>earleaf acacia (en), kaliptis (ht)</vern>
         <range>Australasia</range>
         <exotic_in ref="ht"/>
         <wdz>0.68</wdz>
@@ -731,6 +731,33 @@
     <first_locn ref="tz"/>
   </mtype>
 
+  <mtype id="DOMBTORR">
+    <det>
+      <taxon id="t_dombtorr">
+        <name> Dombeya torrida (J.F.Gmel.) Hepper &amp; Friis</name>
+        <family>Malvaceae</family>
+        <inat_taxon>1071826</inat_taxon>
+        <vern>mukeu (ke:kikuyu)</vern>
+        <range>E Africa and Ethiopia highlands</range>
+        <native_in ref="ke"/>
+        <wdz>0.5</wdz>
+        <links>
+          <link>https://apps.worldagroforestry.org/usefultrees/pdflib/Dombeya_torrida_KEN.pdf</link>
+        </links>
+        <note>Syn: Dombeya goetzenii; wood density for D. goetzenii</note>
+      </taxon>
+      <note>There are many Dombeya in Africa, mainly in S Africa, and
+      all have similar leaves. This det solely based on the occurence
+      of this species in Kenya on iNat, and the species name coming
+      from a local conservation org.</note>
+    </det>
+    <morph><![CDATA[Leaves alternate, large, <b>round</b>,
+    <b>hairy</b> (visible in photos)]]></morph>
+    <cf ref="INDE0001"/>
+    <planted_in ref="ke"/>
+    <first_locn ref="ke">Cranes Conservation</first_locn>
+  </mtype>
+
   <mtype id="EUCA0000">
     <det>
       <taxon id="t_euca0000">
@@ -1252,6 +1279,27 @@
     <first_locn ref="ht"/>
   </mtype>
 
+  <mtype id="PRUNAFRI">
+    <det>
+      <taxon id="t_prunafri">
+        <name>Prunus africana (Hook.f.) Kalkman</name>
+        <family>Rosaceae</family>
+        <vern>stinkwood (en), muiri (tz)</vern>
+        <range>E and S Africa (high elevations)</range>
+        <native_in ref="ke"/>
+        <wdz>0.6855</wdz>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Prunus_africana</wp>
+        </links>
+      </taxon>
+    </det>
+    <morph><![CDATA[Leaves alternate. Stem and petiole often
+    <b>reddish</b>. Margin finely serrate (but not visible in most
+    photos).]]></morph>
+    <planted_in ref="ke"/>
+    <first_locn ref="ke">Cranes Conservation Volunteers (NABU)</first_locn>
+  </mtype>
+
   <mtype id="PSIDGUAJ">
     <det>
       <taxon id="t_psidguaj">
@@ -1279,7 +1327,7 @@
         <name>Senna siamea (Lam.) Irwin et Barneby</name>
         <family>Fabaceae</family>
         <inat_taxon>208839</inat_taxon>
-        <vern>siamese cassia, kassod (en), kasya (ht)</vern>
+        <vern>siamese cassia, kassod (en), (a)kasya (ht)</vern>
         <range>India and SE Asia</range>
         <native_in ref="in"/>
         <native_in ref="th"/>
@@ -1348,6 +1396,29 @@
     <planted_in ref="co"/>
     <planted_in ref="ht"/>
     <first_locn ref="co"/>
+  </mtype>
+
+  <mtype id="SYZYGUIN">
+    <det>
+      <taxon id="t_syzyguin">
+        <name>Syzygium guineense Wall.</name>
+        <family>Myrtaceae</family>
+        <inat_taxon>132507</inat_taxon>
+        <vern>mukoe (ke:kikuyu)</vern>
+        <range>Africa</range>
+        <native_in ref="ke"/>
+        <wdz>0.61</wdz>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Syzygium_guineense</wp>
+          <link>https://apps.worldagroforestry.org/usefultrees/pdflib/Syzygium_guineense_KEN.pdf</link>
+        </links>
+      </taxon>
+      <note>Det from species list from Cranes Conservation</note>
+    </det>
+    <morph><![CDATA[Leaves opposite, dark green above, narrow-ish and
+    appearing leathery.]]></morph>
+    <planted_in ref="ke"/>
+    <first_locn ref="ke">Cranes Conservation</first_locn>
   </mtype>
 
   <mtype id="TAMAINDI">
@@ -1622,6 +1693,7 @@
       <taxon id="t_">
         <name></name>
         <family></family>
+        <inat_taxon></inat_taxon>
         <vern></vern>
         <range></range>
         <native_in ref=""/>

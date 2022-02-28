@@ -59,13 +59,15 @@ BEGIN{
                    gensub(/^.*\//,"","G",$1) )
             system("rm -f _tmpimg")
           }
-
+          
           if (FILEBY) {
-            if (!dirmade[$FILEBY]) {
-              system("mkdir '" $FILEBY "'")
-              dirmade[$FILEBY] = 1
+            dirname = gensub(/[() ]/,"_","G",$FILEBY)
+            if (!dirmade[dirname]) {
+              system("mkdir -p '" dirname "'")
+              dirmade[dirname] = 1
             }
-            system("mv '" PREFIX gensub(/^.*\//,"","G",$1) "' '" $FILEBY "'")
+            system("mv '" PREFIX gensub(/^.*\//,"","G",$1) "' '"    \
+              dirname "'")
           }
             
           print uuid >> "downloaded"
