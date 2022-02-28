@@ -13,7 +13,7 @@ BEGIN{
     fam[$1] = $3
     planted_in[$1] = $4
     common[$1] = $5
-    idnotes[$1] = $6
+    morphology[$1] = $6
     exotic[$1] = $7
     range[$1] = $8
     native[$1] = $9
@@ -74,7 +74,7 @@ BEGIN{
         x = (exotic[j] ~ guide[i]) ? ("<br/>Not native to " country[i] ) : ""
         xn = (native[j] ~ guide[i]) ? ("<br/><b>Native</b> to " country[i] ) : ""
         r = (range[j]) ? ("<br/>Native range: " range[j] ) : ""
-        idn = (idnotes[j]) ? ("<br/><br/><i>ID notes</i>: " idnotes[j] ) : ""
+        idn = (morphology[j]) ? ("<br/><br/><i>Morphology</i>: " morphology[j] ) : ""
         cfn = (cf[j]) ? ("<br/><br/><i>Compare with</i>: " cf[j] ) : ""
         # idd = (iddiff[j]) ? ("<br/><i>ID difficulty</i>: " iddiff[j] ) : ""
         pic1 = (hassdlphoto[j]) ? "_sdl.jpg" : firstphoto[j]
@@ -109,8 +109,8 @@ BEGIN{
       print "<li><i>Wikipedia</i>: <a href=\"" wp[i] "\">LINK</a></li>" >> OUT
     if (uses[i])
       print "<li><i>Uses</i>: " uses[i] "</li>" >> OUT
-    if (idnotes[i])
-      print "<li><i>ID notes</i>: " idnotes[i] "</li>" >> OUT
+    if (morphology[i])
+      print "<li><i>Morphology</i>: " morphology[i] "</li>" >> OUT
     if (iddiff[i])
       print "<li><i>ID difficulty</i>: <b>" iddiff[i] "</b></li>" >> OUT
     if (mnote[i])

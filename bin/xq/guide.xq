@@ -17,11 +17,11 @@ return concat(
   '|',
   normalize-space(data($i/det/taxon/native_range)),
   '|',
-  string-join( data($i/det/taxonnative_in/@ref), ' '),
+  string-join( data($i/det/taxon/native_in/@ref), ' '),
   '||',
-  data($i//wp),
+  data($i/det/taxon/links/wp),
   '|',
-  normalize-space(data($i/uses)),
+  normalize-space(data($i/det/taxon/uses)),
   '|',
   string-join( data($i/cf/@ref), ' '),
   '|',
@@ -30,18 +30,19 @@ return concat(
       concat(
         normalize-space(
           string-join(
-            data($i//note)
+            data($i/note)
             , '. ')
         )
       ,'.')
     , '\.\.', '.')
-  , '^\.$','')  ,
+    , '^\.$','')  ,
+  '|',
   replace(
     replace(
       concat(
         normalize-space(
           string-join(
-            data($i//det/note)
+            data($i/det/note)
             , '. ')
         )
       ,'.')

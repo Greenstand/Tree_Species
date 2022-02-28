@@ -1097,6 +1097,7 @@
         <vern>Nile tulip tree (en)</vern>
         <range>Africa</range>
         <native_in ref="tz"/>
+        <native_in ref="ke"/>
         <links>
           <wp>https://en.wikipedia.org/wiki/Markhamia_lutea</wp>
           <link>https://treeskenya.org/gallery/markhamia-lutea-seedling/</link>
@@ -1104,16 +1105,21 @@
           <link>https://sites.google.com/site/efloraofindia/species/a---l/b/bignoniaceae/markhamia/markhamia-lutea</link>
           <link>http://www.plantsofasia.com/index/markhamia_lutea/0-847</link>
           <link>https://www.growsonyou.com/photo/slideshow/214106-markhamia-lutea-markhamia-nile-tulip-tree/all</link>
+          <link>https://apps.worldagroforestry.org/usefultrees/pdflib/Markhamia_lutea_KEN.pdf</link>
         </links>
       </taxon>
+      <note>Thanks to Nobby Cordeiro and Henry Ndangalasi for the
+      determination of Fairtree seedlings, 2021-11-16.</note>
+      <note>The seedlings in Kenya seem to have leaflets that are less
+      rounded at the base and more acute. But iNat has only M. lutea
+      in Kenya, so I've added the KE photos to MARKLUTE.</note>
     </det>
     <morph><![CDATA[Leaves opposite, simple in youngest seedlings,
     <b>imparipinnate</b> after ~tenth leaf (with three leaflets, then
     five, then seven). Stipules large, appearing interpetiolar. Margin
     serrate (in seedlings).]]></morph>
-    <note>Thanks to Nobby Cordeiro and Henry Ndangalasi for the
-    determination of Fairtree seedlings, 2021-11-16.</note>
     <planted_in ref="tz"/>
+    <planted_in ref="ke"/>
     <first_locn ref="tz"/>
   </mtype>
 
@@ -1284,7 +1290,7 @@
       <taxon id="t_prunafri">
         <name>Prunus africana (Hook.f.) Kalkman</name>
         <family>Rosaceae</family>
-        <vern>stinkwood (en), muiri (tz)</vern>
+        <vern>stinkwood (en), muiri (ke)</vern>
         <range>E and S Africa (high elevations)</range>
         <native_in ref="ke"/>
         <wdz>0.6855</wdz>
