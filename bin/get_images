@@ -26,14 +26,16 @@ BEGIN{
       }
       else {
         # first time to get size
-        cmd = "curl -s -I " $1 " | grep -E '[Cc]ontent-[Ll]ength'"
-        cmd | getline size
-        close(cmd)
-        split(size, s, / +/)
-        print i ": size: " s[2] 
-        if (s[2] >= MINSIZE) {
+        if (MINSIZE) {
+          cmd = "curl -s -I " $1 " | grep -E '[Cc]ontent-[Ll]ength'"
+          cmd | getline size
+          close(cmd)
+          split(size, s, / +/)
+          print i ": size: " s[2]
+        }
+        if (!MINSIZE || (s[2] >= MINSIZE)) {
           n++
-          print "  fetching... (" n ")"
+          print "  fetching... " i " (" n ")"
           if (PREFIXCOL)
             PREFIX = $PREFIXCOL "_"
           if (!STAMPCOL)
@@ -87,7 +89,7 @@ function read_args(    arg) {
   FILE = PREFIX = STAMP = ""
   START = STEP = 1
   MAX = 100
-  MINSIZE = 100000
+  # MINSIZE = 100000
   
   for (arg = 1; arg < ARGC; arg++) {
     if      (ARGV[arg] == "--trees"    ) FILE      = ARGV[arg+1]

@@ -75,7 +75,16 @@ BEGIN{
         xn = (native[j] ~ guide[i]) ? ("<br/><b>Native</b> to " country[i] ) : ""
         r = (range[j]) ? ("<br/>Native range: " range[j] ) : ""
         idn = (morphology[j]) ? ("<br/><br/><i>Morphology</i>: " morphology[j] ) : ""
-        cfn = (cf[j]) ? ("<br/><br/><i>Compare with</i>: " cf[j] ) : ""
+        # cfn = (cf[j]) ? ("<br/><br/><i>Compare with</i>: " cf[j] ) : ""
+        if (cf[j]) {
+          cfn = "<br/><br/><i>Compare with</i>: "
+          cf2n = split(cf[j],cf2," ")
+          for (k in cf2)
+            cfn = cfn "<a href=\"https://herbarium.treetracker.org/guide/" \
+              cf2[k] ".html\">" cf2[k] "</a> "
+        }
+        else
+          cfn = ""
         # idd = (iddiff[j]) ? ("<br/><i>ID difficulty</i>: " iddiff[j] ) : ""
         pic1 = (hassdlphoto[j]) ? "_sdl.jpg" : firstphoto[j]
         pic2 = (haslfphoto[j]) ? \
