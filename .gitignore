@@ -3,3 +3,4 @@ herbarium/*
 raw*
 training/taxa*
 bin/passwords
+bin/treetracker_output

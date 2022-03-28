@@ -27,7 +27,15 @@ start =
          }* &
          element apname { text }* &
          note* &
-         links?
+         links? &
+         element syn {
+            attribute id { xsd:ID } &
+            element morph { text }? &
+            element cf {
+               attribute ref { xsd:IDREF }
+            }* &
+            note*
+         }*
       }+ ,
       element taxa {
          taxon+

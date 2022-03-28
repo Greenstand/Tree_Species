@@ -1,4 +1,19 @@
 <morphotypes>
+
+  <!--
+  <mtype id="AAAA0000">
+    <det>
+      <taxon id="t_aaaa0000">
+        <name>Test</name>
+        <family>Testaceae</family>
+      </taxon>
+    </det>
+    <morph><![CDATA[
+    Test
+    ]]></morph>
+    <planted_in ref="ht"/>
+  </mtype>
+  -->
   
   <mtype id="ACACAURI">
     <det>
@@ -309,6 +324,7 @@
     <morph><![CDATA[Leaves alternate, imparipinnate. Leaflets 10 to 30, <b>serrate</b>.]]></morph>
     <planted_in ref="sl"/>
     <planted_in ref="ht"/>
+    <planted_in ref="ug"/>
     <first_locn ref="sl"/>
   </mtype>
 
@@ -397,6 +413,7 @@
     <morph><![CDATA[Leaves alternate, held in a flat plane, simple; margin strongly <b>wavy</b>. Secondary veins deeply sunken.]]></morph>
     <planted_in ref="co"/>
     <first_locn ref="co"/>
+    <cf ref="MAESEMIN"/>
   </mtype>
 
   <mtype id="CASUEQUI">
@@ -452,14 +469,22 @@
         <family>Meliaceae</family>
         <vern>sed (ht), sède (ht), Spanish cedar (en)</vern>
         <native_in ref="ht"/>
+        <note>In most descriptions, C. odorata is described as
+        paripinnate. This is the tree. The seedling begins with a
+        distinct terminal leaflet.</note>
       </taxon>
     </det>
-    <morph><![CDATA[Leaves alternate, <b>imparipinnate</b>, with
-    3-6 opposite leaflets. Secondary veins on leaflets faint, paler
-    than lamina where visible, 5-8 pairs.]]></morph>
+    <morph><![CDATA[Leaves alternate, <b>imparipinnate when young,
+    becoming paripinnate (at ~50-100 cm tall)</b>, with 3-6 opposite
+    leaflets. Secondary veins on leaflets faint, paler than lamina
+    where visible, 5-8 pairs. Leaflets with less sunken veins that
+    SWIEMACR or SWIEMAHO. <b>ATTENTION: larger, paripinnate seedlings
+    are hard to differentiate from SWIEMACR</b>]]></morph>
     <note>commercially important</note>
     <planted_in ref="ht"/>
     <first_locn ref="ht"/>
+    <cf ref="SWIEMACR"/>
+    <cf ref="SWIEMAHO"/>
   </mtype>
 
   <mtype id="CITR0000">
@@ -734,7 +759,7 @@
   <mtype id="DOMBTORR">
     <det>
       <taxon id="t_dombtorr">
-        <name> Dombeya torrida (J.F.Gmel.) Hepper &amp; Friis</name>
+        <name>Dombeya torrida (J.F.Gmel.) Hepper &amp; Friis</name>
         <family>Malvaceae</family>
         <inat_taxon>1071826</inat_taxon>
         <vern>mukeu (ke:kikuyu)</vern>
@@ -806,6 +831,7 @@
     <morph><![CDATA[Leaves opposite, broadly <b>ovate</b>, deeply
     <b>serrate</b> in seedlings, entier in adults.]]></morph>
     <planted_in ref="sl"/>
+    <planted_in ref="ug"/>
     <first_locn ref="sl"/>
   </mtype>
 
@@ -981,18 +1007,21 @@
     <det>
       <taxon id="t_inde0004">
         <name>Indet. 4</name>
+        <family>Meliaceae</family>
       </taxon>
     </det>
-    <note>Maybe a burseraceae?</note>
+    <note>A Meliaceae. Possibly the seedling of SWIEMAHO. Similar also
+    to the known SWIEMACR seedling, but has more, and more-regular,
+    secondary veins.</note>
     <morph><![CDATA[Leaves alternate, elliptical or obovate, base
     acute. Upper leaf surface shiny. Petiole long, with a <b>knee</b>
     at junction with leaf blade.]]></morph>
     <cf ref="THEOCACA"/>
-    <planted_in ref="ht"/>
-    <first_locn ref="ht"/>
+    <cf ref="SWIEMAHO"/>
+    <cf ref="SWIEMACR"/>
   </mtype>
 
-  <mtype id="INGAFEUI">
+    <mtype id="INGAFEUI">
     <det>
       <taxon id="t_ingafeui">
         <name>Inga feuilleei DC.</name>
@@ -1039,6 +1068,30 @@
     <planted_in ref="tz"/>
   </mtype>
 
+  <mtype id="MAESEMIN">
+    <det>
+      <taxon id="t_maesemin">
+        <name>Maesopsis eminii Engl.</name>
+        <family>Rahamnaceae</family>
+        <inat_taxon>133577</inat_taxon>
+        <vern>umbrella tree (en)</vern>
+        <range>W and C Africa</range>
+        <exotic_in ref="ug"/>
+        <exotic_in ref="tz"/>
+        <wdz>0.3835</wdz>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Maesopsis</wp>
+        </links>
+      </taxon>
+    </det>
+    <morph><![CDATA[Leaves alternate, glossy above. Secondary veins
+    deeply sunken above. Tertiary veins <b>densely parallel</b> and
+    <b>visible</b> in photos. Margin with <b>distinctive 'pinching' or
+    notching</b> at end of secondary veins.]]></morph>
+    <planted_in ref="ug"/>
+    <first_locn ref="ug"/>
+  </mtype>
+  
   <mtype id="MANGINDI">
     <det>
       <taxon id="t_mangindi">
@@ -1166,6 +1219,20 @@
     <planted_in ref="ht"/>
     <planted_in ref="sl"/>
     <first_locn ref="ht"/>
+  </mtype>
+
+  <mtype id="MUSA0000">
+    <det>
+      <taxon id="t_musa0000">
+        <name>Musa</name>
+        <family>Musaceae</family>
+        <vern>banana (en)</vern>
+        <range>Southeast Asia and Melanesia</range>
+        <exotic_in ref="ht"/>
+      </taxon>
+    </det>
+    <morph><![CDATA[Very large, monocot leaves. Classic banana form.]]></morph>
+    <planted_in ref="ht"/>
   </mtype>
 
   <mtype id="PERSAMER">
@@ -1375,8 +1442,25 @@
     </det>
     <morph><![CDATA[Leaves alternate,
     <b>imparipinnate</b>. Leaflets alternate, 6-7 pairs.]]></morph>
+    <cf ref="INDE0005"/>
     <planted_in ref="ht"/>
     <first_locn ref="ht"/>
+  </mtype>
+
+  <mtype id="INDE0005">
+    <det>
+      <taxon id="t_inde0005">
+        <name>Indet. 5</name>
+      </taxon>
+    </det>
+    <morph><![CDATA[Leaves alternate, paripinnate. Leaflets opposite,
+    3-5 pairs, leaflets opposite. Secondary veins pale, at right
+    angles to leaflet primary vein.]]></morph>
+    <planted_in ref="ht"/>
+    <first_locn ref="ht"/>
+    <note>This may just be a juvenile SIMAGLAU, but the opposite
+    leaflets and prominant secondary veins suggest a different species.
+    </note>
   </mtype>
 
   <mtype id="SWIEMACR">
@@ -1385,23 +1469,57 @@
         <name>Swietenia macrophylla King</name>
         <family>Meliaceae</family>
         <inat_taxon>169442</inat_taxon>
-        <vern>mahogany (en)</vern>
+        <vern>mahogany (en), big-leaved mahogany (en)</vern>
         <range>northern South America</range>
         <native_in ref="co"/>
         <uses>timber</uses>
         <links>
           <wp>https://en.wikipedia.org/wiki/Swietenia_macrophylla</wp>
+          <link>https://www.youtube.com/watch?v=OHxC826Qi9Y</link>
         </links>
       </taxon>
     </det>
-    <morph><![CDATA[Leaves alternate, <b>paripinnate</b>. Secondary
-    veins sunken.]]></morph>
+    <morph><![CDATA[Leaves alternate. Young plants have <b>simple
+    leaves, with long petiole and swollen 'knee'</b>, older plants
+    transition through a brief <b>imparipinnate</b> phase, soon
+    becoming <b>paripinnate</b>. Secondary veins <b>deeply sunken</b>
+    above (cf. CEDRODOR), and curving more rapidly in their distal
+    third than CEDRODOR.]]></morph>
+    <cf ref="CEDRODOR"/>
+    <cf ref="SWIEMAHO"/>
+    <cf ref="INDE0004"/>
     <note>Identity of common saplings in MACAO confirmed by Maria
     C. on 2021-11-16.</note>
-    <note>In Haiti from this seedling: 2020.12.10.13.47.31_18.288809931837022_-73.56056836433709_80914ed4-be48-4bf9-967a-b7f32cdd7819_IMG_20201207_113956_701386243352788961.jpg</note>
+    <note>See simple leaved seedlings in iNat obs 105493254 and 98757847.</note>
     <planted_in ref="co"/>
     <planted_in ref="ht"/>
     <first_locn ref="co"/>
+  </mtype>
+
+  <mtype id="SWIEMAHO">
+    <det>
+      <taxon id="t_swiemaho">
+        <name>Swietenia mahagoni (L.) Jacq.</name>
+        <family>Meliaceae</family>
+        <inat_taxon>497641</inat_taxon>
+        <vern>West Indian mahogany (en), kayou peyi (ht)</vern>
+        <range>Florida and Carribean</range>
+        <native_in ref="ht"/>
+        <uses>timber</uses>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Swietenia_mahagoni</wp>
+        </links>
+      </taxon>
+    </det>
+    <morph><![CDATA[Leaves alternate, older seedlings and tree
+    <b>paripinnate</b>. Secondary veins sunken, leaflets appearing
+    leathery and dark green, more ovate than SWIEMACR. Smallest
+    seedlings no known yet, but probably simple (see
+    SWIEMACR).]]></morph>
+    <cf ref="CEDRODOR"/>
+    <cf ref="SWIEMACR"/>
+    <cf ref="INDE0004"/>
+    <planted_in ref="ht" docref="timyam1996bwa"/>
   </mtype>
 
   <mtype id="SYZYGUIN">
