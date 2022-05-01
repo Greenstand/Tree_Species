@@ -1019,6 +1019,8 @@
     <cf ref="THEOCACA"/>
     <cf ref="SWIEMAHO"/>
     <cf ref="SWIEMACR"/>
+    <planted_in ref="ht"/>
+    <first_locn ref="ht"/>
   </mtype>
 
     <mtype id="INGAFEUI">
@@ -1550,7 +1552,7 @@
       <taxon id="t_tamaindi">
         <name>Tamarindus indica L.</name>
         <family>Fabaceae</family>
-        <vern>tamarind (en), tamren (ht)</vern>
+        <vern>tamarind (en), tamren (ht), tombi (sl)</vern>
         <range>Tropical Africa</range>
         <exotic_in ref="ht"/>
         <uses>food woodworking</uses>

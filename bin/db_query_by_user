@@ -36,8 +36,24 @@ PID=`ps auwx | grep ssh | grep treetracker | gawk '{printf "%d", $2}'`
 #     AND trees.planter_id = planter.id \
 #     AND planter.organization_id = entity.id;"
 
-SQL="\\pset format unaligned\n \
-select trees.image_url, lat, lon, a.cid, a.t, tree_species.name from (select (audit.operation->'payload'->>'id')::integer as cid, max(audit.created_at) t from audit, admin_user where audit.admin_user_id = admin_user.id and admin_user.user_name = '"$1"' group by cid order by cid) as a left join (select (audit.operation->'payload'->>'id')::integer as cid, audit.created_at as t, (audit.operation->'payload'->>'speciesId')::integer as spid from audit) as b on a.cid = b.cid and a.t = b.t left join tree_species on b.spid = tree_species.id left join trees on a.cid = trees.id;"
+SQL="\\pset format unaligned\n                                  \
+SELECT trees.image_url, lat, lon, a.cid, a.t, tree_species.name \
+FROM (                                                          \
+  SELECT (audit.operation->'payload'->>'id')::integer AS cid,   \
+    MAX(audit.created_at) t                                     \
+  FROM audit, admin_user                                        \
+  WHERE audit.admin_user_id = admin_user.id AND                 \
+    admin_user.user_name = '"$1"'                               \
+  GROUP BY cid order by cid) AS a                               \
+LEFT JOIN (                                                     \
+  SELECT (audit.operation->'payload'->>'id')::integer AS cid,   \
+    audit.created_at AS t,                                      \
+    (audit.operation->'payload'->>'speciesId')::integer AS spid \
+  FROM audit) AS b                                              \
+ON a.cid = b.cid                                                \
+AND a.t = b.t                                                   \
+LEFT JOIN tree_species ON b.spid = tree_species.id              \
+LEFT JOIN trees on a.cid = trees.id;"
 
 SQLPW=`grep dbsql passwords | gawk '{printf "%s", $2}'`
 
