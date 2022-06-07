@@ -1513,6 +1513,31 @@
     <first_locn ref="ht"/>
   </mtype>
 
+  <mtype id="SPATCAMP">
+    <det>
+      <taxon id="t_spatcamp">
+        <name>Spathodea campanulata P.Beauv.</name>
+        <family>Bignoniaceae</family>
+        <vern>African tulip tree (en), kibobakasi (tz)</vern>
+        <range>Northern Africa</range>
+        <native_in ref="et"/>
+        <native_in ref="tz"/>
+        <exotic_in ref="jm"/>
+        <uses>ornamental</uses>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Spathodea</wp>
+        </links>
+        <note>Highly invasive in some countries (e.g.,
+        Indonesia). Should never be planted outside native
+        range.</note>
+      </taxon>
+    </det>
+    <morph><![CDATA[Leaves <b>opposite and pinnate</b>, with brown hairs in young seedlings.]]></morph>
+    <planted_in ref="tz"/>
+    <planted_in ref="et"/>
+    <planted_in ref="jm"/>
+  </mtype>
+
   <mtype id="INDE0005">
     <det>
       <taxon id="t_inde0005">
