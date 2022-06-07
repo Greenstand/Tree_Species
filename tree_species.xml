@@ -6,6 +6,13 @@
       <taxon id="t_aaaa0000">
         <name>Test</name>
         <family>Testaceae</family>
+        <vern></vern>
+        <range></range>
+        <native_in ref=""/>
+        <exotic_in ref=""/>
+        <wdz></wdz>
+        <uses></uses>
+        <links/>
       </taxon>
     </det>
     <morph><![CDATA[
@@ -334,7 +341,7 @@
         <name>Caesalpinia pulcherrima</name>
         <family>Fabaceae</family>
         <inat_taxon>60439</inat_taxon>
-        <vern>poinciana (en)</vern>
+        <vern>poinciana (en), pride of Barbados (en)</vern>
         <range>tropical Americas</range>
         <exotic_in ref="sl"/>
         <wdz>0.84</wdz>
@@ -626,6 +633,25 @@
     C. arabica. More than that and it could be either.</note>
     <planted_in ref="ht"/>
     <first_locn ref="ht"/>
+  </mtype>
+
+  <mtype id="COLAACUM">
+    <det>
+      <taxon id="t_colaacum">
+        <name>Cola acuminata Schott &amp; Endl.</name>
+        <family>Malvaceae</family>
+        <vern>kola nut (en)</vern>
+        <range>West Africa</range>
+        <native_in ref="sl"/>
+        <uses>food</uses>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Cola_acuminata</wp>
+          <link>https://www.flickr.com/photos/89906643@N06/albums/72157650109575098</link>
+        </links>
+      </taxon>
+    </det>
+    <morph><![CDATA[Leave alternate. Petiole <b>long</b>, <b>kneed</b>. Leaves glabrous, <b>leathery</b> with <b>three basal veins</b>.]]></morph>
+    <planted_in ref="sl"/>
   </mtype>
 
   <mtype id="COLUARBO">
@@ -1237,6 +1263,25 @@
     <planted_in ref="ht"/>
   </mtype>
 
+  <mtype id="NEWTBUCH">
+    <det>
+      <taxon id="t_newtbuch">
+        <name>Newtonia buchananii</name>
+        <family>Fabaceae</family>
+        <range>West, Central and East Africa</range>
+        <native_in ref="tz"/>
+        <uses>timber</uses>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Newtonia_buchananii</wp>
+        </links>
+      </taxon>
+    </det>
+    <morph><![CDATA[
+    Leaves bipinnate. Leaflets 35-65 pairs, linear or falcate, 2-9 mm long.
+    ]]></morph>
+    <planted_in ref="tz" docref="terra2022kil"/>
+  </mtype>
+
   <mtype id="PERSAMER">
     <det>
       <taxon id="t_persamer">
@@ -1330,6 +1375,25 @@
       </taxon>
     </det>
     <morph><![CDATA[Leaves alternate, <b>bijugate</b> (paripinnate with one pair of leflets). Twig with thorns.]]></morph>
+    <planted_in ref="sl"/>
+    <first_locn ref="sl"/>
+  </mtype>
+
+  <mtype id="POLYLONG">
+    <det>
+      <taxon id="t_monolong">
+        <name>Monoon longifolium Sonn. B.Xue &amp; R.M.K.Saunders</name>
+        <family>Annonaceae</family>
+        <vern>false ashoka (en)</vern>
+        <exotic_in ref="sl"/>
+        <uses>ornamental</uses>
+        <note>widely known as Polyalthia longifolia (Sonn.) Thwaites</note>
+      </taxon>
+      <note>On Freetown list as Polyalthia pendula.</note>
+    </det>
+    <morph><![CDATA[
+    Leaves alternate, lanceolate, leathery. Margin often <b>wavy</b>.
+    ]]></morph>
     <planted_in ref="sl"/>
     <first_locn ref="sl"/>
   </mtype>
@@ -1698,6 +1762,14 @@
       </links>
     </country>
     <country id="mx"/>
+    <country id="pe">
+      <note>
+        Alexander Verresen, species we have planted so far (at Camino Verde):
+        Euterpe precatoria = Huasaí
+        Erythroxylum gracilipes = coca del monte
+        Theobroma cacao = cacao
+      </note>
+    </country>
     <country id="sl">
       <note>
         from doc 'RUSLP Greening  Model_phase2_2021_EFA_25012021.xlsx'
@@ -1808,6 +1880,7 @@
     of Haiti. South-East Consortium for International Development.</doc>
     <doc id="page1990cup">Page C.N. (1990) Cupressaceae. In: Kramer K.U., Green P.S. (eds) Pteridophytes and Gymnosperms. The Families and Genera of Vascular Plants, vol 1. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-662-02604-5_56</doc>
     <doc id="wikipedia0cup">Wikipedia (last edit: 2022). Cupressaceae. https://en.wikipedia.org/wiki/Cupressaceae</doc>
+  <doc id="terra2022kil">https://www.terraformation.com/projects/kilimanjaro-project</doc>
   </docs>
 </morphotypes>
 

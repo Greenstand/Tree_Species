@@ -1,7 +1,7 @@
 BEGIN{
 
   # config:
-  list="mango^MANGINDI|moringa^MORIOLEI|cashew^ANACOCCI|tombi^TAMAINDI|tamarind^TAMAINDI|teak^GMELARBO|whiteteak^GMELARBO|tectonagrandis^TECTGRAN|neem^AZADINDI|gliricidia^GLIRSEPI|gliricidiasepium^GLIRSEPI|soursop^ANNOMURI"
+  list="mango^MANGINDI|moringa^MORIOLEI|cashew^ANACOCCI|tombi^TAMAINDI|tamarind^TAMAINDI|teak^GMELARBO|whiteteak^GMELARBO|tectonagrandis^TECTGRAN|neem^AZADINDI|gliricidia^GLIRSEPI|gliricidiasepium^GLIRSEPI|soursop^ANNOMURI|jackfruit^ARTOHETE|camelsfoot^PILITHON|prideofbarbados^CAES0001"
 
   # ---------------------
   

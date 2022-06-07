@@ -36,7 +36,7 @@ SQL="\\pset format unaligned\n \
 SQLPW=`grep dbsql passwords | gawk '{printf "%s", $2}'`
 
 # Execute SQL
-echo -e "$SQL" | psql "sslmode=require host=localhost dbname=treetracker user=readonlyuser port=1111 password=$SQLPW"
+echo -e "$SQL" | psql "sslmode=require host=localhost dbname=treetracker user=readonlyuser port=1111 password=$SQLPW" |  tail -n +3 | head -n -1
 
 # kill tunnel
 kill -9 $PID
