@@ -28,10 +28,10 @@ indicate a single species, e.g., “gambel oak”.
 Because the creators and users of Greenstand images come from many
 cultures, and are generally not experienced at looking at the
 variation of plants, we need to use scientific names to communicate
-about the plants. We need also to refer to the particular _species_,
-because there may be great ecological variation among species in a
-genus; for example not all species in _Acacia_ (a genus), are
-ecologically similar to _Acacia mangium_ (a species).
+about the plants. When we can, we need also to refer to particular
+_species_, because there may be great ecological variation among
+species in a genus; for example not all species in _Acacia_ (a genus),
+are ecologically similar to _Acacia mangium_ (a species).
 
 ## Morphotyping
 
@@ -57,18 +57,27 @@ e.g., [`INDE0002`][1] in the herbarium, “Indeterminate #2”, a fairly
 common species in Haiti that we still do not have a scientific name
 for.
 
+Some morphotypes used by Greenstand explicitly contain **several
+species** that cannot be reliably distinguished from images, such as
+`EUCA0000` and `CITR0000`.  This is not desirable, because of the
+potentially great range of ecological and cultural variation among
+these lumped species, but unavoidable, and is preferable to using a
+number of narrower morphotypes which were unreliably applied.
+
 After creating ‘bins’ (folders for images) with morphotype codes, we
 **match** subsequent images, shuffling them into a folder based on
-their appearance. As the numbers build up and we have more opportunity
-to view variation among individuals, we may need to _split_ a folder
-into two, or _lump_ two folders into one. We can then create a
-_synonym_ table, keeping one code current or active, and linking
-other, now unused, codes to it. For instance if we are looking at
-1,000 captures from Haiti, we might end up with 20 folders. Generally,
-a few species will account for most of the individuals, with some only
-having a few images, and some only having one.  Eventually we try to
-match morphotypes across countries and continents. Some restoration
-species are ubiquitous around the work, some are local.
+their appearance. For instance if we are looking at 1,000 captures
+from Haiti, we might end up with 20 folders. Generally, a few species
+will account for most of the individuals, with some only having a few
+images, and some only having one.  As the numbers build up and we have
+more opportunity to view variation among individuals, we may need to
+_split_ a folder into two, or _lump_ two folders into one. We can then
+create a _synonym_ table, keeping one code current or active, and
+linking other, now unused, codes to it. 
+
+Eventually we try to match morphotypes across countries and
+continents. Some restoration species are ubiquitous around the world,
+some are local.
 
 ## Identification
 
