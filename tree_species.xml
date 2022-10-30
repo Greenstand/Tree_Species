@@ -130,6 +130,7 @@
     ]]></morph>
     <planted_in ref="ht"/>
     <planted_in ref="sl"/>
+    <planted_in ref="id"/>
     <first_locn ref="ht"/>
   </mtype>
   
@@ -158,6 +159,7 @@
     <planted_in ref="ht"/>
     <planted_in ref="sl"/>
     <planted_in ref="tz"/>
+    <planted_in ref="id"/>
     <first_locn ref="ht"/>
   </mtype>
   
@@ -286,6 +288,7 @@
     <cf ref="ARTOALTA"/>
     <planted_in ref="sl"/>
     <first_locn ref="sl"/>
+    <planted_in ref="id"/>
   </mtype>
 
   <mtype id="ARTOINTE">
@@ -366,6 +369,7 @@
     </det>
     <morph><![CDATA[Leaves alternate, bipinnate, with 7-10 leaflets
     per sub-rachis.]]></morph>
+    <cf ref="DELOREGI"/>
     <planted_in ref="sl"/>
     <first_locn ref="sl"/>
   </mtype>
@@ -514,6 +518,7 @@
     this genus-level class for most citrus IDs.]]></morph>
     <planted_in ref="ht"/>
     <first_locn ref="ht"/>
+    <planted_in ref="id"/>
   </mtype>
 
   <mtype id="CITRAURA">
@@ -587,6 +592,7 @@
         <vern>kokoye (ht), coconut (en)</vern>
         <range>Southeast Asia and Melanesia</range>
         <exotic_in ref="ht"/>
+        <native_in ref="id"/>
         <uses>food cash_crop</uses>
         <links>
           <wp>https://en.wikipedia.org/wiki/Coconut</wp>
@@ -597,6 +603,7 @@
     <b>palmate</b>.]]></morph>
     <planted_in ref="ht"/>
     <first_locn ref="ht"/>
+    <planted_in ref="id"/>
   </mtype>
 
   <mtype id="COFF0000">
@@ -632,6 +639,7 @@
     pairs. ... So, having veins 6-8 might be a reliable character for
     C. arabica. More than that and it could be either.</note>
     <planted_in ref="ht"/>
+    <planted_in ref="id"/>
     <first_locn ref="ht"/>
   </mtype>
 
@@ -782,6 +790,37 @@
     <first_locn ref="tz"/>
   </mtype>
 
+  <mtype id="DELOREGI">
+    <det>
+      <taxon id="t_deloregi">
+        <name>Delonix regia (Boj. ex Hook.) Raf.</name>
+        <family>Fabaceae</family>
+        <vern>flamboyant (en), flame of the forest (en), flame tree (en)</vern>
+        <range>Madagascar</range>
+        <native_in ref="mg"/>
+        <exotic_in ref="sl"/>
+        <uses>ornamental</uses>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Delonix_regia</wp>
+          <link>https://www.flickr.com/photos/jensraberg/26842500131/</link>
+          <link>https://www.flickr.com/photos/thagirion/5588589431/</link>
+          <link>https://www.flickr.com/photos/3angel/7073041343/</link>
+        </links>
+      </taxon>
+      <note>The images in this taxon were identified 'flames of the
+      forest' by the Freetown project in the Admin panel. They appear
+      almost identical to CAES0001 when small, and I (Cam, 2022-06-11)
+      can't differentiate them with confidence.</note>
+    </det>
+    <cf ref="CAES0001"/>
+    <morph><![CDATA[Young plants: leaves pinnate with 5-12 pairs of
+    leaflets. Leaflets wide oblong to slightly obovate, apex rounded,
+    rarely with slight notch at apex. Older plants: bipinnate with
+    tens of pairs of sub-rachis, and tens of pairs of leaflets per sub
+    rachis.]]></morph>
+    <planted_in ref="sl"/>
+  </mtype>
+
   <mtype id="DOMBTORR">
     <det>
       <taxon id="t_dombtorr">
@@ -872,6 +911,7 @@
         <native_in ref="mx"/>
         <exotic_in ref="sl"/>
         <exotic_in ref="ht"/>
+        <exotic_in ref="id"/>
         <uses>fodder firewood</uses>
         <links>
           <wp>https://en.wikipedia.org/wiki/Gliricidia_sepium</wp>
@@ -882,6 +922,7 @@
     <note ref="timyam1996bwa">Important in Haiti</note>
     <planted_in ref="sl"/>
     <planted_in ref="ht"/>
+    <planted_in ref="id"/>
     <first_locn ref="sl"/>
   </mtype>
 
@@ -1143,6 +1184,7 @@
     <note>Can be pruned multiple times for firewood</note>
     <planted_in ref="ht"/>
     <planted_in ref="sl"/>
+    <planted_in ref="id"/>
     <first_locn ref="ht"/>
   </mtype>
 
@@ -1223,6 +1265,24 @@
     may be confused with Inga.]]></morph>
     <planted_in ref="ht"/>
     <first_locn ref="ht"/>
+  </mtype>
+
+  <mtype id="MELIBIJU">
+    <det>
+      <taxon id="t_melibiju">
+        <name>Melicoccus bijugatus Jacq.</name>
+        <family>Sapindaceae</family>
+        <vern>quenepe (ht)</vern>
+        <range>Northern South America</range>
+        <exotic_in ref="ht"/>
+        <uses>fruit</uses>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Melicoccus_bijugatus</wp>
+        </links>
+      </taxon>
+    </det>
+    <morph><![CDATA[Leaves alternate, pinnate. Rachis <b>winged</b>.]]></morph>
+    <planted_in ref="ht"/>
   </mtype>
 
   <mtype id="MORIOLEI">
@@ -1523,6 +1583,7 @@
         <native_in ref="et"/>
         <native_in ref="tz"/>
         <exotic_in ref="jm"/>
+        <exotic_in ref="id"/>
         <uses>ornamental</uses>
         <links>
           <wp>https://en.wikipedia.org/wiki/Spathodea</wp>
@@ -1536,6 +1597,7 @@
     <planted_in ref="tz"/>
     <planted_in ref="et"/>
     <planted_in ref="jm"/>
+    <planted_in ref="id"/>
   </mtype>
 
   <mtype id="INDE0005">
@@ -1677,6 +1739,7 @@
     sessile</b>.]]></morph>
     <planted_in ref="tz"/>
     <planted_in ref="sl"/>
+    <planted_in ref="id"/>
     <first_locn ref="tz"/>
   </mtype>
 
@@ -1688,6 +1751,7 @@
         <vern>sea almond (en), zanmann (ht), ketapang (id)</vern>
         <range>India to Micronesia</range>
         <exotic_in ref="ht"/>
+        <native_in ref="id"/>
         <uses>shade food</uses>
         <links>
           <wp>https://en.wikipedia.org/wiki/Terminalia_catappa</wp>
@@ -1699,6 +1763,7 @@
     <morph><![CDATA[Leaves alternate, obovate. Young seedlings still show
     the first pair of kidney-shaped leaves.]]></morph>
     <planted_in ref="ht"/>
+    <planted_in ref="id"/>
     <first_locn ref="ht"/>
   </mtype>
 
@@ -1779,7 +1844,11 @@
       </note>
     </country>
     <country id="co"/>
-    <country id="id"/>
+    <country id="id">
+      <links>
+        <link>https://www.ranuwelum.org/news/2022/9/20/satellite-monitoring-system-for-tree-tracking</link>
+      </links>
+    </country>
     <country id="in"/>
     <country id="ke">
       <links>

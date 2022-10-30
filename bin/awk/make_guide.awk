@@ -1,7 +1,7 @@
 BEGIN{
 
-  guides = "co|ht|ke|sl|tz|global|ug"
-  countries = "Colombia|Haiti|Kenya|Sierra Leone|Tanzania|Global|Uganda"
+  guides = "co|ht|ke|sl|tz|global|ug|id"
+  countries = "Colombia|Haiti|Kenya|Sierra Leone|Tanzania|Global|Uganda|Indonesia"
   split(guides,guide,"|")
   split(countries, country,"|")
   
@@ -63,7 +63,7 @@ BEGIN{
     OUT = "../herbarium/guide/guide_" guide[i] ".html"
     print header("Reforestation tree species for " country[i]) > OUT
     print "<h1>Reforestation tree species for " country[i] "</h1>" >> OUT
-    print "<p>(<a href=\"index.html\">Other counties</a>. Raw data: <a href=\"https://github.com/Greenstand/Tree_Species/blob/master/tree_species.xml\">Github</a>. Seedling ID <a href=\"sdl_id.html\">HOWTO</a>. Glossaries of botanical terms: <a href=\"https://en.wikipedia.org/wiki/Glossary_of_botanical_terms\">Wikipedia</a>, <a href=\"http://www.calflora.net/botanicalnames/botanicalterms.html\">Calflora</a>, <a href=\"https://conservationresearchinstitute.org/forms/CRI-FLORA-Glossary.pdf\">Chicago flora</a>, <a href=\"https://archive.org/details/plantform00adri\">Bell</a>.)</p>" >> OUT
+    print "<p>(<a href=\"index.html\">Other counties</a>. Raw data: <a href=\"https://github.com/Greenstand/Tree_Species/blob/master/tree_species.xml\">Github</a>. Seedling ID <a href=\"sdl_id.html\">HOWTO</a> and <a href=\"names.html\">naming info</a>. Glossaries of botanical terms: <a href=\"https://en.wikipedia.org/wiki/Glossary_of_botanical_terms\">Wikipedia</a>, <a href=\"http://www.calflora.net/botanicalnames/botanicalterms.html\">Calflora</a>, <a href=\"https://conservationresearchinstitute.org/forms/CRI-FLORA-Glossary.pdf\">Chicago flora</a>, <a href=\"https://archive.org/details/plantform00adri\">Bell</a>.)</p>" >> OUT
     print "<table>" >> OUT
     PROCINFO["sorted_in"] = "@val_str_asc"
     n=0
