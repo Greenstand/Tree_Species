@@ -1,26 +1,4 @@
 <morphotypes>
-
-  <!--
-  <mtype id="AAAA0000">
-    <det>
-      <taxon id="t_aaaa0000">
-        <name>Test</name>
-        <family>Testaceae</family>
-        <vern></vern>
-        <range></range>
-        <native_in ref=""/>
-        <exotic_in ref=""/>
-        <wdz></wdz>
-        <uses></uses>
-        <links/>
-      </taxon>
-    </det>
-    <morph><![CDATA[
-    Test
-    ]]></morph>
-    <planted_in ref="ht"/>
-  </mtype>
-  -->
   
   <mtype id="ACACAURI">
     <det>
@@ -103,6 +81,28 @@
     entire, indeed looking like fraxinus leaflets.]]></morph>
     <planted_in ref="tz"/>
     <first_locn ref="tz"/>
+  </mtype>
+
+  <mtype id="ALSTSPAT">
+    <det>
+      <taxon id="t_alstspat">
+        <name>Alstonia spatulata Blume</name>
+        <family>Apocynaceae</family>
+        <inat_taxon>427883</inat_taxon>
+        <vern>pulai (id)</vern>
+        <range>Malesia</range>
+        <native_in ref="id"/>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Alstonia_spatulata</wp>
+        </links>
+        <note ref="corner1978fre">The dominant Alstonia in swamp
+        forest of Penn. Malaysia</note>
+      </taxon>
+      <note></note>
+    </det>
+    <morph><![CDATA[Leaves <b>3-whorled</b>, elliptical, leathery.]]></morph>
+    <planted_in ref="id"/>
+    <first_locn ref="id"/>
   </mtype>
 
   <mtype id="ANACOCCI">
@@ -498,6 +498,29 @@
     <cf ref="SWIEMAHO"/>
   </mtype>
 
+  <mtype id="CINNINER">
+    <det>
+      <taxon id="t_cinniner">
+        <name>Cinnamomum iners Reinw. ex Bl.</name>
+        <family>Lauraceae</family>
+        <inat_taxon>344847</inat_taxon>
+        <vern>kayu manis (id), cinnamon (en)</vern>
+        <range>Sri Lanka to Malesia</range>
+        <native_in ref="id"/>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Cinnamomum_iners</wp>
+        </links>
+      </taxon>
+      <note>The most abundant Cinannamomum in Penn. Malaysia and
+      Borneo. A 3-veined C. in this area is likely to be
+      CINNINER. But... consider adding a CINN0000 class too.</note>
+    </det>
+    <morph><![CDATA[Leaves (sub-)opposite, with <b>three basal veins</b>
+    which run the length of the leaf.]]></morph>
+    <planted_in ref="id"/>
+    <first_locn ref="id"/>
+  </mtype>
+
   <mtype id="CITR0000">
     <det>
       <taxon id="t_citr0000">
@@ -846,6 +869,30 @@
     <cf ref="INDE0001"/>
     <planted_in ref="ke"/>
     <first_locn ref="ke">Cranes Conservation</first_locn>
+  </mtype>
+
+  <mtype id="FALCFALC">
+    <det>
+      <taxon id="t_falcfalc">
+        <name>Falcataria falcata (L.) Greuter &amp; R.Rankin</name>
+        <family>Fabaceae</family>
+        <inat_taxon>1230463</inat_taxon>
+        <vern>sengon (id)</vern>
+        <range>Maluku and Papua</range>
+        <native_in ref="id"/>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Falcataria_falcata</wp>
+        </links>
+        <note>syns. Albizia falcata, Falcataria moluccana and
+        Paraserianthes falcataria</note>
+      </taxon>
+    </det>
+    <morph><![CDATA[Leaves alternate, bipinnate. Leaflets not touching
+    each other, with midrib off-center (towards leaf apex), strongly
+    asymmetric. Terminal leaflets like <i>Bauhinia</i>
+    leaves.]]></morph>
+    <planted_in ref="id"/>
+    <first_locn ref="id"/>
   </mtype>
 
   <mtype id="EUCA0000">
@@ -1340,6 +1387,41 @@
     Leaves bipinnate. Leaflets 35-65 pairs, linear or falcate, 2-9 mm long.
     ]]></morph>
     <planted_in ref="tz" docref="terra2022kil"/>
+  </mtype>
+
+  <mtype id="PARKSPEC">
+    <det>
+      <taxon id="t_parkspec">
+        <name>Parkia speciosa Hassk.</name>
+        <family>Fabaceae</family>
+        <inat_taxon>347833</inat_taxon>
+        <vern>petai, pete (id)</vern>
+        <range>S. Thailand, Sumatra, Philippines, Borneo</range>
+        <native_in ref="id"/>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Parkia_speciosa</wp>
+          <link>https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:512231-1</link>
+          <link>https://www.biodiversitylibrary.org/page/28496501</link>
+        </links>
+        <note>From Flora Malesiana, 11:198: "Leaves alternate, primary
+        rachis including petiole (1-)21-34(-45) cm long. Gland on
+        petiole single, elliptical, mid-way between base and 1st pair
+        of pinnae, c. 1-3 cm from base; smaller circular glands on
+        primary rachis between ultimate pair(s) of pinnae. Pinnae
+        11-20(-25) pairs, opposite or subopposite, rachis
+        (3.5-)6-9(-10) cm long; leaflets (18-)29-42 pairs, ± oblong,
+        (3-)5-10(-12) by (1-)1.5-2(-3) mm, margins of adjacent ones
+        contiguous or over- lapping, glabrous or with a few hairs
+        around the margin; apex rounded, base strongly auriculate on
+        proximal side; main nerve central, straight at apex or
+        slightly sigmoid."</note>
+      </taxon>
+    </det>
+    <morph><![CDATA[Leaves alternate, <b>bipinnate</b>, with 10-20
+    pinnae and 10-30 leaflet pairs per pinnae. Leaflets oblong, main
+    nerve central.]]></morph>
+    <planted_in ref="id"/>
+    <first_locn ref="id"/>
   </mtype>
 
   <mtype id="PERSAMER">
@@ -1845,6 +1927,21 @@
     </country>
     <country id="co"/>
     <country id="id">
+      <note>
+        Central and West Kal taxa from Forest Smoothie and Ranu Welum
+        2022-10-31: Kaladan (cw: Dryobalanops oval. or becc. or
+        oblong.), Omang, Samarunti, Tebelian, Lamiding, Garunggan,
+        Benuah, Engkoras, Tapang, Durian, Kengkabang, Jengkol, Merati
+        (Shorea), Jambu Air, Gaharu, Ketapang (Terminalia catappa),
+        Tengkawang, Petai (Parkia speciosa), Kopi, Matoa, Balangeran
+        (Shorea balangeran), Pulai (Alstonia scholaris), Jelutung
+        (Dyera costulata), Mahadingang, Patanak, Tabaras, Prupuk,
+        Tampohot, Jambu-jambu, Geronggang, Papung, Rambai (Baccaurea
+        motleyana), Tumih (Combretocarpus rotundatus Miq. Danser),
+        Mango, Rambutan, Avocado, Pucuk merah (Syzygium paniculatum),
+        Ketapang kencana (Terminalia mantaly), Bungur (Lagerstroemia
+        ?speciosa), Cempedak (Artocarpus integer)
+      </note>
       <links>
         <link>https://www.ranuwelum.org/news/2022/9/20/satellite-monitoring-system-for-tree-tracking</link>
       </links>
@@ -1969,12 +2066,14 @@
     <country id="us"/>
     <country id="vn"/>
   </countries>
+  
   <docs>
+    <doc id="corner1978fre">Corner E.H. (1978) The Freshwater Swamp-forest of South Johore and Singapore</doc> 
+    <doc id="page1990cup">Page C.N. (1990) Cupressaceae. In: Kramer K.U., Green P.S. (eds) Pteridophytes and Gymnosperms. The Families and Genera of Vascular Plants, vol 1. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-662-02604-5_56</doc>
+  <doc id="terra2022kil">https://www.terraformation.com/projects/kilimanjaro-project</doc>
     <doc id="timyam1996bwa">Timyam, Joel. 1996. Bwa Yo: Important Trees
     of Haiti. South-East Consortium for International Development.</doc>
-    <doc id="page1990cup">Page C.N. (1990) Cupressaceae. In: Kramer K.U., Green P.S. (eds) Pteridophytes and Gymnosperms. The Families and Genera of Vascular Plants, vol 1. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-662-02604-5_56</doc>
     <doc id="wikipedia0cup">Wikipedia (last edit: 2022). Cupressaceae. https://en.wikipedia.org/wiki/Cupressaceae</doc>
-  <doc id="terra2022kil">https://www.terraformation.com/projects/kilimanjaro-project</doc>
   </docs>
 </morphotypes>
 
