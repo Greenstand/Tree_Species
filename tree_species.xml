@@ -1083,19 +1083,25 @@
 
   <mtype id="INDE0002">
     <det>
-      <taxon id="t_malpglab">
-        <name>Malpighia glabra L.</name>
+      <taxon id="t_malpemar">
+        <name>Malpighia glabra D.C.</name>
         <family>Malpighiaceae</family>
-        <inat_taxon>165102</inat_taxon>
-        <vern>acerola, cherise (ht)</vern>
+        <vern>acerola, West Indian cherry (en), cherise (ht)</vern>
         <range>Central America and Caribbean</range>
         <native_in ref="ht"/>
         <uses>medicinal</uses>
-        <links><wp>https://en.wikipedia.org/wiki/Malpighia_glabra</wp></links>
-        <note>http://legacy.tropicos.org/Image/100012169</note>
+        <links>
+          <wp>https://en.wikipedia.org/wiki/Malpighia_emarginata</wp>
+          <link>http://legacy.tropicos.org/Image/100012169</link>
+        </links>
       </taxon>
-      <note>Might also be M. emarginata, but that tends indeed to have
-      a more rounded, emarginate leaf apex.</note>
+      <note>
+        Might also be M. glabra, but the commonness of this seedling
+        suggests it is the more common M. emarginata. Note though,
+        M. emarginata tends indeed to have a more rounded, emarginate
+        leaf apex than what we see in Haiti. See
+        http://legacy.tropicos.org/Image/100012169
+      </note>
     </det>
     <morph><![CDATA[ Small, <b>opposite</b>, coriaceous leaves with
     pale midrib. Longer twigs tend towards growing horizontally; then
